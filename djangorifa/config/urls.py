@@ -10,5 +10,5 @@ urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
 
     # Initial configuration
-    url(r'^taarifa_config/', include('taarifa_config.urls')),
+    url(r'^taarifa_config/', include('taarifa_config.urls', namespace='taarifa_config')),
 )

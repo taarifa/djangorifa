@@ -15,6 +15,7 @@ Requirements
 * `Django`_ 1.4
 * `South`_ 0.76
 * `django-grappelli`_ 2.4.0
+* `django-sekizai`_ 0.6.1
 * `Celery`_ 3.0.5
 * `django-celery`_ 3.0.4
 * `django-mailer`_ 0.1.0
@@ -76,6 +77,7 @@ Yeah. Change OS.
 .. _psycopg2: http://initd.org/psycopg/
 .. _Django: http://www.djangoproject.com
 .. _South: http://south.aeracode.org/
+.. _django-sekizai: https://github.com/ojii/django-sekizai/
 .. _django-grappelli: https://github.com/sehmaschine/django-grappelli/
 .. _Celery: http://celeryproject.org/
 .. _django-celery: https://github.com/celery/django-celery
