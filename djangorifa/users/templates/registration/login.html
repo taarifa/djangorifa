@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+
+{% block title %}Log in{% endblock %}
+{% block page_title %}Log in{% endblock %}
+
+{% block content %}
+{% if user.is_authenticated %}
+You are already logged in!
+{% else %}
+<form id="id-login-form" method="post" class="uniForm" action="/accounts/login/?next={{ next|default:"/" }}">{% csrf_token %}
+{% if form.errors %}
+<div id="errorMsg">
+<ol>
+    {{ form.non_field_errors|unordered_list }}
+    {% if form.username.errors %}<li>Username is required.</span></li>{% endif %}
+    {% if form.password.errors %}<li>Password is required.</span></li>{% endif %}
+</ol>
+</div>
+{% endif %}
+{{ form|crispy }}
+<div class="buttonHolder">
+       <input type="submit" name="login" value="Login" class="submit submitButton" id="submit-id-login">
+</div>
+</form>
+
+<p>If you don't have an account, you can <a href="/accounts/register/">sign up</a> for one.
+
+{% endif %}
+
+{% endblock %}

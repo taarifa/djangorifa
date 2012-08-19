@@ -15,7 +15,7 @@ class TaarifaConfigManager(models.GeoManager):
 
 class TaarifaConfig(models.Model):
     site = models.OneToOneField(Site)
-    bounding_points = models.PolygonField()
+    bounds = models.PolygonField()
 
     objects = TaarifaConfigManager()
 

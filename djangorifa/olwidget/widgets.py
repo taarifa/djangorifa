@@ -50,7 +50,7 @@ class Map(forms.Widget):
     default_template = 'olwidget/multi_layer_map.html'
 
     def __init__(self, vector_layers=None, options=None, template=None,
-            layer_names=None):
+            layer_names=None, attrs=None):
         self.vector_layers = VectorLayerList()
         for layer in vector_layers:
             self.vector_layers.append(layer)
@@ -61,7 +61,7 @@ class Map(forms.Widget):
         self.options['layers'] = self.options.get('layers', ['osm.mapnik'])
         self.custom_layer_types = utils.get_custom_layer_types()
         self.template = template or self.default_template
-        super(Map, self).__init__()
+        super(Map, self).__init__(attrs)
 
     def render(self, name, value, attrs=None):
         if value is None:

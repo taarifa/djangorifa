@@ -8,5 +8,5 @@ class CheckConfigSet(object):
         count = TaarifaConfig.objects.count()
         redirect_url = reverse('taarifa_config:setup')
         login_url = getattr(settings, 'LOGIN_URL', '/accounts/login')
-        if not request.path in (redirect_url, login_url) and not count and request.user.has_perm('config.add_config'):
+        if not request.path in (redirect_url, login_url) and not count and request.user.has_perm('taarifa_config.add_taarifaconfig'):
             return HttpResponseRedirect(redirect_url)

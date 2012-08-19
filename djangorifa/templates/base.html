@@ -9,15 +9,16 @@
     <meta name="author" content="Caroline Glassberg-Powell">
 
     <!-- Le styles -->
-    {% addtoblock "css" %}<link href="{% static "bootstrap/css/bootstrap.css" %}" rel="stylesheet">{% endaddtoblock %}
+    {% addtoblock "css" %}<link href="{% static "css/bootstrap.css" %}" rel="stylesheet">{% endaddtoblock %}
     <style>body {padding-top: 60px;}</style>
-    {% addtoblock "css" %}<link href="{% static "bootstrap/css/bootstrap-responsive.css" %}" rel="stylesheet">{% endaddtoblock %}
+    {% addtoblock "css" %}<link href="{% static "css/bootstrap-responsive.css" %}" rel="stylesheet">{% endaddtoblock %}
     {% addtoblock "css" %}<link href="{% static "css/base.css" %}" rel="stylesheet">{% endaddtoblock %}
     <link rel="shortcut icon" type="image/png" href="/static/img/favicon.png">
     {% addtoblock "css" %}<link rel="stylesheet" href="{% static "css/uni-form.css" %}" type="text/css" />{% endaddtoblock %}
     {% addtoblock "css" %}<link rel="stylesheet" href="{% static "css/purple.uni-form.css" %}" type="text/css" />{% endaddtoblock %}
     {% addtoblock "js" %}<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>{% endaddtoblock %}
     {% render_block "css" %}
+    {% render_block "js_head" %}
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -67,7 +68,6 @@
     <!-- Placed at the end of the document so the pages load faster -->
     {% addtoblock "js" %}<script src="{% static "js/csrf.js" %}" type="text/javascript"></script>{% endaddtoblock %}
     {% addtoblock "js" %}<script src="{% static "uni_form/uni-form.jquery.js" %}" type="text/javascript"></script>{% endaddtoblock %}
-    {% addtoblock "js" %}<script src="{% static "bootstrap/js/bootstrap.js" %}" type="text/javascript"></script>{% endaddtoblock %}
     {% render_block "js" %}
   </body>
 </html>
