@@ -1,5 +1,5 @@
 # Django settings for taarifa project.
-import os
+import os, sys
 import djcelery
 djcelery.setup_loader()
 SITE_ROOT = os.path.dirname(os.path.realpath(__file__))
@@ -125,6 +125,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.gis',
     'django.contrib.humanize',
+    'django.contrib.formtools',
 
     # Admin:
     'grappelli',
@@ -205,6 +206,19 @@ GEOIP_PATH = os.path.join(SITE_ROOT, 'geo/')
 
 # For testing
 TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
+if 'test' in sys.argv:
+    # Setup the test database with a user with permissions
+    DATABASES['default'] = {
+        'ENGINE': 'django.contrib.gis.db.backends.postgis',
+        'NAME': 'djangorifa',
+        'USER': 'test_djangorifa',
+        'PASSWORD': 'change',
+        'HOST': 'localhost',
+        'PORT': '',
+    }
+
+# Disable south from running migrations whilst testing
+SOUTH_TESTS_MIGRATE = False
 
 # Send the report mails every 5 minutes
 from datetime import timedelta

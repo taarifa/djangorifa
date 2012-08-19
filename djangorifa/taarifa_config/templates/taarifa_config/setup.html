@@ -1,1 +1,15 @@
-{% extends "base.html" %}{% load crispy_forms_tags %}{% block title %}Configure{% endblock %}{% block content %}<script>$(function(){$('form.uniForm').uniform();});</script>{{ form }}{% crispy form %}{% endblock %}
+{% extends "base.html" %}{% load crispy_forms_tags i18n sekizai_tags %}
+{% block title %}Setup Taarifa{% endblock %}
+{% block content %}
+{% addtoblock "css" %}{{ wizard.form.media.css }}{% endaddtoblock %}
+{% addtoblock "js_head" %}{{ wizard.form.media.js }}{% endaddtoblock %}
+<p>Step {{ wizard.steps.step1 }} of {{ wizard.steps.count }}</p>
+<form action="" method="post" class="uniForm">
+  {{ wizard.management_form }}
+  {% if wizard.form.forms %}
+    {{ wizard.form.management_form }}
+    {% for form in wizard.form.forms %}{% crispy form %}{% endfor %}
+  {% else %}{% crispy wizard.form %}{% endif %}
+<div class="buttonHolder">{% if wizard.steps.prev %}<button name="wizard_goto_step" type="submit" value="{{ wizard.steps.first }}">{% trans "first step" %}</button><button name="wizard_goto_step" type="submit" value="{{ wizard.steps.prev }}">{% trans "prev step" %}</button>{% endif %}<input type="submit" value="{% trans "submit" %}"/></div>
+</form>
+{% endblock %}
