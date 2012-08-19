@@ -3,7 +3,7 @@ from django.contrib import admin
 admin.autodiscover()
 
 urlpatterns = patterns('',
-    url(r'^grappelli/', include('grappelli.urls')),
+    url(r'^admin_tools/', include('admin_tools.urls')),
 
     # Admin and documentation
     url(r'^admin/doc/', include('django.contrib.admindocs.urls')),

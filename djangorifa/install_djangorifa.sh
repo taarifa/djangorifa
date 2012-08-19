@@ -36,7 +36,7 @@ createdb -T template_postgis -E 'utf8' -O $DATABASE_USER $DATABASE_NAME
 # Install the requirements
 ../bin/pip install psycopg2
 ../bin/pip install django-celery
-../bin/pip install django-grappelli
+../bin/pip install django-admin-tools
 ../bin/pip install South
 ../bin/pip install django-mailer
 ../bin/pip install django-registration

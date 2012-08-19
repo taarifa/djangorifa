@@ -77,7 +77,6 @@ STATICFILES_DIRS = (
     # Put strings here, like "/home/html/static" or "C:/www/django/static".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
-    os.path.join(SITE_ROOT, '../theme'),
 )
 
 # List of finder classes that know how to find static files in
@@ -127,8 +126,11 @@ INSTALLED_APPS = (
     'django.contrib.humanize',
     'django.contrib.formtools',
 
-    # Admin:
-    'grappelli',
+    # Admin
+    'admin_tools',
+    'admin_tools.theming',
+    'admin_tools.menu',
+    'admin_tools.dashboard',
     'django.contrib.admin',
     'django.contrib.admindocs',
 
@@ -150,6 +152,8 @@ INSTALLED_APPS = (
     'olwidget',
 
     # Custom Apps
+    'theme',
+    'theme.admin',
     'taarifa_config',
     'users',
     #'reports',
@@ -161,6 +165,8 @@ INSTALLED_APPS = (
 TEMPLATE_CONTEXT_PROCESSORS = (
     'django.core.context_processors.request',
     'django.contrib.auth.context_processors.auth',
+    'django.core.context_processors.i18n',
+    'django.contrib.messages.context_processors.messages',
     'django_mobile.context_processors.flavour',
     'sekizai.context_processors.sekizai',
 )
@@ -190,8 +196,9 @@ LOGGING = {
 
 # Third party settings
 ACCOUNT_ACTIVATION_DAYS = 1
-GRAPPELLI_ADMIN_TITLE = "Taarifa"
-#GRAPPELLI_INDEX_DASHBOARD = "taarifa.dashboard.CustomIndexDashboard"
+ADMIN_MEDIA_PREFIX = '/static/admin/'
+ADMIN_TOOLS_MENU = 'theme.admin.menu.CustomMenu'
+ADMIN_TOOLS_INDEX_DASHBOARD = 'theme.admin.dashboard.CustomDashboard'
 CRISPY_TEMPLATE_PACK = "uni_form"
 OLWIDGET_DEFAULT_OPTIONS = {
     'overlay_style': {
