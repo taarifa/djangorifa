@@ -109,7 +109,7 @@ MIDDLEWARE_CLASSES = (
     'taarifa_config.middleware.CheckConfigSet',
 )
 
-ROOT_URLCONF = 'config.urls'
+ROOT_URLCONF = 'django_config.urls'
 
 TEMPLATE_DIRS = (
     os.path.join(SITE_ROOT, '../templates'),

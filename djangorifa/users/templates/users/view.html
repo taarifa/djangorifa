@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}Profile{% endblock %}
+{% block content %}
+{{ user.first_name }} {{ user.last_name }}
+{% for field in profile %}
+{{ field }}
+{% endfor %}
+
+{% if reports %}
+<div id="users-reports"><h2>Reports</h2>
+    <ul>
+    {% for r in reports %}
+    <li>{{ r }}</li>
+    {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  {% if bids %}
+<div id="users-bids"><h2>Jobs</h2>
+  <table>
+    <th><td>Job type</td><td>Price</td><td>Created</td><td>Finished?</td></th>
+    {% for b in bids %}<tr><td>{{ b.issue }}</td><td>{{ b.issue.cost }}</td><td>{{ b.issue.created }}</td><td>{% include "users/finished.html" %}</tr>{% endfor %}
+  </table>
+</div>
+{% endif %}
+
+{% endblock %}
