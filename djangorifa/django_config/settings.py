@@ -214,6 +214,7 @@ GEOIP_PATH = os.path.join(SITE_ROOT, 'geo/')
 # For testing
 TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
 if 'test' in sys.argv:
+    print "moo"
     # Setup the test database with a user with permissions
     DATABASES['default'] = {
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
