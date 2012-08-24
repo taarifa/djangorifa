@@ -48,5 +48,5 @@ createdb -T template_postgis -E 'utf8' -O $DATABASE_USER $DATABASE_NAME
 ../bin/pip install django-sendsms
 
 # Syncdb all and migrate fake
-../bin/python manage.py syncdb --all
-../bin/python manage.py migrate --fake
+../bin/python djangorifa/manage.py syncdb --all
+../bin/python djangorifa/manage.py migrate --fake

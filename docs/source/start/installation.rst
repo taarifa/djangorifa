@@ -37,7 +37,26 @@ Install `RabbitMQ`_.
 
 On Ubuntu
 =========
-This installation assumes you have already installed postgresql and postgis. For detailed instructions on how to do this, look at the Django reference https://docs.djangoproject.com/en/dev/ref/contrib/gis/install/#ubuntu.
+This installation assumes you have already installed postgresql and postgis. For detailed instructions on how to do this, look at the Django reference https://docs.djangoproject.com/en/dev/ref/contrib/gis/install/#ubuntu. Installation code: (read stuff below as well)
+
+.. code-block:: bash
+
+  $ sudo apt-get install virtualenv
+  $ sudo apt-get install virtualenvwrapper
+  $ cd /path/to/djangorifa
+  $ mkvirtualenv --no-site-packages djangorifa
+  $ cd djangorifa
+  $ git clone https://github.com/cazcazn/djangorifa.git
+  $ cd djangorifa
+  $ vim djangorifa/django_config/settings.py
+
+  # Change the password in the database settings, and also change the SECRET_KEY. Exit vim.
+
+  $ chmod 777 install_djangorifa.sh
+  $ ./install_djangorifa.sh
+  $ input password same as for settings above
+  # Wait.
+
 
 There is a script in djangorifa called install_djangorifa.sh. This script will create the template_postgis template if it doesn't already exist and a postgresql user (or role) called djangorifa. The script will prompt you to enter a password for the role and to confirm it. The password you enter **must** be the same as the database password in the settings file, or the installation will fail.
 
