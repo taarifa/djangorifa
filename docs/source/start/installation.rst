@@ -29,7 +29,7 @@ Requirements
 
 All Systems
 ===========
-The installation script assumes you are working in a virtualenv. Therefore, create a virtualenv. Clone the git repo and move the ``djangorifa`` and ``docs`` folders into this virtualenv.
+The installation script assumes you are working in a virtualenv. Therefore, create a virtualenv. Change directories to the virtualenv and clone this repo.
 
 The Django settings file can be found at djangorifa/config/settings.py. At the top of this file is a python dictionary with database settings. In the password field it says 'change'. It is recommended you do as the settings say and change the string written there. There is no need to do anything else for installation - the automatic installation script will take care of setting up the database and everything else. Please see below for specific installation instructions for your platform.
 
