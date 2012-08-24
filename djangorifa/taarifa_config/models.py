@@ -24,13 +24,13 @@ class TaarifaConfig(models.Model):
 
     def get_extent(self):
         # If there is a configuration, return that.
-        try: return self.bounding_points.extent
+        try: return self.bounds.extent
         # Otherwise return the default value
         except: return OSMGeoAdmin.restricted_extent
 
     def get_center(self):
         # Returns transformed points
-        try: return self.bounding_points.centroid
+        try: return self.bounds.centroid
         except: return Point(OSMGeoAdmin.default_lon, OSMGeoAdmin.default_lat)
 
     def get_options(self):
