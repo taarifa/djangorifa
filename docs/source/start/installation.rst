@@ -46,10 +46,16 @@ This installation assumes you have already installed postgresql and postgis. For
 
 .. code-block:: bash
 
-  $ sudo apt-get install python-dev
+  $ sudo apt-get install python-dev python-setuptools python-pip
   $ sudo apt-get install libjpeg62 libjpeg62-dev zlib1g-dev libfreetype6 libfreetype6-dev
-  $ sudo apt-get install virtualenv
+  $ sudo pip install virtualenv
   $ sudo apt-get install virtualenvwrapper
+
+  # Once virtualenvwrapper is installed, you need to export some variables
+  # Change Envs to whatever you like.
+  $ export WORKON_HOME=~/Envs
+  $ source /usr/local/bin/virtualenvwrapper.sh
+
   $ cd /path/to/djangorifa
   $ mkvirtualenv --no-site-packages djangorifa
   $ cd djangorifa
