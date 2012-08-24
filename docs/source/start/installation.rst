@@ -45,6 +45,7 @@ On Ubuntu
 This installation assumes you have already installed postgresql and postgis. For detailed instructions on how to do this, look at the Django reference https://docs.djangoproject.com/en/dev/ref/contrib/gis/install/#ubuntu. Installation code: (read stuff below as well)
 
 .. code-block:: bash
+
   $ sudo apt-get install python-dev
   $ sudo apt-get install libjpeg62 libjpeg62-dev zlib1g-dev libfreetype6 libfreetype6-dev
   $ sudo apt-get install virtualenv
