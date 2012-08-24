@@ -59,9 +59,12 @@ This installation assumes you have already installed postgresql and postgis. For
   # Change the password in the database settings, and also change the SECRET_KEY. Exit vim.
   $ sudo su - postgres
   $ cd /path/to/repo
+  $ chmod 777 install_database.sh
+  $ exit
 
-  $ chmod 777 install_djangorifa.sh
-  $ ./install_djangorifa.sh
+  $ cd /path/to/repo
+  $ chmod 777 install_django_stuff.sh
+  $ ./install_django_stuff.sh
   $ input password same as for settings above
   # Wait.
 
