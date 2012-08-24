@@ -8,12 +8,15 @@ This installation assumes you are slightly familiar with Django and Python. Ther
 Requirements
 ************
 * `Python`_ 2.6+
+* `python-dev`
+* `libjpeg`
 * `postgresql`_ 9.1.4
 * `postgis`_ 1.5.3
 * `RabbitMQ`_ 2.5.0
 * `psycopg2`_ 2.4.5
 * `Django`_ 1.4
 * `South`_ 0.76
+* `PIL`
 * `django-admin-tools`_ 0.4.1
 * `django-sekizai`_ 0.6.1
 * `Celery`_ 3.0.5
@@ -26,6 +29,8 @@ Requirements
 * `django-crispy-forms`_ 1.2.0
 * `django-generic-m2m`_ (version unknown)
 * `django-sendsms`_ 0.2.2
+* `django-sekizai`_ 0.6.1
+* `pillow`
 
 All Systems
 ===========
@@ -40,7 +45,8 @@ On Ubuntu
 This installation assumes you have already installed postgresql and postgis. For detailed instructions on how to do this, look at the Django reference https://docs.djangoproject.com/en/dev/ref/contrib/gis/install/#ubuntu. Installation code: (read stuff below as well)
 
 .. code-block:: bash
-
+  $ sudo apt-get install python-dev
+  $ sudo apt-get install libjpeg62 libjpeg62-dev zlib1g-dev libfreetype6 libfreetype6-dev
   $ sudo apt-get install virtualenv
   $ sudo apt-get install virtualenvwrapper
   $ cd /path/to/djangorifa
