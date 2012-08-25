@@ -33,6 +33,16 @@ class TaarifaConfigForm(forms.ModelForm):
     class Meta:
         model = TaarifaConfig
         widgets = {
-            'bounds': EditableMap({'geometry': 'polygon'}, attrs={'id':'bounds-edit'})
+            'bounds': EditableMap(
+                options={
+                    'geometry': 'polygon',
+                    'map_div_style': {
+                        'width': '100%',
+                    }
+                },
+                attrs={
+                    'id':'bounds-edit'
+                }
+            )
         }
 
