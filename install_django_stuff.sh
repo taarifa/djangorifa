@@ -14,5 +14,5 @@
 ../bin/pip install django-sendsms
 ../bin/pip install django-sekizai
 
-../bin/pip djangorifa/manage.py syncdb --all
-../bin/pip djangorifa/manage.py migrate --fake
+../bin/python djangorifa/manage.py syncdb --all
+../bin/python djangorifa/manage.py migrate --fake
