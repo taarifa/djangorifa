@@ -10,6 +10,7 @@
     {{ wizard.form.management_form }}
     {% for form in wizard.form.forms %}{% crispy form %}{% endfor %}
   {% else %}{% crispy wizard.form %}{% endif %}
-<div class="buttonHolder">{% if wizard.steps.prev %}<button name="wizard_goto_step" type="submit" value="{{ wizard.steps.first }}">{% trans "first step" %}</button><button name="wizard_goto_step" type="submit" value="{{ wizard.steps.prev }}">{% trans "prev step" %}</button>{% endif %}<input type="submit" value="{% trans "submit" %}"/></div>
+  <div class="buttonHolder">{% if wizard.steps.prev %}<button name="wizard_goto_step" type="submit" value="{{ wizard.steps.first }}">{% trans "first step" %}</button><button name="wizard_goto_step" type="submit" value="{{ wizard.steps.prev }}">{% trans "prev step" %}</button>{% endif %}
+    <input type="submit" value="{% if wizard.steps.next %}{% trans "next" %}{% else %}{% trans "submit" %}{% endif %}"/></div>
 </form>
 {% endblock %}
