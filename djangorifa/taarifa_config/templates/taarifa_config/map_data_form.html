@@ -1,0 +1,17 @@
+{% extends "base.html" %}{% load crispy_forms_tags i18n sekizai_tags %}
+{% block title %}Setup Taarifa{% endblock %}
+{% block content %}
+{% addtoblock "css" %}{{ wizard.form.media.css }}{% endaddtoblock %}
+{% addtoblock "js_head" %}{{ wizard.form.media.js }}{% endaddtoblock %}
+<p>Step {{ wizard.steps.step1 }} of {{ wizard.steps.count }}</p>
+{% block trans %}This form allows you to upload data points from pre-existing map data. The format should be .osm and it is expected that the data points have a name and location (as well as any other data). Currently only the mentioned fields will be imported.{% endblock %}
+<form enctype="multipart/form-data" action="" method="post" class="uniForm">
+  {{ wizard.management_form }}
+  {% if wizard.form.forms %}
+    {{ wizard.form.management_form }}
+    {% for form in wizard.form.forms %}{% crispy form %}{% endfor %}
+  {% else %}{% crispy wizard.form %}{% endif %}
+<div class="buttonHolder">{% if wizard.steps.prev %}<button name="wizard_goto_step" type="submit" value="{{ wizard.steps.first }}">{% trans "first step" %}</button><button name="wizard_goto_step" type="submit" value="{{ wizard.steps.prev }}">{% trans "prev step" %}</button>{% endif %}<input type="submit" value="{% trans "submit" %}"/></div>
+</form>
+{% endblock %}
+
