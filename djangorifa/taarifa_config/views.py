@@ -1,4 +1,4 @@
-import os, tempfile
+import os, shutil, tempfile
 
 from django.conf import settings
 from django.contrib.formtools.wizard.views import SessionWizardView
@@ -6,7 +6,7 @@ from django.contrib.sites.models import Site
 from django.core.files.storage import FileSystemStorage
 from django.core.urlresolvers import reverse
 from django.http import HttpResponseRedirect
-from taarifa_config.forms import SiteForm
+from taarifa_config.forms import SiteForm, TaarifaConfigForm, MapDataForm
 
 temp_storage_location = tempfile.mkdtemp(dir=os.path.join(settings.SITE_ROOT, 'tmp'))
 temp_storage = FileSystemStorage(location=temp_storage_location)
@@ -16,9 +16,14 @@ class SetupWizard(SessionWizardView):
     template_name = "taarifa_config/setup.html"
 
     def done(self, form_list, **kwargs):
-        print "done"
-        # Since site is already saved, only need to worry about config
-        form_list[1].save()
+        # Delete the temporary file storage
+        shutil.rmtree(temp_storage_location)
+        for f in form_list:
+            tipo = type(f)
+            if tipo == TaarifaConfigForm:
+                f.save()
+            #elif typo == MapDataForm:
+            #    print f.cleaned_data['file']
         return HttpResponseRedirect(reverse('taarifa_config:setupdone'))
 
     def process_step(self, form):

@@ -36,10 +36,13 @@ class TaarifaConfig(models.Model):
     def get_options(self):
         default_lon, default_lat = self.get_center().coords
         return {
-                'default_lon': default_lon,
-                'default_lat': default_lat,
-                'default_zoom': 15,
-                }
+            'default_lon': default_lon,
+            'default_lat': default_lat,
+            'default_zoom': 15,
+            'map_div_style': {
+                'width': '100%',
+            }
+        }
 
     class Meta:
         app_label = 'taarifa_config'

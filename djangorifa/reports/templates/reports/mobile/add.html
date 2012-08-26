@@ -1,0 +1,48 @@
+{% load staticfiles %}
+<div id="report-form">FFS</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="{% static "js/csrf.js" %}" type="text/javascript"></script>
+<script>
+    /*$(document).ready(function() {
+       if(navigator.geolocation) {
+           console.log('ngb');
+           navigator.geolocation.getCurrentPosition(function(position) {
+               console.log('nga');
+               $('#report-form').html('<p>Latitude: ' + position.coords.latitude + '<br/>Longitude: ' + position.coords.longitude + '</p>');
+           }, function(error) {
+               console.log(error.message);
+               $('#report-form').html(error);
+           }, {
+               enableHighAccuracy: true,
+               maximumAge:60000,
+               timeout:5000
+           });
+       }
+       else {
+           $('#report-form').html('no geolocation');
+       }
+    });*/
+    /*
+    console.log(navigator.geolocation);
+    function postPosition(coords) {
+       coords = coords.coords;
+       console.log(coords);
+       $.ajax({
+           type: 'POST',
+           url: '/reports/coords/',
+           cache: false,
+           data: {
+               lat: coords.latitude,
+               lon: coords.longitude
+           },
+           success: function(succ) {
+               console.log('succ');
+               $('#report-form').html(succ);
+           },
+           error: function(x1, x2, x3) {
+               console.log(x1, x2, x3);
+           }
+       });
+    }
+    navigator.geolocation.getCurrentPosition(postPosition);*/
+</script>

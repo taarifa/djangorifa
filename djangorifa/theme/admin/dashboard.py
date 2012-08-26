@@ -1,13 +1,5 @@
 """
-This file was generated with the customdashboard management command, it
-contains the two classes for the main dashboard and app index dashboard.
-You can customize these classes as you want.
-
-To activate your index dashboard add the following to your settings.py::
-    ADMIN_TOOLS_INDEX_DASHBOARD = 'project.dashboard.CustomIndexDashboard'
-
-And to activate the app index dashboard::
-    ADMIN_TOOLS_APP_INDEX_DASHBOARD = 'project.dashboard.CustomAppIndexDashboard'
+Defines the layout of the admin homepage
 """
 
 from django.utils.translation import ugettext_lazy as _
@@ -35,51 +27,17 @@ class CustomDashboard(Dashboard):
             ]
         ))
 
-        # Content administration
-        """
-        self.children.append(modules.Group(
-            _('Content Administration'),
-            display = 'stacked',
-            force_show_title = False,
-            children = [
-                modules.ModelList(
-                    show_title = False,
-                    models = (
-                        'cms.models.pagemodel.*',
-                        'contact.models.*',
-                        'tagging.models.*',
-                    )
-                ),
-                modules.ModelList(
-                    _('Photo Administration'),
-                    models = (
-                        'photologue.models.*',
-                    ),
-                ),
-            ]
+        # Facilities Admin
+        self.children.append(modules.ModelList(
+            _('Facility Administration'),
+            models = ('facilities.models.*',)
         ))
-        self.children.append(modules.Group(
-            _('Photo Administration'),
-            children = [
-                modules.ModelList(
-                    _('Photos'),
-                    models = (
-                        'photologue.models.Photo',
-                        'photologue.models.Gallery',
-                        'photologue.models.GalleryUpload',
-                    ),
-                ),
-                modules.ModelList(
-                    _('Advanced'),
-                    models = (
-                        'photologue.models.PhotoSize',
-                        'photologue.models.PhotoEffect',
-                        'photologue.models.Watermark',
-                    ),
-                )
-            ],
+
+        # Reports Admin
+        self.children.append(modules.ModelList(
+            _('Reports Administration'),
+            models = ('reports.models*',),
         ))
-        """
 
         # User administration
         self.children.append(modules.ModelList(
@@ -95,6 +53,7 @@ class CustomDashboard(Dashboard):
                     title = 'Wizard',
                     children = [[_('Run configuration wizard'), reverse('taarifa_config:setup')]],
                 ),
+                # TODO Need individual view to facilities upload
                 modules.ModelList(
                     title = 'Individual',
                     models = ('taarifa_config.models.*', 'django.contrib.sites.models.*'),

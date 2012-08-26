@@ -1,0 +1,2163 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="osmfilter 1.2M">
+	<bounds minlat="-6.80432" minlon="39.23028" maxlat="-6.78455" maxlon="39.25566"/>
+	<node id="1393496316" lat="-6.7903351" lon="39.2442596" version="1" timestamp="2011-08-10T08:41:32Z" changeset="8974208" uid="265690" user="fondolucy">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1393496319" lat="-6.7912766" lon="39.2450386" version="1" timestamp="2011-08-10T08:41:32Z" changeset="8974208" uid="265690" user="fondolucy">
+		<tag k="amenity" v="drinking_water"/>
+		<tag k="name" v="water kiosk"/>
+	</node>
+	<node id="1393496326" lat="-6.7906742" lon="39.2440339" version="1" timestamp="2011-08-10T08:41:33Z" changeset="8974208" uid="265690" user="fondolucy">
+		<tag k="amenity" v="drinking_water"/>
+		<tag k="name" v="water tank"/>
+	</node>
+	<node id="1393501012" lat="-6.7972149" lon="39.2369518" version="1" timestamp="2011-08-10T08:45:54Z" changeset="8974246" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="Lipululu"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1394656633" lat="-6.7969656" lon="39.2488501" version="1" timestamp="2011-08-11T09:15:47Z" changeset="8983593" uid="265690" user="fondolucy">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="note" v="pit latrin"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1395839961" lat="-6.7927343" lon="39.243452" version="1" timestamp="2011-08-12T09:20:55Z" changeset="8993474" uid="22301" user="Mark Iliffe">
+		<tag k="amenity" v="drinking_water"/>
+		<tag k="name" v="tk"/>
+	</node>
+	<node id="1395844849" lat="-6.7924245" lon="39.2396174" version="1" timestamp="2011-08-12T09:28:15Z" changeset="8993543" uid="503950" user="REGINALD">
+		<tag k="amenity" v="drinking_water"/>
+		<tag k="name" v="Makamba water tank"/>
+	</node>
+	<node id="1395844853" lat="-6.7918618" lon="39.2388998" version="1" timestamp="2011-08-12T09:28:15Z" changeset="8993543" uid="503950" user="REGINALD">
+		<tag k="amenity" v="drinking_water"/>
+		<tag k="name" v="Zumbe water tank"/>
+	</node>
+	<node id="1395844859" lat="-6.7914342" lon="39.2376761" version="1" timestamp="2011-08-12T09:28:15Z" changeset="8993543" uid="503950" user="REGINALD">
+		<tag k="amenity" v="drinking_water"/>
+	</node>
+	<node id="1395844916" lat="-6.7917325" lon="39.2391469" version="1" timestamp="2011-08-12T09:28:17Z" changeset="8993543" uid="503950" user="REGINALD">
+		<tag k="amenity" v="drinking_water"/>
+	</node>
+	<node id="1395881722" lat="-6.7952839" lon="39.2483101" version="1" timestamp="2011-08-12T10:13:41Z" changeset="8994222" uid="265690" user="fondolucy">
+		<tag k="amenity" v="toilets"/>
+		<tag k="operator" v="household"/>
+	</node>
+	<node id="1395881723" lat="-6.7953115" lon="39.2483722" version="1" timestamp="2011-08-12T10:13:41Z" changeset="8994222" uid="265690" user="fondolucy">
+		<tag k="amenity" v="toilets"/>
+		<tag k="operator" v="household"/>
+	</node>
+	<node id="1395881725" lat="-6.7956487" lon="39.2484529" version="1" timestamp="2011-08-12T10:13:41Z" changeset="8994222" uid="265690" user="fondolucy">
+		<tag k="amenity" v="toilets"/>
+		<tag k="operator" v="household"/>
+	</node>
+	<node id="1395881727" lat="-6.7964578" lon="39.2487308" version="1" timestamp="2011-08-12T10:13:41Z" changeset="8994222" uid="265690" user="fondolucy">
+		<tag k="amenity" v="toilets"/>
+		<tag k="operator" v="household"/>
+	</node>
+	<node id="1395881728" lat="-6.7964585" lon="39.2487321" version="1" timestamp="2011-08-12T10:13:41Z" changeset="8994222" uid="265690" user="fondolucy">
+		<tag k="amenity" v="toilets"/>
+		<tag k="operator" v="household"/>
+	</node>
+	<node id="1395881729" lat="-6.7966778" lon="39.2485497" version="1" timestamp="2011-08-12T10:13:41Z" changeset="8994222" uid="265690" user="fondolucy">
+		<tag k="amenity" v="toilets"/>
+		<tag k="operator" v="household"/>
+	</node>
+	<node id="1395881730" lat="-6.796759" lon="39.2482263" version="1" timestamp="2011-08-12T10:13:42Z" changeset="8994222" uid="265690" user="fondolucy">
+		<tag k="amenity" v="toilets"/>
+		<tag k="operator" v="household"/>
+	</node>
+	<node id="1395897306" lat="-6.7974045" lon="39.2408111" version="2" timestamp="2011-08-16T10:14:37Z" changeset="9035167" uid="261848" user="hassanow">
+		<tag k="amenity" v="drinking_water"/>
+		<tag k="name" v="Water Tank"/>
+	</node>
+	<node id="1395897357" lat="-6.7972347" lon="39.2419376" version="1" timestamp="2011-08-12T10:38:22Z" changeset="8994421" uid="265690" user="fondolucy">
+		<tag k="amenity" v="drinking_water"/>
+	</node>
+	<node id="1395897360" lat="-6.7977905" lon="39.2409997" version="2" timestamp="2011-08-16T10:14:37Z" changeset="9035167" uid="261848" user="hassanow">
+		<tag k="amenity" v="drinking_water"/>
+	</node>
+	<node id="1397485371" lat="-6.7926273" lon="39.2373685" version="1" timestamp="2011-08-13T18:52:53Z" changeset="9008301" uid="22301" user="Mark Iliffe">
+		<tag k="amenity" v="drinking_water"/>
+	</node>
+	<node id="1397485379" lat="-6.7927562" lon="39.2383433" version="1" timestamp="2011-08-13T18:52:53Z" changeset="9008301" uid="22301" user="Mark Iliffe">
+		<tag k="amenity" v="drinking_water"/>
+	</node>
+	<node id="1399523997" lat="-6.7938726" lon="39.2392332" version="1" timestamp="2011-08-15T07:27:53Z" changeset="9023948" uid="261848" user="hassanow">
+		<tag k="amenity" v="drinking_water"/>
+		<tag k="name" v="Drinking Water"/>
+	</node>
+	<node id="1399524003" lat="-6.7942115" lon="39.2392139" version="1" timestamp="2011-08-15T07:27:53Z" changeset="9023948" uid="261848" user="hassanow">
+		<tag k="amenity" v="drinking_water"/>
+		<tag k="name" v="Water Tank"/>
+	</node>
+	<node id="1399524004" lat="-6.7946676" lon="39.2393165" version="1" timestamp="2011-08-15T07:27:53Z" changeset="9023948" uid="261848" user="hassanow">
+		<tag k="amenity" v="drinking_water"/>
+		<tag k="name" v="Water Tank"/>
+	</node>
+	<node id="1399524008" lat="-6.7936821" lon="39.2381279" version="1" timestamp="2011-08-15T07:27:54Z" changeset="9023948" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="Private"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1399524010" lat="-6.7938926" lon="39.2373407" version="1" timestamp="2011-08-15T07:27:54Z" changeset="9023948" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="Private"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1399532968" lat="-6.7969732" lon="39.2488897" version="1" timestamp="2011-08-15T07:53:04Z" changeset="9024041" uid="265690" user="fondolucy">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1399532970" lat="-6.7970762" lon="39.2485424" version="1" timestamp="2011-08-15T07:53:04Z" changeset="9024041" uid="265690" user="fondolucy">
+		<tag k="amenity" v="toilets"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1399532982" lat="-6.7973927" lon="39.2490941" version="1" timestamp="2011-08-15T07:53:05Z" changeset="9024041" uid="265690" user="fondolucy">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1399532984" lat="-6.7974215" lon="39.2491221" version="1" timestamp="2011-08-15T07:53:05Z" changeset="9024041" uid="265690" user="fondolucy">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1399532988" lat="-6.7977002" lon="39.249904" version="1" timestamp="2011-08-15T07:53:05Z" changeset="9024041" uid="265690" user="fondolucy">
+		<tag k="amenity" v="toilets"/>
+		<tag k="operator" v="Household"/>
+	</node>
+	<node id="1399532990" lat="-6.7977018" lon="39.2493171" version="1" timestamp="2011-08-15T07:53:05Z" changeset="9024041" uid="265690" user="fondolucy">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="yes"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1399532993" lat="-6.7980374" lon="39.2496264" version="2" timestamp="2011-08-16T09:04:20Z" changeset="9034653" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="Household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1399532994" lat="-6.7970949" lon="39.2485713" version="1" timestamp="2011-08-15T07:53:05Z" changeset="9024041" uid="265690" user="fondolucy">
+		<tag k="amenity" v="drinking_water"/>
+		<tag k="name" v="tank"/>
+	</node>
+	<node id="1399560370" lat="-6.7956985" lon="39.2374338" version="3" timestamp="2011-08-24T07:50:51Z" changeset="9109994" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1399595606" lat="-6.7972516" lon="39.2469119" version="2" timestamp="2011-08-15T11:06:33Z" changeset="9025839" uid="505466" user="MARIAM">
+		<tag k="amenity" v="toilets"/>
+		<tag k="operator" v="pili"/>
+	</node>
+	<node id="1399595609" lat="-6.7976487" lon="39.2448336" version="2" timestamp="2011-08-15T11:06:34Z" changeset="9025839" uid="505466" user="MARIAM">
+		<tag k="amenity" v="toilets"/>
+		<tag k="operator" v="juma"/>
+	</node>
+	<node id="1399624506" lat="-6.7978711" lon="39.2424657" version="1" timestamp="2011-08-15T09:50:04Z" changeset="9025089" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1399632594" lat="-6.7941726" lon="39.2482003" version="1" timestamp="2011-08-15T10:07:27Z" changeset="9025262" uid="265690" user="fondolucy">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1399632609" lat="-6.7942229" lon="39.2476562" version="1" timestamp="2011-08-15T10:07:28Z" changeset="9025262" uid="265690" user="fondolucy">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="Household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1399632610" lat="-6.7942231" lon="39.247634" version="1" timestamp="2011-08-15T10:07:28Z" changeset="9025262" uid="265690" user="fondolucy">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household/SADIKI"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1399632647" lat="-6.7943663" lon="39.2482447" version="1" timestamp="2011-08-15T10:07:30Z" changeset="9025262" uid="265690" user="fondolucy">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1399632666" lat="-6.7944225" lon="39.2481859" version="1" timestamp="2011-08-15T10:07:30Z" changeset="9025262" uid="265690" user="fondolucy">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1399632670" lat="-6.7944254" lon="39.2481859" version="1" timestamp="2011-08-15T10:07:31Z" changeset="9025262" uid="265690" user="fondolucy">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1399632697" lat="-6.7944841" lon="39.2483392" version="1" timestamp="2011-08-15T10:07:32Z" changeset="9025262" uid="265690" user="fondolucy">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1399632733" lat="-6.7945719" lon="39.2474347" version="1" timestamp="2011-08-15T10:07:34Z" changeset="9025262" uid="265690" user="fondolucy">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1399632741" lat="-6.7945928" lon="39.2473246" version="1" timestamp="2011-08-15T10:07:34Z" changeset="9025262" uid="265690" user="fondolucy">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="note" v="septic tank"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1399632749" lat="-6.7946438" lon="39.2482922" version="1" timestamp="2011-08-15T10:07:34Z" changeset="9025262" uid="265690" user="fondolucy">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1399632761" lat="-6.794676" lon="39.2482179" version="1" timestamp="2011-08-15T10:07:35Z" changeset="9025262" uid="265690" user="fondolucy">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1399632787" lat="-6.7946978" lon="39.2483322" version="1" timestamp="2011-08-15T10:07:36Z" changeset="9025262" uid="265690" user="fondolucy">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1399632791" lat="-6.7947039" lon="39.2471647" version="1" timestamp="2011-08-15T10:07:36Z" changeset="9025262" uid="265690" user="fondolucy">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1399632792" lat="-6.7947158" lon="39.2485287" version="2" timestamp="2011-08-23T08:50:23Z" changeset="9101422" uid="508650" user="Shabani">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1399632822" lat="-6.7947824" lon="39.2479039" version="1" timestamp="2011-08-15T10:07:38Z" changeset="9025262" uid="265690" user="fondolucy">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1399632917" lat="-6.7948143" lon="39.247713" version="2" timestamp="2011-08-16T14:09:26Z" changeset="9037327" uid="22301" user="Mark Iliffe">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1399633015" lat="-6.7948967" lon="39.2484454" version="2" timestamp="2011-08-16T14:09:27Z" changeset="9037327" uid="22301" user="Mark Iliffe">
+		<tag k="amenity" v="drinking_water"/>
+	</node>
+	<node id="1399633047" lat="-6.7950001" lon="39.2481229" version="1" timestamp="2011-08-15T10:07:45Z" changeset="9025262" uid="265690" user="fondolucy">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1399633074" lat="-6.7951374" lon="39.2483534" version="2" timestamp="2011-08-23T08:50:24Z" changeset="9101422" uid="508650" user="Shabani">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1399633081" lat="-6.7951284" lon="39.2484348" version="1" timestamp="2011-08-15T10:07:46Z" changeset="9025262" uid="265690" user="fondolucy">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1399633105" lat="-6.7953794" lon="39.2475783" version="1" timestamp="2011-08-15T10:07:47Z" changeset="9025262" uid="265690" user="fondolucy">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1399633129" lat="-6.7942542" lon="39.2476913" version="2" timestamp="2011-08-18T08:19:20Z" changeset="9054641" uid="22301" user="Mark Iliffe">
+		<tag k="amenity" v="drinking_water"/>
+		<tag k="name" v="water kiosk"/>
+	</node>
+	<node id="1399633130" lat="-6.7944046" lon="39.2474722" version="2" timestamp="2011-08-18T08:19:21Z" changeset="9054641" uid="22301" user="Mark Iliffe">
+		<tag k="amenity" v="drinking_water"/>
+		<tag k="name" v="water kiosk"/>
+	</node>
+	<node id="1399633131" lat="-6.7943778" lon="39.2475169" version="1" timestamp="2011-08-15T10:07:49Z" changeset="9025262" uid="265690" user="fondolucy">
+		<tag k="amenity" v="drinking_water"/>
+		<tag k="name" v="water tap"/>
+	</node>
+	<node id="1399657159" lat="-6.789706" lon="39.2421739" version="1" timestamp="2011-08-15T10:35:25Z" changeset="9025517" uid="265690" user="fondolucy">
+		<tag k="amenity" v="drinking_water"/>
+		<tag k="name" v="water kiosk"/>
+	</node>
+	<node id="1399657163" lat="-6.7895831" lon="39.2403524" version="1" timestamp="2011-08-15T10:35:25Z" changeset="9025517" uid="265690" user="fondolucy">
+		<tag k="amenity" v="drinking_water"/>
+		<tag k="name" v="water kiosk"/>
+	</node>
+	<node id="1399657166" lat="-6.7914006" lon="39.2424638" version="1" timestamp="2011-08-15T10:35:25Z" changeset="9025517" uid="265690" user="fondolucy">
+		<tag k="amenity" v="drinking_water"/>
+		<tag k="name" v="water kiosk"/>
+	</node>
+	<node id="1399672916" lat="-6.7971394" lon="39.244361" version="1" timestamp="2011-08-15T11:06:31Z" changeset="9025839" uid="505466" user="MARIAM">
+		<tag k="amenity" v="toilets"/>
+		<tag k="operator" v="kaku"/>
+	</node>
+	<node id="1399692835" lat="-6.7973416" lon="39.2476205" version="1" timestamp="2011-08-15T11:31:27Z" changeset="9026055" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1399822356" lat="-6.796707" lon="39.2460726" version="1" timestamp="2011-08-15T13:44:30Z" changeset="9027224" uid="22301" user="Mark Iliffe">
+		<tag k="amenity" v="drinking_water"/>
+	</node>
+	<node id="1400719985" lat="-6.7895419" lon="39.2376064" version="1" timestamp="2011-08-16T07:28:51Z" changeset="9033984" uid="265690" user="fondolucy">
+		<tag k="amenity" v="drinking_water"/>
+	</node>
+	<node id="1400719990" lat="-6.7899406" lon="39.2376661" version="1" timestamp="2011-08-16T07:28:51Z" changeset="9033984" uid="265690" user="fondolucy">
+		<tag k="amenity" v="drinking_water"/>
+	</node>
+	<node id="1400719992" lat="-6.7900308" lon="39.237442" version="1" timestamp="2011-08-16T07:28:51Z" changeset="9033984" uid="265690" user="fondolucy">
+		<tag k="amenity" v="drinking_water"/>
+	</node>
+	<node id="1400720006" lat="-6.7907586" lon="39.2386937" version="1" timestamp="2011-08-16T07:28:51Z" changeset="9033984" uid="265690" user="fondolucy">
+		<tag k="amenity" v="drinking_water"/>
+	</node>
+	<node id="1400759483" lat="-6.7922706" lon="39.2365441" version="1" timestamp="2011-08-16T08:19:13Z" changeset="9034340" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1400759496" lat="-6.7935694" lon="39.2367154" version="1" timestamp="2011-08-16T08:19:14Z" changeset="9034340" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1400816290" lat="-6.7924911" lon="39.2464275" version="1" timestamp="2011-08-16T09:03:51Z" changeset="9034653" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="Household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1400816309" lat="-6.7925034" lon="39.2462691" version="1" timestamp="2011-08-16T09:03:52Z" changeset="9034653" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="Household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1400816348" lat="-6.7926682" lon="39.2466483" version="2" timestamp="2011-08-16T17:35:43Z" changeset="9039030" uid="70696" user="xybot">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="Household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1400816363" lat="-6.7926782" lon="39.2466103" version="1" timestamp="2011-08-16T09:03:55Z" changeset="9034653" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="Household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1400816386" lat="-6.7927066" lon="39.2467245" version="1" timestamp="2011-08-16T09:03:56Z" changeset="9034653" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="Household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1400816448" lat="-6.7930035" lon="39.2469218" version="1" timestamp="2011-08-16T09:04:00Z" changeset="9034653" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="Household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1400816557" lat="-6.7933063" lon="39.2471397" version="1" timestamp="2011-08-16T09:04:03Z" changeset="9034653" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="Household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1400816584" lat="-6.7933252" lon="39.247006" version="1" timestamp="2011-08-16T09:04:04Z" changeset="9034653" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="Household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1400816625" lat="-6.7933634" lon="39.2467639" version="1" timestamp="2011-08-16T09:04:05Z" changeset="9034653" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="Household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1400816881" lat="-6.7973308" lon="39.2498622" version="1" timestamp="2011-08-16T09:04:13Z" changeset="9034653" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="Household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1400816882" lat="-6.7974422" lon="39.2497309" version="1" timestamp="2011-08-16T09:04:13Z" changeset="9034653" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="operator" v="Household"/>
+	</node>
+	<node id="1400816883" lat="-6.798029" lon="39.2496263" version="1" timestamp="2011-08-16T09:04:13Z" changeset="9034653" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="Household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1400816884" lat="-6.7980438" lon="39.2496021" version="1" timestamp="2011-08-16T09:04:13Z" changeset="9034653" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1400816885" lat="-6.7980565" lon="39.2496186" version="1" timestamp="2011-08-16T09:04:13Z" changeset="9034653" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1400834093" lat="-6.7969982" lon="39.2385214" version="1" timestamp="2011-08-16T09:34:40Z" changeset="9034745" uid="505466" user="MARIAM">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1400834126" lat="-6.7972657" lon="39.2374325" version="1" timestamp="2011-08-16T09:34:41Z" changeset="9034745" uid="505466" user="MARIAM">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="Family Toilet"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1400863774" lat="-6.7938472" lon="39.2408193" version="2" timestamp="2011-08-19T13:38:15Z" changeset="9065919" uid="239998" user="Sundance">
+		<tag k="amenity" v="drinking_water"/>
+		<tag k="name" v="Public water points"/>
+		<tag k="natural" v="water"/>
+	</node>
+	<node id="1400867277" lat="-6.7921877" lon="39.2462946" version="2" timestamp="2011-08-24T08:29:20Z" changeset="9110031" uid="508650" user="Shabani">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="Household"/>
+		<tag k="wheelchair" v="limited"/>
+	</node>
+	<node id="1400867359" lat="-6.7926081" lon="39.2467159" version="1" timestamp="2011-08-16T10:17:43Z" changeset="9035201" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="Household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1400867379" lat="-6.792633" lon="39.2466395" version="1" timestamp="2011-08-16T10:17:44Z" changeset="9035201" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="Household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1400867390" lat="-6.7926482" lon="39.2465852" version="1" timestamp="2011-08-16T10:17:44Z" changeset="9035201" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="Household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1400867401" lat="-6.7927709" lon="39.2470126" version="1" timestamp="2011-08-16T10:17:45Z" changeset="9035201" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="Household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1400867416" lat="-6.7927921" lon="39.2473508" version="1" timestamp="2011-08-16T10:17:45Z" changeset="9035201" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="Household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1400867426" lat="-6.7928037" lon="39.2467715" version="1" timestamp="2011-08-16T10:17:46Z" changeset="9035201" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="Household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1400867522" lat="-6.7930703" lon="39.2468455" version="1" timestamp="2011-08-16T10:17:49Z" changeset="9035201" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="Household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1400867540" lat="-6.79328" lon="39.247122" version="1" timestamp="2011-08-16T10:17:50Z" changeset="9035201" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="Household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1401072719" lat="-6.7971625" lon="39.2369571" version="1" timestamp="2011-08-16T14:08:54Z" changeset="9037327" uid="22301" user="Mark Iliffe">
+		<tag k="amenity" v="drinking_water"/>
+	</node>
+	<node id="1401897158" lat="-6.7952984" lon="39.2485497" version="1" timestamp="2011-08-17T07:22:53Z" changeset="9044860" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1401897169" lat="-6.7953703" lon="39.2485788" version="1" timestamp="2011-08-17T07:22:53Z" changeset="9044860" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1401897170" lat="-6.7954225" lon="39.2485598" version="1" timestamp="2011-08-17T07:22:53Z" changeset="9044860" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1401897173" lat="-6.7960991" lon="39.2494761" version="1" timestamp="2011-08-17T07:22:53Z" changeset="9044860" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1401897183" lat="-6.7961355" lon="39.2494905" version="1" timestamp="2011-08-17T07:22:53Z" changeset="9044860" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1401897187" lat="-6.7963854" lon="39.2496442" version="1" timestamp="2011-08-17T07:22:53Z" changeset="9044860" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1401897190" lat="-6.7963953" lon="39.2496945" version="1" timestamp="2011-08-17T07:22:53Z" changeset="9044860" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1401897197" lat="-6.7965921" lon="39.2497032" version="1" timestamp="2011-08-17T07:22:54Z" changeset="9044860" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1401897201" lat="-6.7969111" lon="39.2496186" version="1" timestamp="2011-08-17T07:22:54Z" changeset="9044860" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1401897205" lat="-6.7971143" lon="39.2494385" version="1" timestamp="2011-08-17T07:22:54Z" changeset="9044860" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1401897213" lat="-6.7971393" lon="39.2495019" version="1" timestamp="2011-08-17T07:22:54Z" changeset="9044860" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1401897216" lat="-6.7971603" lon="39.2496214" version="1" timestamp="2011-08-17T07:22:54Z" changeset="9044860" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1401897220" lat="-6.7971838" lon="39.2496332" version="1" timestamp="2011-08-17T07:22:54Z" changeset="9044860" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="operator" v="household"/>
+	</node>
+	<node id="1401911310" lat="-6.792255" lon="39.2439614" version="1" timestamp="2011-08-17T07:33:21Z" changeset="9044932" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1401911325" lat="-6.7925406" lon="39.2441058" version="1" timestamp="2011-08-17T07:33:21Z" changeset="9044932" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1401911328" lat="-6.7925475" lon="39.2444258" version="1" timestamp="2011-08-17T07:33:21Z" changeset="9044932" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1401911341" lat="-6.7925914" lon="39.2443219" version="1" timestamp="2011-08-17T07:33:21Z" changeset="9044932" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1401911343" lat="-6.7926527" lon="39.2450198" version="1" timestamp="2011-08-17T07:33:22Z" changeset="9044932" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1401911345" lat="-6.7927151" lon="39.2442349" version="1" timestamp="2011-08-17T07:33:22Z" changeset="9044932" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1401911349" lat="-6.7927683" lon="39.2449824" version="1" timestamp="2011-08-17T07:33:22Z" changeset="9044932" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1401911361" lat="-6.7928286" lon="39.243121" version="1" timestamp="2011-08-17T07:33:22Z" changeset="9044932" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1401911365" lat="-6.7930504" lon="39.2438856" version="1" timestamp="2011-08-17T07:33:22Z" changeset="9044932" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1401911367" lat="-6.7930663" lon="39.2433026" version="1" timestamp="2011-08-17T07:33:22Z" changeset="9044932" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1401911388" lat="-6.7933384" lon="39.2454488" version="1" timestamp="2011-08-17T07:33:22Z" changeset="9044932" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1401911391" lat="-6.7934716" lon="39.2460074" version="1" timestamp="2011-08-17T07:33:22Z" changeset="9044932" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1401911407" lat="-6.7937066" lon="39.2439355" version="1" timestamp="2011-08-17T07:33:23Z" changeset="9044932" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1401911410" lat="-6.7937088" lon="39.2439151" version="1" timestamp="2011-08-17T07:33:23Z" changeset="9044932" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1401911413" lat="-6.7940209" lon="39.2440623" version="1" timestamp="2011-08-17T07:33:23Z" changeset="9044932" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1401911416" lat="-6.7940371" lon="39.243679" version="1" timestamp="2011-08-17T07:33:23Z" changeset="9044932" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1401911428" lat="-6.7955515" lon="39.2445599" version="1" timestamp="2011-08-17T07:33:23Z" changeset="9044932" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1401911431" lat="-6.7958289" lon="39.2445211" version="2" timestamp="2011-10-10T14:40:14Z" changeset="9522455" uid="67862" user="HolgerJeromin">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1401914509" lat="-6.7942588" lon="39.241105" version="1" timestamp="2011-08-17T07:35:21Z" changeset="9044942" uid="507502" user="Angela Kavishe">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1401926577" lat="-6.7917833" lon="39.2440708" version="1" timestamp="2011-08-17T07:44:18Z" changeset="9045016" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1401926581" lat="-6.7917845" lon="39.2440627" version="1" timestamp="2011-08-17T07:44:18Z" changeset="9045016" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1401926583" lat="-6.7918657" lon="39.2436338" version="1" timestamp="2011-08-17T07:44:18Z" changeset="9045016" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1401926592" lat="-6.7918788" lon="39.2432796" version="1" timestamp="2011-08-17T07:44:19Z" changeset="9045016" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1401926598" lat="-6.7921696" lon="39.2430848" version="1" timestamp="2011-08-17T07:44:19Z" changeset="9045016" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1401932239" lat="-6.7946543" lon="39.2439965" version="1" timestamp="2011-08-17T07:47:58Z" changeset="9045041" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1401932241" lat="-6.7947295" lon="39.243884" version="1" timestamp="2011-08-17T07:47:58Z" changeset="9045041" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1401932246" lat="-6.7948584" lon="39.2440469" version="1" timestamp="2011-08-17T07:47:58Z" changeset="9045041" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1401932249" lat="-6.7950658" lon="39.2443149" version="1" timestamp="2011-08-17T07:47:58Z" changeset="9045041" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1401932250" lat="-6.7950678" lon="39.2443357" version="1" timestamp="2011-08-17T07:47:58Z" changeset="9045041" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1401932252" lat="-6.7950854" lon="39.2439981" version="1" timestamp="2011-08-17T07:47:58Z" changeset="9045041" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1401932254" lat="-6.7952216" lon="39.2444136" version="1" timestamp="2011-08-17T07:47:58Z" changeset="9045041" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1401943897" lat="-6.7936582" lon="39.2473879" version="1" timestamp="2011-08-17T07:55:17Z" changeset="9045094" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1401943899" lat="-6.7936938" lon="39.2473185" version="1" timestamp="2011-08-17T07:55:17Z" changeset="9045094" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1401943907" lat="-6.7937981" lon="39.247034" version="1" timestamp="2011-08-17T07:55:17Z" changeset="9045094" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1401963530" lat="-6.7906621" lon="39.2417431" version="1" timestamp="2011-08-17T08:10:36Z" changeset="9045203" uid="504964" user="jonston weston">
+		<tag k="amenity" v="drinking_water"/>
+	</node>
+	<node id="1401963537" lat="-6.7912953" lon="39.2408017" version="1" timestamp="2011-08-17T08:10:36Z" changeset="9045203" uid="504964" user="jonston weston">
+		<tag k="amenity" v="drinking_water"/>
+	</node>
+	<node id="1401963538" lat="-6.7922008" lon="39.2409325" version="1" timestamp="2011-08-17T08:10:36Z" changeset="9045203" uid="504964" user="jonston weston">
+		<tag k="amenity" v="drinking_water"/>
+	</node>
+	<node id="1401963541" lat="-6.7924386" lon="39.2395789" version="1" timestamp="2011-08-17T08:10:36Z" changeset="9045203" uid="504964" user="jonston weston">
+		<tag k="amenity" v="drinking_water"/>
+	</node>
+	<node id="1403081697" lat="-6.7920084" lon="39.2443147" version="1" timestamp="2011-08-18T07:32:38Z" changeset="9054354" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1403081698" lat="-6.7921727" lon="39.2442936" version="1" timestamp="2011-08-18T07:32:38Z" changeset="9054354" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1403081701" lat="-6.7922918" lon="39.2451837" version="1" timestamp="2011-08-18T07:32:38Z" changeset="9054354" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1403081708" lat="-6.7922921" lon="39.2452347" version="1" timestamp="2011-08-18T07:32:38Z" changeset="9054354" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1403081715" lat="-6.7926992" lon="39.2457036" version="1" timestamp="2011-08-18T07:32:39Z" changeset="9054354" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1403081724" lat="-6.7942547" lon="39.24586" version="1" timestamp="2011-08-18T07:32:39Z" changeset="9054354" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1403081759" lat="-6.7958421" lon="39.2469156" version="1" timestamp="2011-08-18T07:32:40Z" changeset="9054354" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1403081763" lat="-6.7962625" lon="39.246902" version="1" timestamp="2011-08-18T07:32:40Z" changeset="9054354" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1403081773" lat="-6.7969792" lon="39.246836" version="1" timestamp="2011-08-18T07:32:40Z" changeset="9054354" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1403081775" lat="-6.7970065" lon="39.246877" version="1" timestamp="2011-08-18T07:32:40Z" changeset="9054354" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1403081777" lat="-6.7971539" lon="39.2471125" version="1" timestamp="2011-08-18T07:32:40Z" changeset="9054354" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1403081787" lat="-6.7972748" lon="39.2462738" version="1" timestamp="2011-08-18T07:32:41Z" changeset="9054354" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1403081789" lat="-6.7978878" lon="39.2449093" version="1" timestamp="2011-08-18T07:32:41Z" changeset="9054354" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1403087997" lat="-6.7949722" lon="39.2416119" version="1" timestamp="2011-08-18T07:44:31Z" changeset="9054437" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1403087998" lat="-6.7949822" lon="39.2415613" version="1" timestamp="2011-08-18T07:44:31Z" changeset="9054437" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1403087999" lat="-6.7949862" lon="39.2414511" version="1" timestamp="2011-08-18T07:44:31Z" changeset="9054437" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1403088001" lat="-6.7956272" lon="39.2427185" version="1" timestamp="2011-08-18T07:44:32Z" changeset="9054437" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1403088002" lat="-6.7957034" lon="39.2422239" version="1" timestamp="2011-08-18T07:44:32Z" changeset="9054437" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1403088004" lat="-6.7957567" lon="39.2432089" version="1" timestamp="2011-08-18T07:44:32Z" changeset="9054437" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1403088007" lat="-6.7958547" lon="39.2428543" version="1" timestamp="2011-08-18T07:44:32Z" changeset="9054437" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1403088010" lat="-6.7959387" lon="39.2414271" version="1" timestamp="2011-08-18T07:44:32Z" changeset="9054437" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1403099779" lat="-6.7930073" lon="39.2428436" version="3" timestamp="2011-08-30T15:27:24Z" changeset="9168364" uid="22301" user="Mark Iliffe">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1403099781" lat="-6.7931179" lon="39.2429739" version="1" timestamp="2011-08-18T08:09:40Z" changeset="9054559" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1403099782" lat="-6.7932549" lon="39.2429343" version="1" timestamp="2011-08-18T08:09:40Z" changeset="9054559" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1403099783" lat="-6.7934187" lon="39.2433793" version="1" timestamp="2011-08-18T08:09:41Z" changeset="9054559" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1403099784" lat="-6.7934556" lon="39.2430332" version="1" timestamp="2011-08-18T08:09:41Z" changeset="9054559" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1403099785" lat="-6.7936234" lon="39.2435207" version="1" timestamp="2011-08-18T08:09:41Z" changeset="9054559" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1403099786" lat="-6.7936485" lon="39.2425385" version="1" timestamp="2011-08-18T08:09:41Z" changeset="9054559" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1403099791" lat="-6.7940245" lon="39.2422533" version="1" timestamp="2011-08-18T08:09:41Z" changeset="9054559" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1403099793" lat="-6.7940996" lon="39.2432514" version="1" timestamp="2011-08-18T08:09:41Z" changeset="9054559" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1403099796" lat="-6.7942423" lon="39.2420272" version="1" timestamp="2011-08-18T08:09:41Z" changeset="9054559" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1403099800" lat="-6.7944143" lon="39.2431127" version="1" timestamp="2011-08-18T08:09:42Z" changeset="9054559" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1403107491" lat="-6.7917368" lon="39.2418663" version="1" timestamp="2011-08-18T08:27:32Z" changeset="9054706" uid="506458" user="Jenipher">
+		<tag k="amenity" v="drinking_water"/>
+		<tag k="name" v="water kiosk"/>
+	</node>
+	<node id="1403109718" lat="-6.7958549" lon="39.2428543" version="1" timestamp="2011-08-18T08:35:20Z" changeset="9054762" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1403109719" lat="-6.7959194" lon="39.2409602" version="1" timestamp="2011-08-18T08:35:20Z" changeset="9054762" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1403109720" lat="-6.7959496" lon="39.2414086" version="2" timestamp="2011-08-19T09:35:58Z" changeset="9064033" uid="508639" user="Mhonda">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1403110753" lat="-6.7906681" lon="39.2453311" version="1" timestamp="2011-08-18T08:38:21Z" changeset="9054785" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1403110760" lat="-6.7909237" lon="39.2458569" version="1" timestamp="2011-08-18T08:38:21Z" changeset="9054785" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1403110763" lat="-6.791029" lon="39.2452381" version="1" timestamp="2011-08-18T08:38:21Z" changeset="9054785" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1403110764" lat="-6.7910473" lon="39.2452181" version="1" timestamp="2011-08-18T08:38:22Z" changeset="9054785" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1403110766" lat="-6.7911573" lon="39.2453852" version="1" timestamp="2011-08-18T08:38:22Z" changeset="9054785" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1403110768" lat="-6.7911789" lon="39.2452541" version="1" timestamp="2011-08-18T08:38:22Z" changeset="9054785" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1403110771" lat="-6.791236" lon="39.2454816" version="2" timestamp="2011-08-24T14:36:20Z" changeset="9113066" uid="22301" user="Mark Iliffe">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1403110787" lat="-6.7914407" lon="39.2457996" version="1" timestamp="2011-08-18T08:38:23Z" changeset="9054785" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1404318536" lat="-6.7975942" lon="39.2416289" version="2" timestamp="2011-08-26T06:44:38Z" changeset="9126770" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1404318546" lat="-6.7980102" lon="39.2424479" version="1" timestamp="2011-08-19T06:50:45Z" changeset="9062778" uid="507502" user="Angela Kavishe">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1404331883" lat="-6.7973866" lon="39.2390832" version="1" timestamp="2011-08-19T07:12:12Z" changeset="9062910" uid="507502" user="Angela Kavishe">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1404331884" lat="-6.7974358" lon="39.2393281" version="1" timestamp="2011-08-19T07:12:12Z" changeset="9062910" uid="507502" user="Angela Kavishe">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1404331885" lat="-6.7974391" lon="39.2401446" version="1" timestamp="2011-08-19T07:12:12Z" changeset="9062910" uid="507502" user="Angela Kavishe">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1404331886" lat="-6.7975193" lon="39.2406294" version="1" timestamp="2011-08-19T07:12:12Z" changeset="9062910" uid="507502" user="Angela Kavishe">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1404331889" lat="-6.79755" lon="39.2394579" version="1" timestamp="2011-08-19T07:12:12Z" changeset="9062910" uid="507502" user="Angela Kavishe">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1404331890" lat="-6.7975716" lon="39.2404557" version="1" timestamp="2011-08-19T07:12:12Z" changeset="9062910" uid="507502" user="Angela Kavishe">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1404331892" lat="-6.7976043" lon="39.2397098" version="1" timestamp="2011-08-19T07:12:13Z" changeset="9062910" uid="507502" user="Angela Kavishe">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1404331893" lat="-6.7976339" lon="39.2396027" version="1" timestamp="2011-08-19T07:12:13Z" changeset="9062910" uid="507502" user="Angela Kavishe">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1404331894" lat="-6.7976782" lon="39.2398964" version="1" timestamp="2011-08-19T07:12:13Z" changeset="9062910" uid="507502" user="Angela Kavishe">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1404331896" lat="-6.7977656" lon="39.2403209" version="1" timestamp="2011-08-19T07:12:13Z" changeset="9062910" uid="507502" user="Angela Kavishe">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1404331897" lat="-6.7978927" lon="39.2395846" version="1" timestamp="2011-08-19T07:12:13Z" changeset="9062910" uid="507502" user="Angela Kavishe">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1404331898" lat="-6.7980132" lon="39.2399902" version="1" timestamp="2011-08-19T07:12:13Z" changeset="9062910" uid="507502" user="Angela Kavishe">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1404331899" lat="-6.7980227" lon="39.2403422" version="1" timestamp="2011-08-19T07:12:13Z" changeset="9062910" uid="507502" user="Angela Kavishe">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1404331900" lat="-6.7980444" lon="39.2403303" version="1" timestamp="2011-08-19T07:12:13Z" changeset="9062910" uid="507502" user="Angela Kavishe">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1404335918" lat="-6.7955921" lon="39.245381" version="1" timestamp="2011-08-19T07:25:15Z" changeset="9062997" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1404335933" lat="-6.7961968" lon="39.2453944" version="1" timestamp="2011-08-19T07:25:16Z" changeset="9062997" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1404335934" lat="-6.7962215" lon="39.2462676" version="1" timestamp="2011-08-19T07:25:16Z" changeset="9062997" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1404335935" lat="-6.7963431" lon="39.2446909" version="1" timestamp="2011-08-19T07:25:16Z" changeset="9062997" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1404335937" lat="-6.7964279" lon="39.2448785" version="1" timestamp="2011-08-19T07:25:16Z" changeset="9062997" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1404335938" lat="-6.7965217" lon="39.2447968" version="1" timestamp="2011-08-19T07:25:17Z" changeset="9062997" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1404335939" lat="-6.7965347" lon="39.2447389" version="1" timestamp="2011-08-19T07:25:17Z" changeset="9062997" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1404335941" lat="-6.7966529" lon="39.2454236" version="1" timestamp="2011-08-19T07:25:17Z" changeset="9062997" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1404335942" lat="-6.796654" lon="39.2463085" version="1" timestamp="2011-08-19T07:25:17Z" changeset="9062997" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1404335943" lat="-6.7966973" lon="39.2463523" version="1" timestamp="2011-08-19T07:25:17Z" changeset="9062997" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1404335944" lat="-6.7967144" lon="39.2443956" version="1" timestamp="2011-08-19T07:25:17Z" changeset="9062997" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1404335945" lat="-6.7967243" lon="39.2448922" version="1" timestamp="2011-08-19T07:25:17Z" changeset="9062997" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1404335946" lat="-6.7968186" lon="39.2448363" version="1" timestamp="2011-08-19T07:25:17Z" changeset="9062997" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1404335953" lat="-6.7969295" lon="39.2446615" version="1" timestamp="2011-08-19T07:25:18Z" changeset="9062997" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1404335955" lat="-6.7970606" lon="39.2452377" version="1" timestamp="2011-08-19T07:25:18Z" changeset="9062997" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1404335956" lat="-6.7972184" lon="39.2451469" version="1" timestamp="2011-08-19T07:25:18Z" changeset="9062997" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1404335958" lat="-6.7973575" lon="39.2451758" version="1" timestamp="2011-08-19T07:25:18Z" changeset="9062997" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1404350154" lat="-6.7912415" lon="39.2469184" version="1" timestamp="2011-08-19T08:06:21Z" changeset="9063261" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1404350176" lat="-6.7912826" lon="39.2468992" version="1" timestamp="2011-08-19T08:06:21Z" changeset="9063261" uid="261848" user="hassanow">
+		<tag k="amenity" v="drinking_water"/>
+	</node>
+	<node id="1404350209" lat="-6.7915139" lon="39.2462146" version="1" timestamp="2011-08-19T08:06:23Z" changeset="9063261" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1404350217" lat="-6.791964" lon="39.2457988" version="1" timestamp="2011-08-19T08:06:23Z" changeset="9063261" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1404350218" lat="-6.7920095" lon="39.2458258" version="1" timestamp="2011-08-19T08:06:23Z" changeset="9063261" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1404350219" lat="-6.7920394" lon="39.2458557" version="1" timestamp="2011-08-19T08:06:23Z" changeset="9063261" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1404350220" lat="-6.7921057" lon="39.2459087" version="1" timestamp="2011-08-19T08:06:23Z" changeset="9063261" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1404350224" lat="-6.7925594" lon="39.2464788" version="1" timestamp="2011-08-19T08:06:24Z" changeset="9063261" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1404350227" lat="-6.792947" lon="39.2463904" version="1" timestamp="2011-08-19T08:06:24Z" changeset="9063261" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1404350230" lat="-6.7928554" lon="39.2463634" version="1" timestamp="2011-08-19T08:06:24Z" changeset="9063261" uid="261848" user="hassanow">
+		<tag k="amenity" v="drinking_water"/>
+		<tag k="name" v="water tank"/>
+	</node>
+	<node id="1404350231" lat="-6.792272" lon="39.2464733" version="1" timestamp="2011-08-19T08:06:24Z" changeset="9063261" uid="261848" user="hassanow">
+		<tag k="amenity" v="drinking_water"/>
+		<tag k="name" v="water tap"/>
+	</node>
+	<node id="1404361208" lat="-6.7945126" lon="39.2398179" version="1" timestamp="2011-08-19T08:39:56Z" changeset="9063543" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1404381335" lat="-6.7945126" lon="39.2398179" version="1" timestamp="2011-08-19T09:22:42Z" changeset="9063922" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408254393" lat="-6.7921823" lon="39.2362342" version="1" timestamp="2011-08-22T09:53:02Z" changeset="9092363" uid="503950" user="REGINALD">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408254394" lat="-6.7922559" lon="39.2364082" version="1" timestamp="2011-08-22T09:53:02Z" changeset="9092363" uid="503950" user="REGINALD">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408254395" lat="-6.7922579" lon="39.236427" version="1" timestamp="2011-08-22T09:53:02Z" changeset="9092363" uid="503950" user="REGINALD">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408254396" lat="-6.7923822" lon="39.2359459" version="1" timestamp="2011-08-22T09:53:02Z" changeset="9092363" uid="503950" user="REGINALD">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408260294" lat="-6.7920315" lon="39.2443067" version="1" timestamp="2011-08-22T09:59:42Z" changeset="9092408" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408260295" lat="-6.7921168" lon="39.2450548" version="1" timestamp="2011-08-22T09:59:42Z" changeset="9092408" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408260297" lat="-6.7924249" lon="39.2431329" version="1" timestamp="2011-08-22T09:59:42Z" changeset="9092408" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408260299" lat="-6.7928945" lon="39.2450724" version="1" timestamp="2011-08-22T09:59:42Z" changeset="9092408" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408260309" lat="-6.793066" lon="39.2451607" version="1" timestamp="2011-08-22T09:59:42Z" changeset="9092408" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408260311" lat="-6.7932237" lon="39.2440202" version="1" timestamp="2011-08-22T09:59:42Z" changeset="9092408" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408260316" lat="-6.7940264" lon="39.2461656" version="1" timestamp="2011-08-22T09:59:42Z" changeset="9092408" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408260327" lat="-6.7942305" lon="39.2460194" version="1" timestamp="2011-08-22T09:59:43Z" changeset="9092408" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408260331" lat="-6.7944188" lon="39.2460016" version="1" timestamp="2011-08-22T09:59:43Z" changeset="9092408" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408260334" lat="-6.7945902" lon="39.2458627" version="1" timestamp="2011-08-22T09:59:43Z" changeset="9092408" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408260341" lat="-6.794743" lon="39.2463673" version="1" timestamp="2011-08-22T09:59:43Z" changeset="9092408" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408260343" lat="-6.7947605" lon="39.2457481" version="1" timestamp="2011-08-22T09:59:43Z" changeset="9092408" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408260345" lat="-6.7948234" lon="39.2456366" version="1" timestamp="2011-08-22T09:59:43Z" changeset="9092408" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408260349" lat="-6.79491" lon="39.2457126" version="1" timestamp="2011-08-22T09:59:43Z" changeset="9092408" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408260356" lat="-6.7950513" lon="39.2464415" version="1" timestamp="2011-08-22T09:59:43Z" changeset="9092408" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408260360" lat="-6.7951384" lon="39.2463392" version="1" timestamp="2011-08-22T09:59:44Z" changeset="9092408" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408260365" lat="-6.7951797" lon="39.24647" version="1" timestamp="2011-08-22T09:59:44Z" changeset="9092408" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408260369" lat="-6.7954608" lon="39.2461552" version="1" timestamp="2011-08-22T09:59:44Z" changeset="9092408" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408260371" lat="-6.795463" lon="39.2464605" version="1" timestamp="2011-08-22T09:59:44Z" changeset="9092408" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408260378" lat="-6.7960452" lon="39.2467968" version="1" timestamp="2011-08-22T09:59:44Z" changeset="9092408" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408260381" lat="-6.7961688" lon="39.2467683" version="1" timestamp="2011-08-22T09:59:44Z" changeset="9092408" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408260385" lat="-6.7962262" lon="39.2469243" version="1" timestamp="2011-08-22T09:59:44Z" changeset="9092408" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408263356" lat="-6.7915779" lon="39.2474149" version="1" timestamp="2011-08-22T10:05:52Z" changeset="9092459" uid="508650" user="Shabani">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1408263357" lat="-6.7916773" lon="39.2473633" version="1" timestamp="2011-08-22T10:05:52Z" changeset="9092459" uid="508650" user="Shabani">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1408263358" lat="-6.7917229" lon="39.2473828" version="1" timestamp="2011-08-22T10:05:52Z" changeset="9092459" uid="508650" user="Shabani">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1408263363" lat="-6.7919317" lon="39.2470384" version="1" timestamp="2011-08-22T10:05:52Z" changeset="9092459" uid="508650" user="Shabani">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1408263364" lat="-6.7919985" lon="39.2471407" version="1" timestamp="2011-08-22T10:05:52Z" changeset="9092459" uid="508650" user="Shabani">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1408263365" lat="-6.7921198" lon="39.2474502" version="1" timestamp="2011-08-22T10:05:52Z" changeset="9092459" uid="508650" user="Shabani">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1408263367" lat="-6.7921709" lon="39.247211" version="1" timestamp="2011-08-22T10:05:52Z" changeset="9092459" uid="508650" user="Shabani">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1408263373" lat="-6.7923794" lon="39.246773" version="1" timestamp="2011-08-22T10:05:53Z" changeset="9092459" uid="508650" user="Shabani">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1408263374" lat="-6.7923966" lon="39.2467339" version="1" timestamp="2011-08-22T10:05:53Z" changeset="9092459" uid="508650" user="Shabani">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1408263375" lat="-6.7925192" lon="39.2476209" version="1" timestamp="2011-08-22T10:05:53Z" changeset="9092459" uid="508650" user="Shabani">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1408263381" lat="-6.7931159" lon="39.2480839" version="1" timestamp="2011-08-22T10:05:54Z" changeset="9092459" uid="508650" user="Shabani">
+		<tag k="amenity" v="toilets"/>
+		<tag k="operator" v="household"/>
+	</node>
+	<node id="1408263382" lat="-6.7932346" lon="39.247969" version="1" timestamp="2011-08-22T10:05:54Z" changeset="9092459" uid="508650" user="Shabani">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1408263383" lat="-6.7932665" lon="39.2480667" version="1" timestamp="2011-08-22T10:05:54Z" changeset="9092459" uid="508650" user="Shabani">
+		<tag k="amenity" v="toilets"/>
+		<tag k="operator" v="household"/>
+	</node>
+	<node id="1408263386" lat="-6.7934358" lon="39.2480582" version="1" timestamp="2011-08-22T10:05:54Z" changeset="9092459" uid="508650" user="Shabani">
+		<tag k="amenity" v="toilets"/>
+		<tag k="operator" v="household"/>
+	</node>
+	<node id="1408263388" lat="-6.7935424" lon="39.248009" version="1" timestamp="2011-08-22T10:05:54Z" changeset="9092459" uid="508650" user="Shabani">
+		<tag k="amenity" v="toilets"/>
+		<tag k="operator" v="household"/>
+	</node>
+	<node id="1408266673" lat="-6.7895569" lon="39.2372115" version="1" timestamp="2011-08-22T10:15:22Z" changeset="9092541" uid="505031" user="denis kyamuhangile">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408266674" lat="-6.7899364" lon="39.238199" version="1" timestamp="2011-08-22T10:15:22Z" changeset="9092541" uid="505031" user="denis kyamuhangile">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408266676" lat="-6.7899681" lon="39.238489" version="1" timestamp="2011-08-22T10:15:22Z" changeset="9092541" uid="505031" user="denis kyamuhangile">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408266677" lat="-6.7899682" lon="39.2381642" version="1" timestamp="2011-08-22T10:15:23Z" changeset="9092541" uid="505031" user="denis kyamuhangile">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408266680" lat="-6.7900185" lon="39.2389249" version="1" timestamp="2011-08-22T10:15:23Z" changeset="9092541" uid="505031" user="denis kyamuhangile">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408266681" lat="-6.7900218" lon="39.2384957" version="1" timestamp="2011-08-22T10:15:23Z" changeset="9092541" uid="505031" user="denis kyamuhangile">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408266682" lat="-6.7900499" lon="39.2384873" version="1" timestamp="2011-08-22T10:15:23Z" changeset="9092541" uid="505031" user="denis kyamuhangile">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408266684" lat="-6.7900555" lon="39.2389504" version="1" timestamp="2011-08-22T10:15:23Z" changeset="9092541" uid="505031" user="denis kyamuhangile">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408266701" lat="-6.7901537" lon="39.2382826" version="1" timestamp="2011-08-22T10:15:24Z" changeset="9092541" uid="505031" user="denis kyamuhangile">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408266704" lat="-6.7901742" lon="39.2387287" version="1" timestamp="2011-08-22T10:15:24Z" changeset="9092541" uid="505031" user="denis kyamuhangile">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408266706" lat="-6.7901859" lon="39.2384419" version="1" timestamp="2011-08-22T10:15:24Z" changeset="9092541" uid="505031" user="denis kyamuhangile">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408266716" lat="-6.7902227" lon="39.2385745" version="1" timestamp="2011-08-22T10:15:24Z" changeset="9092541" uid="505031" user="denis kyamuhangile">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408266726" lat="-6.7902904" lon="39.238867" version="1" timestamp="2011-08-22T10:15:25Z" changeset="9092541" uid="505031" user="denis kyamuhangile">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408266728" lat="-6.7902931" lon="39.2388575" version="1" timestamp="2011-08-22T10:15:25Z" changeset="9092541" uid="505031" user="denis kyamuhangile">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408266740" lat="-6.79052" lon="39.2383814" version="1" timestamp="2011-08-22T10:15:25Z" changeset="9092541" uid="505031" user="denis kyamuhangile">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408266766" lat="-6.7906205" lon="39.2388286" version="1" timestamp="2011-08-22T10:15:27Z" changeset="9092541" uid="505031" user="denis kyamuhangile">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1408266771" lat="-6.7906275" lon="39.2373754" version="1" timestamp="2011-08-22T10:15:27Z" changeset="9092541" uid="505031" user="denis kyamuhangile">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408266775" lat="-6.790634" lon="39.2390882" version="1" timestamp="2011-08-22T10:15:27Z" changeset="9092541" uid="505031" user="denis kyamuhangile">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1408266795" lat="-6.7907321" lon="39.2382172" version="1" timestamp="2011-08-22T10:15:28Z" changeset="9092541" uid="505031" user="denis kyamuhangile">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408266804" lat="-6.7908117" lon="39.2387391" version="1" timestamp="2011-08-22T10:15:28Z" changeset="9092541" uid="505031" user="denis kyamuhangile">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408284674" lat="-6.7934504" lon="39.2377091" version="1" timestamp="2011-08-22T10:30:01Z" changeset="9092666" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408285950" lat="-6.7933162" lon="39.237776" version="1" timestamp="2011-08-22T10:30:44Z" changeset="9092671" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408287460" lat="-6.7928245" lon="39.2378389" version="1" timestamp="2011-08-22T10:31:20Z" changeset="9092677" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408290150" lat="-6.7928682" lon="39.2384645" version="1" timestamp="2011-08-22T10:32:27Z" changeset="9092684" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408290153" lat="-6.7929805" lon="39.2385786" version="1" timestamp="2011-08-22T10:32:27Z" changeset="9092684" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408290155" lat="-6.7929953" lon="39.2385137" version="1" timestamp="2011-08-22T10:32:27Z" changeset="9092684" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408294954" lat="-6.7926596" lon="39.2393808" version="1" timestamp="2011-08-22T10:34:24Z" changeset="9092694" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408294955" lat="-6.7928115" lon="39.2394538" version="1" timestamp="2011-08-22T10:34:24Z" changeset="9092694" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408294957" lat="-6.7928339" lon="39.2394631" version="1" timestamp="2011-08-22T10:34:24Z" changeset="9092694" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408294960" lat="-6.7929478" lon="39.2392075" version="1" timestamp="2011-08-22T10:34:24Z" changeset="9092694" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408294967" lat="-6.792974" lon="39.2391444" version="1" timestamp="2011-08-22T10:34:25Z" changeset="9092694" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408299342" lat="-6.7922306" lon="39.2391873" version="1" timestamp="2011-08-22T10:36:19Z" changeset="9092713" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408299344" lat="-6.7923756" lon="39.2388638" version="1" timestamp="2011-08-22T10:36:19Z" changeset="9092713" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408303928" lat="-6.7920039" lon="39.2389527" version="1" timestamp="2011-08-22T10:39:54Z" changeset="9092737" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408306850" lat="-6.7919761" lon="39.2381306" version="1" timestamp="2011-08-22T10:41:32Z" changeset="9092750" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408306851" lat="-6.792402" lon="39.2382009" version="1" timestamp="2011-08-22T10:41:32Z" changeset="9092750" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408316047" lat="-6.7916606" lon="39.237076" version="1" timestamp="2011-08-22T10:46:49Z" changeset="9092795" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408323655" lat="-6.7931472" lon="39.2374454" version="1" timestamp="2011-08-22T11:00:10Z" changeset="9092910" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408324035" lat="-6.7931343" lon="39.2391832" version="1" timestamp="2011-08-22T11:01:41Z" changeset="9092920" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408324329" lat="-6.7977188" lon="39.243627" version="1" timestamp="2011-08-22T11:01:52Z" changeset="9092926" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408325266" lat="-6.792968" lon="39.2382486" version="1" timestamp="2011-08-22T11:03:13Z" changeset="9092941" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408325267" lat="-6.7931412" lon="39.2369781" version="1" timestamp="2011-08-22T11:03:13Z" changeset="9092941" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1408325396" lat="-6.7915779" lon="39.2474149" version="1" timestamp="2011-08-22T11:03:55Z" changeset="9092949" uid="508650" user="Shabani">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1408325397" lat="-6.7916773" lon="39.2473633" version="1" timestamp="2011-08-22T11:03:55Z" changeset="9092949" uid="508650" user="Shabani">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1408325398" lat="-6.7917229" lon="39.2473828" version="1" timestamp="2011-08-22T11:03:55Z" changeset="9092949" uid="508650" user="Shabani">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1408325401" lat="-6.7921198" lon="39.2474502" version="1" timestamp="2011-08-22T11:03:55Z" changeset="9092949" uid="508650" user="Shabani">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1408325404" lat="-6.7925192" lon="39.2476209" version="1" timestamp="2011-08-22T11:03:56Z" changeset="9092949" uid="508650" user="Shabani">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1409414703" lat="-6.7976697" lon="39.243136" version="1" timestamp="2011-08-23T06:39:36Z" changeset="9100349" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409414705" lat="-6.7977145" lon="39.2431572" version="1" timestamp="2011-08-23T06:39:36Z" changeset="9100349" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409414706" lat="-6.7977738" lon="39.2433521" version="1" timestamp="2011-08-23T06:39:36Z" changeset="9100349" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409414710" lat="-6.7978985" lon="39.2436617" version="1" timestamp="2011-08-23T06:39:36Z" changeset="9100349" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409414711" lat="-6.797918" lon="39.2433789" version="1" timestamp="2011-08-23T06:39:36Z" changeset="9100349" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409414714" lat="-6.7979325" lon="39.2435124" version="1" timestamp="2011-08-23T06:39:36Z" changeset="9100349" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409414715" lat="-6.7979345" lon="39.2436515" version="1" timestamp="2011-08-23T06:39:36Z" changeset="9100349" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409414716" lat="-6.7979345" lon="39.2436524" version="1" timestamp="2011-08-23T06:39:36Z" changeset="9100349" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409414718" lat="-6.7980785" lon="39.2433808" version="1" timestamp="2011-08-23T06:39:36Z" changeset="9100349" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409415325" lat="-6.7975708" lon="39.2434163" version="1" timestamp="2011-08-23T06:41:12Z" changeset="9100365" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409415326" lat="-6.7976048" lon="39.2433151" version="1" timestamp="2011-08-23T06:41:12Z" changeset="9100365" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409415327" lat="-6.7976929" lon="39.2434099" version="1" timestamp="2011-08-23T06:41:12Z" changeset="9100365" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409416200" lat="-6.7973302" lon="39.2434268" version="1" timestamp="2011-08-23T06:42:13Z" changeset="9100371" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409421390" lat="-6.7965015" lon="39.2441711" version="1" timestamp="2011-08-23T06:55:27Z" changeset="9100452" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409421391" lat="-6.7965058" lon="39.2439263" version="1" timestamp="2011-08-23T06:55:27Z" changeset="9100452" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409421393" lat="-6.7967359" lon="39.2443393" version="1" timestamp="2011-08-23T06:55:27Z" changeset="9100452" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409421395" lat="-6.7969408" lon="39.2441165" version="1" timestamp="2011-08-23T06:55:27Z" changeset="9100452" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409421397" lat="-6.7969571" lon="39.2439123" version="1" timestamp="2011-08-23T06:55:27Z" changeset="9100452" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409421398" lat="-6.7969601" lon="39.2439676" version="1" timestamp="2011-08-23T06:55:27Z" changeset="9100452" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409421399" lat="-6.7972021" lon="39.2440605" version="1" timestamp="2011-08-23T06:55:27Z" changeset="9100452" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409424456" lat="-6.7957277" lon="39.2419772" version="1" timestamp="2011-08-23T06:59:40Z" changeset="9100483" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409424458" lat="-6.7957685" lon="39.2418309" version="1" timestamp="2011-08-23T06:59:40Z" changeset="9100483" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409424459" lat="-6.7958863" lon="39.2412075" version="1" timestamp="2011-08-23T06:59:40Z" changeset="9100483" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409424462" lat="-6.7960525" lon="39.2432104" version="2" timestamp="2011-08-24T19:51:07Z" changeset="9115904" uid="22301" user="Mark Iliffe">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409424463" lat="-6.7960805" lon="39.2410257" version="1" timestamp="2011-08-23T06:59:40Z" changeset="9100483" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409427567" lat="-6.794636" lon="39.2396021" version="1" timestamp="2011-08-23T07:05:11Z" changeset="9100521" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409427569" lat="-6.7947289" lon="39.2400459" version="1" timestamp="2011-08-23T07:05:11Z" changeset="9100521" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409427570" lat="-6.7947779" lon="39.2407084" version="1" timestamp="2011-08-23T07:05:11Z" changeset="9100521" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409427571" lat="-6.7947795" lon="39.2398114" version="1" timestamp="2011-08-23T07:05:11Z" changeset="9100521" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409427572" lat="-6.7948386" lon="39.2399438" version="1" timestamp="2011-08-23T07:05:11Z" changeset="9100521" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409432167" lat="-6.7915805" lon="39.2385205" version="1" timestamp="2011-08-23T07:12:46Z" changeset="9100578" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409432174" lat="-6.793315" lon="39.2367156" version="1" timestamp="2011-08-23T07:12:46Z" changeset="9100578" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409432175" lat="-6.7935278" lon="39.2368896" version="1" timestamp="2011-08-23T07:12:46Z" changeset="9100578" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409432546" lat="-6.7921034" lon="39.237512" version="1" timestamp="2011-08-23T07:15:48Z" changeset="9100603" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409432547" lat="-6.7923064" lon="39.2377774" version="1" timestamp="2011-08-23T07:15:48Z" changeset="9100603" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409432550" lat="-6.7930071" lon="39.2403711" version="1" timestamp="2011-08-23T07:15:48Z" changeset="9100603" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409432552" lat="-6.7936036" lon="39.240053" version="1" timestamp="2011-08-23T07:15:48Z" changeset="9100603" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409434700" lat="-6.7899536" lon="39.2397722" version="1" timestamp="2011-08-23T07:21:54Z" changeset="9100653" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409434701" lat="-6.790648" lon="39.2403852" version="1" timestamp="2011-08-23T07:21:54Z" changeset="9100653" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409434702" lat="-6.7907586" lon="39.2398158" version="1" timestamp="2011-08-23T07:21:55Z" changeset="9100653" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409434705" lat="-6.7913643" lon="39.2404492" version="1" timestamp="2011-08-23T07:21:55Z" changeset="9100653" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409435272" lat="-6.790014" lon="39.2406116" version="1" timestamp="2011-08-23T07:23:54Z" changeset="9100666" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409437744" lat="-6.7919733" lon="39.2415738" version="1" timestamp="2011-08-23T07:25:51Z" changeset="9100688" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409441735" lat="-6.7910282" lon="39.2412625" version="1" timestamp="2011-08-23T07:28:19Z" changeset="9100711" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409441758" lat="-6.7920274" lon="39.2412514" version="1" timestamp="2011-08-23T07:28:19Z" changeset="9100711" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409441764" lat="-6.7922573" lon="39.2405657" version="1" timestamp="2011-08-23T07:28:19Z" changeset="9100711" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409441766" lat="-6.7922835" lon="39.2420799" version="1" timestamp="2011-08-23T07:28:20Z" changeset="9100711" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409453419" lat="-6.7901591" lon="39.2411492" version="1" timestamp="2011-08-23T07:36:09Z" changeset="9100760" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409453420" lat="-6.790259" lon="39.2419492" version="1" timestamp="2011-08-23T07:36:09Z" changeset="9100760" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409470797" lat="-6.7975865" lon="39.2437461" version="1" timestamp="2011-08-23T07:51:43Z" changeset="9100872" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409471749" lat="-6.7906193" lon="39.2413304" version="1" timestamp="2011-08-23T07:52:53Z" changeset="9100884" uid="506886" user="deogratias">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409473882" lat="-6.7920418" lon="39.2420084" version="1" timestamp="2011-08-23T07:54:47Z" changeset="9100895" uid="506886" user="deogratias">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409481619" lat="-6.7974569" lon="39.2436915" version="1" timestamp="2011-08-23T08:03:10Z" changeset="9100974" uid="503938" user="Msilikale05">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409488067" lat="-6.7974785" lon="39.2417825" version="1" timestamp="2011-08-23T08:17:08Z" changeset="9101089" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409488069" lat="-6.7975149" lon="39.24203" version="1" timestamp="2011-08-23T08:17:08Z" changeset="9101089" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409488071" lat="-6.7975813" lon="39.2421803" version="1" timestamp="2011-08-23T08:17:08Z" changeset="9101089" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409488072" lat="-6.797592" lon="39.2418736" version="1" timestamp="2011-08-23T08:17:08Z" changeset="9101089" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409488073" lat="-6.7976025" lon="39.2417108" version="1" timestamp="2011-08-23T08:17:08Z" changeset="9101089" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409488075" lat="-6.7976112" lon="39.2420377" version="1" timestamp="2011-08-23T08:17:08Z" changeset="9101089" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409488076" lat="-6.7976258" lon="39.2425379" version="1" timestamp="2011-08-23T08:17:08Z" changeset="9101089" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409488077" lat="-6.7976491" lon="39.2427034" version="1" timestamp="2011-08-23T08:17:09Z" changeset="9101089" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409488079" lat="-6.7976521" lon="39.2418748" version="1" timestamp="2011-08-23T08:17:09Z" changeset="9101089" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409488081" lat="-6.7976695" lon="39.2417302" version="1" timestamp="2011-08-23T08:17:09Z" changeset="9101089" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409488082" lat="-6.7977456" lon="39.2426921" version="1" timestamp="2011-08-23T08:17:09Z" changeset="9101089" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409488083" lat="-6.7977554" lon="39.2426995" version="1" timestamp="2011-08-23T08:17:09Z" changeset="9101089" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409488084" lat="-6.7978562" lon="39.2424964" version="1" timestamp="2011-08-23T08:17:09Z" changeset="9101089" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409488085" lat="-6.7978669" lon="39.2425385" version="1" timestamp="2011-08-23T08:17:09Z" changeset="9101089" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409488086" lat="-6.7978775" lon="39.2423637" version="1" timestamp="2011-08-23T08:17:09Z" changeset="9101089" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409488087" lat="-6.7978829" lon="39.241694" version="1" timestamp="2011-08-23T08:17:09Z" changeset="9101089" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409488088" lat="-6.7978886" lon="39.2421481" version="1" timestamp="2011-08-23T08:17:09Z" changeset="9101089" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409488089" lat="-6.7979366" lon="39.2422673" version="2" timestamp="2011-08-24T19:51:07Z" changeset="9115904" uid="22301" user="Mark Iliffe">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409488090" lat="-6.7980071" lon="39.2417721" version="1" timestamp="2011-08-23T08:17:09Z" changeset="9101089" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409488091" lat="-6.798015" lon="39.2419268" version="1" timestamp="2011-08-23T08:17:09Z" changeset="9101089" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409489315" lat="-6.7956488" lon="39.2399371" version="1" timestamp="2011-08-23T08:18:45Z" changeset="9101103" uid="506886" user="deogratias">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409489326" lat="-6.7960113" lon="39.239228" version="1" timestamp="2011-08-23T08:18:45Z" changeset="9101103" uid="506886" user="deogratias">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409489327" lat="-6.7961462" lon="39.2396897" version="1" timestamp="2011-08-23T08:18:45Z" changeset="9101103" uid="506886" user="deogratias">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409489328" lat="-6.7961971" lon="39.2393638" version="1" timestamp="2011-08-23T08:18:45Z" changeset="9101103" uid="506886" user="deogratias">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409489330" lat="-6.796308" lon="39.2387029" version="1" timestamp="2011-08-23T08:18:45Z" changeset="9101103" uid="506886" user="deogratias">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409489334" lat="-6.7963439" lon="39.2398617" version="1" timestamp="2011-08-23T08:18:45Z" changeset="9101103" uid="506886" user="deogratias">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409489336" lat="-6.7963499" lon="39.2394573" version="1" timestamp="2011-08-23T08:18:45Z" changeset="9101103" uid="506886" user="deogratias">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409490131" lat="-6.7956012" lon="39.2401668" version="3" timestamp="2011-08-30T15:28:01Z" changeset="9168364" uid="22301" user="Mark Iliffe">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409490132" lat="-6.7956967" lon="39.2404833" version="1" timestamp="2011-08-23T08:20:09Z" changeset="9101111" uid="506886" user="deogratias">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409491388" lat="-6.7973608" lon="39.2405466" version="1" timestamp="2011-08-23T08:21:45Z" changeset="9101131" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409491389" lat="-6.7973749" lon="39.240603" version="1" timestamp="2011-08-23T08:21:45Z" changeset="9101131" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409491390" lat="-6.7973932" lon="39.2402514" version="1" timestamp="2011-08-23T08:21:45Z" changeset="9101131" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409491391" lat="-6.7974278" lon="39.2401707" version="1" timestamp="2011-08-23T08:21:45Z" changeset="9101131" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409491393" lat="-6.7974541" lon="39.2401275" version="1" timestamp="2011-08-23T08:21:45Z" changeset="9101131" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409491394" lat="-6.7975212" lon="39.240586" version="1" timestamp="2011-08-23T08:21:45Z" changeset="9101131" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409491395" lat="-6.7975439" lon="39.2404614" version="1" timestamp="2011-08-23T08:21:45Z" changeset="9101131" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409492123" lat="-6.7971599" lon="39.2407695" version="1" timestamp="2011-08-23T08:24:10Z" changeset="9101156" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409492124" lat="-6.7972172" lon="39.2403913" version="1" timestamp="2011-08-23T08:24:10Z" changeset="9101156" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409492125" lat="-6.7972177" lon="39.2409004" version="1" timestamp="2011-08-23T08:24:11Z" changeset="9101156" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409492126" lat="-6.7972196" lon="39.2405036" version="1" timestamp="2011-08-23T08:24:11Z" changeset="9101156" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409492131" lat="-6.7972603" lon="39.2409223" version="1" timestamp="2011-08-23T08:24:11Z" changeset="9101156" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409492132" lat="-6.7972827" lon="39.2403704" version="1" timestamp="2011-08-23T08:24:11Z" changeset="9101156" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409492455" lat="-6.7972148" lon="39.2414581" version="1" timestamp="2011-08-23T08:24:55Z" changeset="9101163" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409492456" lat="-6.7972682" lon="39.2414751" version="1" timestamp="2011-08-23T08:24:55Z" changeset="9101163" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409493576" lat="-6.7973683" lon="39.2417625" version="1" timestamp="2011-08-23T08:27:13Z" changeset="9101182" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409493577" lat="-6.7974003" lon="39.2417424" version="1" timestamp="2011-08-23T08:27:13Z" changeset="9101182" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409495074" lat="-6.7973148" lon="39.2396015" version="1" timestamp="2011-08-23T08:28:43Z" changeset="9101199" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409495078" lat="-6.79739" lon="39.239745" version="1" timestamp="2011-08-23T08:28:43Z" changeset="9101199" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409496935" lat="-6.7974107" lon="39.2397439" version="1" timestamp="2011-08-23T08:30:08Z" changeset="9101214" uid="507018" user="AMURI NGUOMOJA">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1409532368" lat="-6.7954136" lon="39.2376808" version="1" timestamp="2011-08-23T08:59:32Z" changeset="9101486" uid="506886" user="deogratias">
+		<tag k="amenity" v="drinking_water"/>
+		<tag k="name" v="Water Tank"/>
+	</node>
+	<node id="1409532372" lat="-6.7957782" lon="39.2368412" version="1" timestamp="2011-08-23T08:59:32Z" changeset="9101486" uid="506886" user="deogratias">
+		<tag k="amenity" v="drinking_water"/>
+		<tag k="name" v="Water Tank"/>
+	</node>
+	<node id="1409532375" lat="-6.7936304" lon="39.2388095" version="1" timestamp="2011-08-23T08:59:32Z" changeset="9101486" uid="506886" user="deogratias">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="Private"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1409532377" lat="-6.7937579" lon="39.2380324" version="1" timestamp="2011-08-23T08:59:32Z" changeset="9101486" uid="506886" user="deogratias">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="Private"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1409532380" lat="-6.793789" lon="39.2377606" version="1" timestamp="2011-08-23T08:59:32Z" changeset="9101486" uid="506886" user="deogratias">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="Private"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1409532386" lat="-6.7937977" lon="39.2391877" version="1" timestamp="2011-08-23T08:59:33Z" changeset="9101486" uid="506886" user="deogratias">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="Private"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1409532387" lat="-6.7938609" lon="39.2373637" version="1" timestamp="2011-08-23T08:59:33Z" changeset="9101486" uid="506886" user="deogratias">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="Private"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1409532388" lat="-6.7939881" lon="39.2370681" version="1" timestamp="2011-08-23T08:59:33Z" changeset="9101486" uid="506886" user="deogratias">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="Private"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1409532424" lat="-6.7955156" lon="39.2386653" version="1" timestamp="2011-08-23T08:59:34Z" changeset="9101486" uid="506886" user="deogratias">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="private"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1409532440" lat="-6.795031" lon="39.2380764" version="1" timestamp="2011-08-23T08:59:34Z" changeset="9101486" uid="506886" user="deogratias">
+		<tag k="amenity" v="drinking_water"/>
+		<tag k="name" v="water tank"/>
+	</node>
+	<node id="1409532442" lat="-6.7955158" lon="39.238607" version="1" timestamp="2011-08-23T08:59:34Z" changeset="9101486" uid="506886" user="deogratias">
+		<tag k="amenity" v="drinking_water"/>
+		<tag k="name" v="water tank"/>
+	</node>
+	<node id="1410814091" lat="-6.7975127" lon="39.2401925" version="1" timestamp="2011-08-24T06:44:27Z" changeset="9109583" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410846828" lat="-6.7904737" lon="39.2456505" version="1" timestamp="2011-08-24T07:09:38Z" changeset="9109721" uid="506458" user="Jenipher">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410846831" lat="-6.7906464" lon="39.2458253" version="1" timestamp="2011-08-24T07:09:38Z" changeset="9109721" uid="506458" user="Jenipher">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410846837" lat="-6.7914461" lon="39.2430752" version="1" timestamp="2011-08-24T07:09:38Z" changeset="9109721" uid="506458" user="Jenipher">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410846838" lat="-6.7915759" lon="39.2441076" version="1" timestamp="2011-08-24T07:09:38Z" changeset="9109721" uid="506458" user="Jenipher">
+		<tag k="amenity" v="drinking_water"/>
+	</node>
+	<node id="1410846841" lat="-6.7916308" lon="39.2440758" version="1" timestamp="2011-08-24T07:09:38Z" changeset="9109721" uid="506458" user="Jenipher">
+		<tag k="amenity" v="drinking_water"/>
+	</node>
+	<node id="1410846842" lat="-6.7918191" lon="39.2425416" version="1" timestamp="2011-08-24T07:09:38Z" changeset="9109721" uid="506458" user="Jenipher">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410846844" lat="-6.7919169" lon="39.2451139" version="1" timestamp="2011-08-24T07:09:38Z" changeset="9109721" uid="506458" user="Jenipher">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410846846" lat="-6.7919514" lon="39.2449602" version="1" timestamp="2011-08-24T07:09:38Z" changeset="9109721" uid="506458" user="Jenipher">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410854190" lat="-6.7969964" lon="39.2397449" version="1" timestamp="2011-08-24T07:22:21Z" changeset="9109801" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="operator" v="Public toilets"/>
+	</node>
+	<node id="1410858850" lat="-6.7934862" lon="39.2385162" version="1" timestamp="2011-08-24T07:29:23Z" changeset="9109871" uid="506886" user="deogratias">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="private"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1410861818" lat="-6.7972283" lon="39.2427259" version="1" timestamp="2011-08-24T07:34:20Z" changeset="9109896" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410862939" lat="-6.7975244" lon="39.242949" version="1" timestamp="2011-08-24T07:37:15Z" changeset="9109912" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410863773" lat="-6.7941726" lon="39.2375377" version="1" timestamp="2011-08-24T07:39:37Z" changeset="9109923" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410863776" lat="-6.7942697" lon="39.2365719" version="1" timestamp="2011-08-24T07:39:37Z" changeset="9109923" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410863777" lat="-6.7942981" lon="39.2362996" version="1" timestamp="2011-08-24T07:39:37Z" changeset="9109923" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410863778" lat="-6.7944508" lon="39.2374874" version="1" timestamp="2011-08-24T07:39:37Z" changeset="9109923" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410863779" lat="-6.7944614" lon="39.236096" version="1" timestamp="2011-08-24T07:39:37Z" changeset="9109923" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410863780" lat="-6.7945799" lon="39.2371006" version="1" timestamp="2011-08-24T07:39:37Z" changeset="9109923" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410863781" lat="-6.7945977" lon="39.2366265" version="1" timestamp="2011-08-24T07:39:37Z" changeset="9109923" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410863783" lat="-6.7946575" lon="39.235874" version="1" timestamp="2011-08-24T07:39:37Z" changeset="9109923" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410865602" lat="-6.7943888" lon="39.236903" version="1" timestamp="2011-08-24T07:42:53Z" changeset="9109945" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410865603" lat="-6.7945166" lon="39.2364275" version="1" timestamp="2011-08-24T07:42:53Z" changeset="9109945" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410865605" lat="-6.7945676" lon="39.2373339" version="1" timestamp="2011-08-24T07:42:53Z" changeset="9109945" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410865607" lat="-6.7946463" lon="39.2360937" version="1" timestamp="2011-08-24T07:42:53Z" changeset="9109945" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410865610" lat="-6.7948163" lon="39.2365878" version="1" timestamp="2011-08-24T07:42:54Z" changeset="9109945" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410865612" lat="-6.7948883" lon="39.2359013" version="1" timestamp="2011-08-24T07:42:54Z" changeset="9109945" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410874013" lat="-6.7939529" lon="39.2383153" version="1" timestamp="2011-08-24T07:50:50Z" changeset="9109994" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410874014" lat="-6.7944701" lon="39.2380818" version="1" timestamp="2011-08-24T07:50:50Z" changeset="9109994" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410874017" lat="-6.7945335" lon="39.2376722" version="1" timestamp="2011-08-24T07:50:51Z" changeset="9109994" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410874018" lat="-6.7947305" lon="39.2383296" version="1" timestamp="2011-08-24T07:50:51Z" changeset="9109994" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410874019" lat="-6.7947434" lon="39.2371698" version="1" timestamp="2011-08-24T07:50:51Z" changeset="9109994" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410874020" lat="-6.794747" lon="39.2368277" version="1" timestamp="2011-08-24T07:50:51Z" changeset="9109994" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410874023" lat="-6.7947686" lon="39.2359889" version="1" timestamp="2011-08-24T07:50:51Z" changeset="9109994" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410874024" lat="-6.7949561" lon="39.2368168" version="1" timestamp="2011-08-24T07:50:51Z" changeset="9109994" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410874025" lat="-6.7950116" lon="39.236143" version="1" timestamp="2011-08-24T07:50:51Z" changeset="9109994" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410874028" lat="-6.7950275" lon="39.2365932" version="1" timestamp="2011-08-24T07:50:51Z" changeset="9109994" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410874029" lat="-6.7950733" lon="39.236461" version="1" timestamp="2011-08-24T07:50:51Z" changeset="9109994" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410874030" lat="-6.795078" lon="39.2370208" version="1" timestamp="2011-08-24T07:50:51Z" changeset="9109994" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410874032" lat="-6.7951723" lon="39.2361911" version="1" timestamp="2011-08-24T07:50:51Z" changeset="9109994" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410874033" lat="-6.7952274" lon="39.2366038" version="1" timestamp="2011-08-24T07:50:51Z" changeset="9109994" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410874034" lat="-6.7952719" lon="39.2357439" version="1" timestamp="2011-08-24T07:50:51Z" changeset="9109994" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410874036" lat="-6.7953823" lon="39.2371074" version="1" timestamp="2011-08-24T07:50:51Z" changeset="9109994" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410874037" lat="-6.7956954" lon="39.2356563" version="1" timestamp="2011-08-24T07:50:51Z" changeset="9109994" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410879198" lat="-6.7941944" lon="39.2367542" version="1" timestamp="2011-08-24T07:56:26Z" changeset="9110029" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410879200" lat="-6.7942022" lon="39.2382607" version="1" timestamp="2011-08-24T07:56:26Z" changeset="9110029" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410879202" lat="-6.7942058" lon="39.2384942" version="1" timestamp="2011-08-24T07:56:26Z" changeset="9110029" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410879205" lat="-6.7942176" lon="39.2378493" version="1" timestamp="2011-08-24T07:56:26Z" changeset="9110029" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410879207" lat="-6.7943675" lon="39.2384868" version="1" timestamp="2011-08-24T07:56:26Z" changeset="9110029" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410879218" lat="-6.7950269" lon="39.2376702" version="1" timestamp="2011-08-24T07:56:27Z" changeset="9110029" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410879221" lat="-6.7952725" lon="39.2374347" version="1" timestamp="2011-08-24T07:56:27Z" changeset="9110029" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410930815" lat="-6.795161" lon="39.2365937" version="1" timestamp="2011-08-24T08:28:50Z" changeset="9110218" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410930817" lat="-6.7952576" lon="39.2366998" version="1" timestamp="2011-08-24T08:28:50Z" changeset="9110218" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410930818" lat="-6.795291" lon="39.2368024" version="1" timestamp="2011-08-24T08:28:50Z" changeset="9110218" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410930826" lat="-6.7953261" lon="39.2368679" version="1" timestamp="2011-08-24T08:28:50Z" changeset="9110218" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410930828" lat="-6.7954666" lon="39.236819" version="1" timestamp="2011-08-24T08:28:50Z" changeset="9110218" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410930829" lat="-6.7955317" lon="39.2363452" version="1" timestamp="2011-08-24T08:28:50Z" changeset="9110218" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410930830" lat="-6.7955465" lon="39.236719" version="1" timestamp="2011-08-24T08:28:50Z" changeset="9110218" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410930831" lat="-6.7955607" lon="39.2363555" version="1" timestamp="2011-08-24T08:28:50Z" changeset="9110218" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410930832" lat="-6.7955883" lon="39.2363873" version="1" timestamp="2011-08-24T08:28:51Z" changeset="9110218" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410930836" lat="-6.7956493" lon="39.2363833" version="1" timestamp="2011-08-24T08:28:51Z" changeset="9110218" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410930837" lat="-6.7957332" lon="39.236172" version="1" timestamp="2011-08-24T08:28:51Z" changeset="9110218" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410930839" lat="-6.795771" lon="39.2363146" version="1" timestamp="2011-08-24T08:28:51Z" changeset="9110218" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410930842" lat="-6.7958691" lon="39.2361656" version="1" timestamp="2011-08-24T08:28:51Z" changeset="9110218" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410930844" lat="-6.795973" lon="39.235643" version="1" timestamp="2011-08-24T08:28:51Z" changeset="9110218" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410930845" lat="-6.7969081" lon="39.2361757" version="1" timestamp="2011-08-24T08:28:51Z" changeset="9110218" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410930850" lat="-6.7969334" lon="39.236153" version="1" timestamp="2011-08-24T08:28:51Z" changeset="9110218" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410930851" lat="-6.7970022" lon="39.2364294" version="1" timestamp="2011-08-24T08:28:51Z" changeset="9110218" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410930852" lat="-6.797007" lon="39.2360662" version="1" timestamp="2011-08-24T08:28:51Z" changeset="9110218" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410930853" lat="-6.797014" lon="39.2379535" version="1" timestamp="2011-08-24T08:28:51Z" changeset="9110218" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410930855" lat="-6.7970634" lon="39.2359231" version="1" timestamp="2011-08-24T08:28:51Z" changeset="9110218" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410930857" lat="-6.7970683" lon="39.2358887" version="1" timestamp="2011-08-24T08:28:51Z" changeset="9110218" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410930863" lat="-6.7971385" lon="39.2378947" version="1" timestamp="2011-08-24T08:28:51Z" changeset="9110218" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410930866" lat="-6.797163" lon="39.238303" version="1" timestamp="2011-08-24T08:28:52Z" changeset="9110218" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="private"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1410930868" lat="-6.7971994" lon="39.2377733" version="1" timestamp="2011-08-24T08:28:52Z" changeset="9110218" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410930869" lat="-6.7972047" lon="39.2380469" version="1" timestamp="2011-08-24T08:28:52Z" changeset="9110218" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410930870" lat="-6.7972274" lon="39.2376877" version="1" timestamp="2011-08-24T08:28:52Z" changeset="9110218" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410930875" lat="-6.7972343" lon="39.2383275" version="1" timestamp="2011-08-24T08:28:52Z" changeset="9110218" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="private"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1410930878" lat="-6.7972372" lon="39.2381577" version="1" timestamp="2011-08-24T08:28:52Z" changeset="9110218" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410930880" lat="-6.7972637" lon="39.2374638" version="1" timestamp="2011-08-24T08:28:52Z" changeset="9110218" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410930881" lat="-6.7972878" lon="39.2380896" version="1" timestamp="2011-08-24T08:28:52Z" changeset="9110218" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410930883" lat="-6.7973236" lon="39.2371224" version="1" timestamp="2011-08-24T08:28:52Z" changeset="9110218" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410930888" lat="-6.7973694" lon="39.237126" version="1" timestamp="2011-08-24T08:28:52Z" changeset="9110218" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410930889" lat="-6.7973964" lon="39.2374244" version="1" timestamp="2011-08-24T08:28:52Z" changeset="9110218" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410930890" lat="-6.7974455" lon="39.2373613" version="1" timestamp="2011-08-24T08:28:52Z" changeset="9110218" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410939939" lat="-6.7948222" lon="39.2376691" version="1" timestamp="2011-08-24T08:34:30Z" changeset="9110265" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410939940" lat="-6.7949653" lon="39.2377543" version="1" timestamp="2011-08-24T08:34:30Z" changeset="9110265" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410939941" lat="-6.7949918" lon="39.2369107" version="1" timestamp="2011-08-24T08:34:30Z" changeset="9110265" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410939943" lat="-6.7950141" lon="39.2379236" version="1" timestamp="2011-08-24T08:34:30Z" changeset="9110265" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410939944" lat="-6.7950269" lon="39.2371787" version="1" timestamp="2011-08-24T08:34:30Z" changeset="9110265" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410939945" lat="-6.7950491" lon="39.2370431" version="1" timestamp="2011-08-24T08:34:30Z" changeset="9110265" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410939946" lat="-6.7950662" lon="39.2371729" version="1" timestamp="2011-08-24T08:34:30Z" changeset="9110265" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410939947" lat="-6.7950759" lon="39.2376316" version="1" timestamp="2011-08-24T08:34:30Z" changeset="9110265" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410939948" lat="-6.7951146" lon="39.237591" version="1" timestamp="2011-08-24T08:34:30Z" changeset="9110265" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410939949" lat="-6.7951304" lon="39.2379134" version="1" timestamp="2011-08-24T08:34:30Z" changeset="9110265" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410939952" lat="-6.7951356" lon="39.236781" version="1" timestamp="2011-08-24T08:34:31Z" changeset="9110265" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410939953" lat="-6.795172" lon="39.237545" version="1" timestamp="2011-08-24T08:34:31Z" changeset="9110265" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410939954" lat="-6.7952642" lon="39.2374595" version="1" timestamp="2011-08-24T08:34:31Z" changeset="9110265" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410939955" lat="-6.7952651" lon="39.2389852" version="1" timestamp="2011-08-24T08:34:31Z" changeset="9110265" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410939956" lat="-6.7952731" lon="39.237677" version="1" timestamp="2011-08-24T08:34:31Z" changeset="9110265" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410939957" lat="-6.795332" lon="39.2390891" version="1" timestamp="2011-08-24T08:34:31Z" changeset="9110265" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410939959" lat="-6.7953454" lon="39.2376557" version="1" timestamp="2011-08-24T08:34:31Z" changeset="9110265" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410939961" lat="-6.7954055" lon="39.2389835" version="1" timestamp="2011-08-24T08:34:31Z" changeset="9110265" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410939962" lat="-6.7954196" lon="39.2389721" version="1" timestamp="2011-08-24T08:34:31Z" changeset="9110265" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410939963" lat="-6.7954277" lon="39.2384683" version="1" timestamp="2011-08-24T08:34:31Z" changeset="9110265" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410939964" lat="-6.7954362" lon="39.2384308" version="1" timestamp="2011-08-24T08:34:31Z" changeset="9110265" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410939965" lat="-6.795475" lon="39.238475" version="1" timestamp="2011-08-24T08:34:31Z" changeset="9110265" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410939967" lat="-6.7955442" lon="39.2389637" version="1" timestamp="2011-08-24T08:34:31Z" changeset="9110265" uid="504964" user="jonston weston">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410944758" lat="-6.791673" lon="39.2390773" version="1" timestamp="2011-08-24T08:37:40Z" changeset="9110292" uid="506458" user="Jenipher">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410944760" lat="-6.7917216" lon="39.2391237" version="1" timestamp="2011-08-24T08:37:40Z" changeset="9110292" uid="506458" user="Jenipher">
+		<tag k="amenity" v="drinking_water"/>
+	</node>
+	<node id="1410944764" lat="-6.7919647" lon="39.2393266" version="1" timestamp="2011-08-24T08:37:40Z" changeset="9110292" uid="506458" user="Jenipher">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1410944765" lat="-6.7922215" lon="39.2392211" version="1" timestamp="2011-08-24T08:37:40Z" changeset="9110292" uid="506458" user="Jenipher">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1411287481" lat="-6.7906097" lon="39.245755" version="1" timestamp="2011-08-24T14:33:09Z" changeset="9113066" uid="22301" user="Mark Iliffe">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1411570124" lat="-6.7931597" lon="39.2469109" version="1" timestamp="2011-08-24T19:50:41Z" changeset="9115904" uid="22301" user="Mark Iliffe">
+		<tag k="amenity" v="toilets"/>
+		<tag k="fee" v="no"/>
+		<tag k="operator" v="Household"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="1411570137" lat="-6.7964766" lon="39.2487461" version="1" timestamp="2011-08-24T19:50:42Z" changeset="9115904" uid="22301" user="Mark Iliffe">
+		<tag k="amenity" v="toilets"/>
+		<tag k="operator" v="household"/>
+	</node>
+	<node id="1411570141" lat="-6.7964443" lon="39.2487996" version="1" timestamp="2011-08-24T19:50:42Z" changeset="9115904" uid="22301" user="Mark Iliffe">
+		<tag k="amenity" v="drinking_water"/>
+		<tag k="name" v="water pipe"/>
+	</node>
+	<node id="1412039112" lat="-6.7945336" lon="39.2408798" version="1" timestamp="2011-08-25T10:58:28Z" changeset="9120288" uid="22301" user="Mark Iliffe">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1412821115" lat="-6.7979051" lon="39.2404729" version="1" timestamp="2011-08-26T06:37:56Z" changeset="9126731" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1412821116" lat="-6.7979105" lon="39.2406037" version="1" timestamp="2011-08-26T06:37:57Z" changeset="9126731" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1412821118" lat="-6.7980442" lon="39.2406073" version="1" timestamp="2011-08-26T06:37:57Z" changeset="9126731" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1412821119" lat="-6.7981073" lon="39.2404648" version="1" timestamp="2011-08-26T06:37:57Z" changeset="9126731" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1412821494" lat="-6.7978672" lon="39.2406774" version="1" timestamp="2011-08-26T06:38:58Z" changeset="9126737" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1412821495" lat="-6.7978709" lon="39.2407227" version="1" timestamp="2011-08-26T06:38:58Z" changeset="9126737" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1412821496" lat="-6.7980713" lon="39.2407896" version="1" timestamp="2011-08-26T06:38:58Z" changeset="9126737" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1412821795" lat="-6.7976252" lon="39.240961" version="1" timestamp="2011-08-26T06:40:46Z" changeset="9126750" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1412821796" lat="-6.7977103" lon="39.241112" version="1" timestamp="2011-08-26T06:40:46Z" changeset="9126750" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1412821797" lat="-6.7977384" lon="39.2413551" version="1" timestamp="2011-08-26T06:40:46Z" changeset="9126750" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1412821798" lat="-6.7977428" lon="39.2411165" version="1" timestamp="2011-08-26T06:40:46Z" changeset="9126750" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1412821799" lat="-6.7978932" lon="39.2410428" version="1" timestamp="2011-08-26T06:40:46Z" changeset="9126750" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1412821902" lat="-6.7978542" lon="39.2415734" version="1" timestamp="2011-08-26T06:41:55Z" changeset="9126757" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1412822348" lat="-6.7974984" lon="39.2413299" version="1" timestamp="2011-08-26T06:44:38Z" changeset="9126770" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1412822350" lat="-6.7974988" lon="39.2413881" version="1" timestamp="2011-08-26T06:44:38Z" changeset="9126770" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1412822351" lat="-6.7975035" lon="39.2414553" version="1" timestamp="2011-08-26T06:44:38Z" changeset="9126770" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1412822352" lat="-6.7975342" lon="39.241071" version="1" timestamp="2011-08-26T06:44:38Z" changeset="9126770" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1412822353" lat="-6.7975836" lon="39.2416521" version="1" timestamp="2011-08-26T06:44:38Z" changeset="9126770" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1412822354" lat="-6.797672" lon="39.2403776" version="1" timestamp="2011-08-26T06:44:38Z" changeset="9126770" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1412822355" lat="-6.7977659" lon="39.240349" version="1" timestamp="2011-08-26T06:44:38Z" changeset="9126770" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1412822356" lat="-6.7977918" lon="39.2414094" version="1" timestamp="2011-08-26T06:44:38Z" changeset="9126770" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1412823777" lat="-6.7978098" lon="39.2395214" version="1" timestamp="2011-08-26T06:48:19Z" changeset="9126787" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1412823778" lat="-6.7978538" lon="39.2403408" version="1" timestamp="2011-08-26T06:48:19Z" changeset="9126787" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1412823780" lat="-6.7979706" lon="39.2400254" version="1" timestamp="2011-08-26T06:48:19Z" changeset="9126787" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1412823781" lat="-6.7980577" lon="39.2403802" version="1" timestamp="2011-08-26T06:48:19Z" changeset="9126787" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1412824935" lat="-6.7974281" lon="39.2392783" version="1" timestamp="2011-08-26T06:50:24Z" changeset="9126802" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1412824936" lat="-6.7974744" lon="39.2393526" version="1" timestamp="2011-08-26T06:50:24Z" changeset="9126802" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1412824937" lat="-6.7975813" lon="39.2392899" version="1" timestamp="2011-08-26T06:50:24Z" changeset="9126802" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1412826616" lat="-6.7973632" lon="39.2390953" version="1" timestamp="2011-08-26T06:54:48Z" changeset="9126834" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1412826617" lat="-6.7973685" lon="39.239097" version="1" timestamp="2011-08-26T06:54:48Z" changeset="9126834" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1412826618" lat="-6.7973832" lon="39.2391252" version="1" timestamp="2011-08-26T06:54:48Z" changeset="9126834" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1412826619" lat="-6.7974818" lon="39.2390725" version="1" timestamp="2011-08-26T06:54:48Z" changeset="9126834" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1412828365" lat="-6.7974174" lon="39.2388742" version="1" timestamp="2011-08-26T07:00:52Z" changeset="9126863" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1412828367" lat="-6.797429" lon="39.2389252" version="1" timestamp="2011-08-26T07:00:52Z" changeset="9126863" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1412828369" lat="-6.797438" lon="39.2394946" version="1" timestamp="2011-08-26T07:00:52Z" changeset="9126863" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1412828370" lat="-6.7975774" lon="39.2394683" version="1" timestamp="2011-08-26T07:00:52Z" changeset="9126863" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+	</node>
+	<node id="1412828371" lat="-6.7976087" lon="39.2394826" version="1" timestamp="2011-08-26T07:00:52Z" changeset="9126863" uid="261848" user="hassanow">
+		<tag k="amenity" v="toilets"/>
+		<tag k="shop" v="kiosk"/>
+	</node>
+</osm>

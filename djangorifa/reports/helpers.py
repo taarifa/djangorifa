@@ -1,0 +1,1 @@
+STATUS_CHOICES = ((1, 'Awaiting Verification'), (2, 'Unassigned'), (3, 'Assigned'), (4, 'Fixed'), (5, 'Dispute Resolution'))

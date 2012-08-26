@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% load sekizai_tags %}
+{% block title %}Make a report{% endblock %}
+{% block content %}{% addtoblock "css" %}{{ map.media.css }}{% endaddtoblock %}{% addtoblock "js_head" %}{{ map.media.js }}{% endaddtoblock %}
+{% addtoblock "js" %}<script src="/static/reports/js/add.js" type="text/javascript"></script>{% endaddtoblock %}
+<div id="report_map">{{ map }}</div>
+<div id="report_form"></div>
+{% endblock %}

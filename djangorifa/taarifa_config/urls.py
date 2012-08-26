@@ -10,7 +10,8 @@ def setup_wizard_perm(*args, **kwargs):
 
 urlpatterns = patterns('taarifa_config.views',
     url(r'^setupforthefirstime/',
-        SetupWizard.as_view([MapDataForm, SiteForm, TaarifaConfigForm]),
+        # SetupWizard.as_view([MapDataForm, SiteForm, TaarifaConfigForm]),
+        SetupWizard.as_view([MapDataForm]),
         name='setup',
     ),
 )
