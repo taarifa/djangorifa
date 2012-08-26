@@ -17,4 +17,9 @@ urlpatterns = patterns('',
 
     # Initial configuration
     url(r'^taarifa_config/', include('taarifa_config.urls', namespace='taarifa_config')),
+
+    # Reports
+    url(r'^$', 'reports.views.add'),
+    url(r'^reports/', include('reports.urls')),
+    url(r'^facilities/', include('facilities.urls')),
 )

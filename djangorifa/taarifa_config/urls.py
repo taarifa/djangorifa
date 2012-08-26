@@ -1,7 +1,7 @@
 from django.conf.urls import patterns, include, url
 from django.contrib.auth.decorators import permission_required
 from django.views.generic.simple import direct_to_template
-from taarifa_config.forms import SiteForm, TaarifaConfigForm
+from taarifa_config.forms import SiteForm, TaarifaConfigForm, MapDataForm
 from taarifa_config.views import SetupWizard
 
 @permission_required('taarifa_config.add_taarifaconfig')
@@ -10,7 +10,7 @@ def setup_wizard_perm(*args, **kwargs):
 
 urlpatterns = patterns('taarifa_config.views',
     url(r'^setupforthefirstime/',
-        SetupWizard.as_view([SiteForm, TaarifaConfigForm]),
+        SetupWizard.as_view([MapDataForm, SiteForm, TaarifaConfigForm]),
         name='setup',
     ),
 )

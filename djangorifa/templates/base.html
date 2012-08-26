@@ -16,7 +16,7 @@
     <link rel="shortcut icon" type="image/png" href="/static/img/favicon.png">
     {% addtoblock "css" %}<link rel="stylesheet" href="{% static "css/uni-form.css" %}" type="text/css" />{% endaddtoblock %}
     {% addtoblock "css" %}<link rel="stylesheet" href="{% static "css/purple.uni-form.css" %}" type="text/css" />{% endaddtoblock %}
-    {% addtoblock "js" %}<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>{% endaddtoblock %}
+    {% addtoblock "js_head" %}<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>{% endaddtoblock %}
     {% render_block "css" %}
     {% render_block "js_head" %}
 
@@ -67,7 +67,6 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     {% addtoblock "js" %}<script src="{% static "js/csrf.js" %}" type="text/javascript"></script>{% endaddtoblock %}
-    {% addtoblock "js" %}<script src="{% static "uni_form/uni-form.jquery.js" %}" type="text/javascript"></script>{% endaddtoblock %}
     {% render_block "js" %}
   </body>
 </html>

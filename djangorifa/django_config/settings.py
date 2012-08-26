@@ -156,10 +156,9 @@ INSTALLED_APPS = (
     'theme.admin',
     'taarifa_config',
     'users',
-    #'reports',
-    #'facilities',
+    'reports',
+    'facilities',
     #'auctions',
-    #'report',
 )
 
 TEMPLATE_CONTEXT_PROCESSORS = (
