@@ -19,7 +19,7 @@ DATABASES = {
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
         'NAME': 'djangorifa',
         'USER': 'djangorifa',
-        'PASSWORD': 'change',
+        'PASSWORD': 'facebook',
         'HOST': 'localhost',
         'PORT': '',
     }
