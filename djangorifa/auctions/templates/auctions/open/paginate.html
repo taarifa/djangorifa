@@ -1,0 +1,28 @@
+{% load add_get_param %}
+
+{% if fac_issues %}
+<div class="pagination"><span class="step-links">
+    {% if fac_issues.has_previous %}<a href="{% add_get page=fac_issues.previous_page_number %}">previous</a>{% endif %}
+    <span class="current">Page {{ fac_issues.number }} of {{ fac_issues.paginator.num_pages }}.</span>
+    {% if fac_issues.has_next %}<a href="{% add_get page=fac_issues.next_page_number %}">next</a>{% endif %}
+</span></div>
+
+<table>
+    <tr>
+        <th><a href="{% add_get o="facility" %}">Facility</a></th>
+        <th><a href="{% add_get o="content_type" %}">Job</a></th>
+        <th><a href="{% add_get o="cost" %}">Price</a></th>
+        <th>Bid</th>
+    </tr>
+    {% for f in fac_issues %}
+    <tr>
+        <td>{{ f.facility }}</td>
+        <td>{{ f }}</td>
+        <td>{{ f.cost }}</td>
+        <td>{% include "auctions/open/bid.html" %}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% else %}
+There are currently no jobs on offer. Please try again later.
+{% endif %}

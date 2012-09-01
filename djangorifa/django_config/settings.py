@@ -158,7 +158,7 @@ INSTALLED_APPS = (
     'users',
     'reports',
     'facilities',
-    #'auctions',
+    'auctions',
 )
 
 TEMPLATE_CONTEXT_PROCESSORS = (

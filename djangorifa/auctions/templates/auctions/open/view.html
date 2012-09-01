@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block css %}<link rel="stylesheet" href="{% static "auctions/css/open.css" %}" >{{ map.media }}{% endblock %}
+{% block title %}Jobs{% endblock %}
+{% block content %}
+{% load crispy_forms_tags %}
+<script>
+  $(function(){
+    //$('form.uniForm').uniform();
+  });
+</script>
+<div class="hero-unit clearfix">{% crispy filterset.form %}<div id="map">{{ map }}</div>{% include "auctions/open/paginate.html" %}</div>
+{% endblock %}
