@@ -1,7 +1,6 @@
 from django.contrib.gis.db import models
 from django.contrib.sites.models import Site
 from django.contrib.gis.geos import Point
-from django.contrib.gis.admin.options import OSMGeoAdmin
 
 class TaarifaConfigManager(models.GeoManager):
     def get_current(self):
@@ -31,8 +30,7 @@ class TaarifaConfig(models.Model):
     def get_center(self):
         # Returns transformed points
         try: return self.bounds.centroid
-        except: return Point(OSMGeoAdmin.default_lon, OSMGeoAdmin.default_lat)
-
+        except: return Point(0, 0)
     def get_options(self):
         default_lon, default_lat = self.get_center().coords
         return {

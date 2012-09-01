@@ -127,3 +127,9 @@ Yeah. Change OS.
 .. _django-crispy-forms: https://github.com/maraujop/django-crispy-forms/
 .. _django-generic-m2m: https://github.com/coleifer/django-generic-m2m
 .. _django-sendsms: https://github.com/stefanfoulis/django-sendsms
+
+
+###########
+Known IssueS
+############
+It might be that when running the second install script, there is a complaint when creating a superuser to do with decoding. When Django doesn't know what the locale is, it throws a hissy. This is a known bug: https://code.djangoproject.com/ticket/16017. Simply export the locale and run the second script again: export LC_ALL="en_US.UTF-8".
