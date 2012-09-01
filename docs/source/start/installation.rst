@@ -34,11 +34,12 @@ Requirements
 
 All Systems
 ===========
-The installation script assumes you are working in a virtualenv. Therefore, create a virtualenv. Change directories to the virtualenv and clone this repo.
 
-The Django settings file can be found at djangorifa/config/settings.py. At the top of this file is a python dictionary with database settings. In the password field it says 'change'. It is recommended you do as the settings say and change the string written there. There is no need to do anything else for installation - the automatic installation script will take care of setting up the database and everything else. Please see below for specific installation instructions for your platform.
+The installation script assumes you are working in a virtualenv. Therefore, create a virtualenv.
 
-Install `RabbitMQ`_.
+Please see below for specific installation instructions for your platform.
+
+TODO: what functionality is RabbitMQ needed for?
 
 On Ubuntu
 =========
@@ -51,51 +52,60 @@ This installation assumes you have already installed postgresql and postgis. For
   $ sudo pip install virtualenv
   $ sudo apt-get install virtualenvwrapper
 
-  # Once virtualenvwrapper is installed, you need to export some variables
-  # Change Envs to whatever you like.
+If you install virtualenvwrapper via pip you need to export some variables (see details here http://virtualenvwrapper.readthedocs.org/). However, if you used apt (as above) this is not necessary. Once virtualenvwrapper is installed, starting a new bash shell (or logging in and logging out again) should create the necessary wrapper scripts. So note this will not be triggered if you use a different shell like zsh.
+
+.. code-block:: bash
+
+  # Change Envs to whatever you like, the default is ~/.virtualenvs
   $ export WORKON_HOME=~/Envs
   $ source /usr/local/bin/virtualenvwrapper.sh
 
-  $ cd /path/to/djangorifa
+  # navigate to the directory where you'll checkout djangorifa
+  $ cd /my/git/projects
+  # create the virtualenv and clone the repo
   $ mkvirtualenv --no-site-packages djangorifa
-  $ cd djangorifa
   $ git clone https://github.com/cazcazn/djangorifa.git
   $ cd djangorifa
+
+  # now edit the django settings file
   $ vim djangorifa/django_config/settings.py
 
-  # Change the password in the database settings, and also change the SECRET_KEY. Exit vim.
-  $ sudo su - postgres
-  $ cd /path/to/repo
+  # Change the database password from facebook to whatever you want to use
+  # also change the SECRET_KEY. Exit vim.
+
+The source comes with a database installation script. This script will create the template_postgis template if it doesn't already exist and a postgresql user (or role) called djangorifa.
+Once the user is created, a database will be created also named djangorifa.
+
+The script does no checking for whether or not the version of PostGIS is correct (>= 1.5), so run incorrectly at your peril.
+
+.. code-block:: bash
+
+  # To run it first change to the postgres user. Make sure you have installed postgis before doing this!
+  # The script will prompt you for a password, use whatever you put in the settings.py file.
   $ chmod 777 install_database.sh
+  $ sudo su - postgres
+  $ cd /my/git/projects/djangorifa
+  $ ./install_database.sh
   $ exit
 
-  $ cd /path/to/repo
+  # go back the respository directory
+  $ cd /my/git/projects/djangorifa
+
+There is also an install_django_stuff.sh script (TODO: this should be replaced by the standard setup.py script eventually). The script will use pip to pull in all the necessary python package dependencies and this will take a while. If you installed all the required dependencies via apt (see above) this should finish without error.
+
+The script then initializes the django database and any migrations. This will prompt for an admin username and password for administrative control of the website. Pick whatever you like.
+
+.. code-block:: bash
+
+  # run the install_django_stuff script
   $ chmod 777 install_django_stuff.sh
   $ ./install_django_stuff.sh
-  $ input password same as for settings above
-  # Wait.
 
+  # if that finishes without error, start the django server
+  $ python djangorifa/manage.py runserver
 
-There is a script in djangorifa called install_djangorifa.sh. This script will create the template_postgis template if it doesn't already exist and a postgresql user (or role) called djangorifa. The script will prompt you to enter a password for the role and to confirm it. The password you enter **must** be the same as the database password in the settings file, or the installation will fail.
+Then open a browser at 127.0.0.1:8000 and run through the setup. In the second step select a polygon around Tanzania and in the 3rd step upload the tandale.osm file from the taarifa_config directory.
 
-Once the user is created, a database will be created also named djangorifa. The script will then use the pip script at djangorifa/bin/python to install django-celery and psycopg2. These are not included in the virtualenv because they require compilation. The script will then use djangorifa/bin/python to syncdb --all (django command) and then migrate --fake (south command) to set up the database. This will prompt for an admin username and password for administrative control of the website.
-
-Before running this script, ensure you are logged in as a user with full database control. The default method for this is:
-
-.. code-block:: bash
-
-  $ sudo su - postgres
-
-The script assumes a PostGIS version installed of 1.5 if this is different, when running the script you can optionally specify which version number. To run the script:
-
-.. code-block:: bash
-
-  $ chmod 777 install_djangorifa.sh
-  $ ./install_djangorifa.sh [1.5]
-
-The script does no checking for whether or not the version of PostGIS is correct, so run incorrectly at your peril.
-
-The default database and username for postgresql can be changed. They are variables at the top of the script (DATABASE_NAME and DATABASE_USER).
 
 On Mac
 ======
@@ -133,3 +143,5 @@ Yeah. Change OS.
 Known IssueS
 ############
 It might be that when running the second install script, there is a complaint when creating a superuser to do with decoding. When Django doesn't know what the locale is, it throws a hissy. This is a known bug: https://code.djangoproject.com/ticket/16017. Simply export the locale and run the second script again: export LC_ALL="en_US.UTF-8".
+
+If you have problems with PostGIS not being available or something similar, see http://stackoverflow.com/questions/8459361/postgis-install
