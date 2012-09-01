@@ -1,4 +1,4 @@
-# Django settings for taarifa project.
+
 import os, sys
 import djcelery
 djcelery.setup_loader()
@@ -241,9 +241,9 @@ AUTH_PROFILE_MODULE = 'users.UserProfile'
 
 # Email settings
 EMAIL_USE_TLS = True
-EMAIL_HOST = ''
-EMAIL_HOST_USER = ''
-EMAIL_HOST_PASSWORD = ''
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'taarifadev@gmail.com'
+EMAIL_HOST_PASSWORD = 'hackathon'
 EMAIL_PORT = 587
 
 # Celery / RabbitMQ settings
