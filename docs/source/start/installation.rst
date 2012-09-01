@@ -35,11 +35,11 @@ Requirements
 All Systems
 ===========
 
+When emails and SMS messages are sent, it will take too much server resource and not have enough feedback to send as soon as the user requests. All mails and SMSs are therefore placed in a queue and that queue sends mail in bulk. Celery and RabbitMQ are used for this. Therefore install both.
+
 The installation script assumes you are working in a virtualenv. Therefore, create a virtualenv.
 
 Please see below for specific installation instructions for your platform.
-
-TODO: what functionality is RabbitMQ needed for?
 
 On Ubuntu
 =========
