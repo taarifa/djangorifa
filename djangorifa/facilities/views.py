@@ -1,16 +1,11 @@
-from django.contrib.auth.decorators import login_required, user_passes_test
+from django.contrib.auth.decorators import permission_required
 from django.core.urlresolvers import reverse
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render
 from facilities.forms import FacilityReportForm
 from facilities.models import Facility
 
-''' Determines whether or not someone is a worker, and is therefore not allowed to report '''
-def is_not_worker(user):
-    if user: return not user.groups.filter(name="Worker").count()
-    return True
-
-#@user_passes_test(is_not_worker)
+@permission_required('reports.can_add')
 def new_report(request, pk):
     template = "facilities/report.html"
     if request.method == "POST":
