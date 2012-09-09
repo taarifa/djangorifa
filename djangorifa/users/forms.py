@@ -1,9 +1,12 @@
+import datetime
+
 from crispy_forms.helper import FormHelper
 from crispy_forms.layout import Submit
 from django import forms
-from django.utils.translation import ugettext_lazy as _
-from users.models import UserProfile
 from django.contrib.auth.models import User
+from django.utils.translation import ugettext_lazy as _
+from django_config.widgets import SelectDateWidget
+from users.models import UserProfile
 
 class UserEditProfileForm(forms.ModelForm):
     first_name = forms.CharField(label=_(u'First Name'), max_length=30)
@@ -13,17 +16,31 @@ class UserEditProfileForm(forms.ModelForm):
     def __init__(self, *args, **kwargs):
         # Set to use crispy forms
         self.helper = FormHelper()
-        self.helper.form_id = "id-users-create-form"
-        self.helper.form_method = 'post'
-        self.helper.add_input(Submit('submit', 'Create'))
+        being_created = kwargs.pop('being_created')
+        if being_created:
+            self.helper.form_tag = False
+
+        else:
+            self.helper.form_id = "id-users-create-form"
+            self.helper.form_method = 'post'
+            self.helper.add_input(Submit('submit', 'Create'))
 
         # Initialise
         super(UserEditProfileForm, self).__init__(*args, **kwargs)
 
         # Add fields defined on user object
-        self.fields['first_name'].initial = self.instance.user.first_name
-        self.fields['last_name'].initial = self.instance.user.last_name
+        if not being_created:
+            self.fields['first_name'].initial = self.instance.user.first_name
+            self.fields['last_name'].initial = self.instance.user.last_name
+
+        # There should always be a user email
+        print "moo"
         self.fields['email'].initial = self.instance.user.email
+
+        # Allow dob from 120 years ago - this may need changing when cryogenics takes off
+        this_year = datetime.date.today().year
+        years = range(this_year - 120, this_year)
+        self.fields['dob'].widget = SelectDateWidget(years=years)
 
         # Put the user defined fields first key order
         ko = self.fields.keyOrder[-3:]

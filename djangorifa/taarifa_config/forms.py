@@ -8,6 +8,7 @@ from django.utils.translation import ugettext_lazy as _
 from olwidget.widgets import EditableMap
 from taarifa_config.helpers import parse
 from taarifa_config.models import TaarifaConfig
+from users.forms import UserEditProfileForm
 
 class SiteForm(forms.ModelForm):
     def __init__(self, *args, **kwargs):
@@ -22,19 +23,10 @@ class TaarifaConfigForm(forms.ModelForm):
     def __init__(self, *args, **kwargs):
         self.helper = FormHelper()
         self.helper.form_tag = False
+        # If a config already exists, populate it
+
         super(TaarifaConfigForm, self).__init__(*args, **kwargs)
         self.fields['site'].empty_label = None
-
-    def save(self, *args, **kwargs):
-        # Check to see if a foreign key for the site already exists
-        print self.instance.site
-        if self.instance.site:
-            # If it does, set this instance foreign key
-            try:
-                t = TaarifaConfig.objects.get(site=site)
-                self.instance.pk = t.pk
-            except: pass
-        super(TaarifaConfigForm, self).save(*args, **kwargs)
 
     class Meta:
         model = TaarifaConfig
@@ -82,3 +74,9 @@ class MapDataForm(forms.Form):
             raise forms.ValidationError("File extension must be of type %s" % ", ".join(self.extensions))
 
         return file
+
+class UserCreateProfileForm(UserEditProfileForm):
+    def __init__(self, *args, **kwargs):
+        kwargs.update({'being_created': True})
+        # Get the user profile for the current user
+        super(UserCreateProfileForm, self).__init__(*args, **kwargs)

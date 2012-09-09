@@ -50,15 +50,30 @@ class TaarifaConfigMiddlewareTestCase(TestCase):
         config_url = '/taarifa_config/setupforthefirstime/'
         polygon = 'POLYGON ((0.0000000000000000 0.0000000000000000, 0.0000000000000000 50.0000000000000000, 50.0000000000000000 50.0000000000000000, 50.0000000000000000 0.0000000000000000, 0.0000000000000000 0.0000000000000000))'
         form_data = ({
-                '0-domain':'moo.com',
-                '0-name':'moo',
+                '0-first_name': 'Moo',
+                '0-last_name': 'Mooeena',
+                '0-email': 'moo@moo.com',
+                '0-sex': 'F',
+                '0-dob_day': 1,
+                '0-dob_month': 1,
+                '0-dob_year': 1990,
                 'setup_wizard-current_step': '0',
             },
             {
-                '1-site': 1,
-                '1-bounds': polygon,
+                '1-domain':'moo.com',
+                '1-name':'moo',
                 'setup_wizard-current_step': '1',
-            })
+            },
+            {
+                '2-site': 1,
+                '2-bounds': polygon,
+                'setup_wizard-current_step': '2',
+            },
+            """
+            {
+                '3-
+            """
+        )
 
         # Login as user who can redirect
         self.client.post('/accounts/login/', {'username': 'caz', 'password': 'caz'})
@@ -75,6 +90,8 @@ class TaarifaConfigMiddlewareTestCase(TestCase):
         # Assert site is example.com - Django default
         site = Site.objects.get(pk=1)
         self.assertEqual(site.domain, "example.com", "Site is: %s." % site.domain)
+
+        # Post the details for user profile
 
         # Post the details for step 0 and assert site changed
         r = self.client.get(config_url)
