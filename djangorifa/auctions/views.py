@@ -28,16 +28,16 @@ def is_creator(view_func):
         return access_denied(request)
     return decorator
 
-@is_creator
+# @is_creator
 def view_jobs(request, user_id):
     return render(request, "auctions/user_jobs.html")
 
-@user_passes_test(is_worker, login_url="auctions/access_denied.html")
+# @user_passes_test(is_worker, login_url="auctions/access_denied.html")
 def view_auction(request):
     config = TaarifaConfig.objects.get_current()
 
     # If the auctions is currently not in use, return a 404
-    if not config.use_auction: raise Http404
+    # if not config.use_auction: raise Http404
 
     # Determine which module to import, according to the auction type
     import_string = "auctions.%s.views" % config.auctionconfig.auction_type

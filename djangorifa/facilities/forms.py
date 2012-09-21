@@ -30,7 +30,7 @@ class FacilityForm(forms.ModelForm):
     # Ensure that the facility is within the confines of the area
     def clean_location(self, *args, **kwargs):
         location = self.cleaned_data.get('location')
-        bounds = TaarifaConfig.objects.get_current().bounding_points
+        bounds = TaarifaConfig.objects.get_current().bounds
         if not location[0].within(bounds):
             raise forms.ValidationError("Facility not within bounds")
         return location
