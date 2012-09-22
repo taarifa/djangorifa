@@ -12,6 +12,7 @@ Requirements
 * `libjpeg`
 * `postgresql`_ 9.1.4
 * `postgis`_ 1.5.3
+* `pytz`_
 * `RabbitMQ`_ 2.5.0
 * `psycopg2`_ 2.4.5
 * `Django`_ 1.4

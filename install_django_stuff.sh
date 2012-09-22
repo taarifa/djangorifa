@@ -3,6 +3,7 @@ pip install psycopg2
 pip install pillow
 pip install django-celery
 pip install kombu==2.4.3
+pip install pytz
 pip install django-admin-tools
 pip install South
 pip install django-mailer
