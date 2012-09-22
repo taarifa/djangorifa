@@ -21,6 +21,7 @@ Requirements
 * `django-sekizai`_ 0.6.1
 * `Celery`_ 3.0.5
 * `django-celery`_ 3.0.4
+* `kombu`_ 2.4.3
 * `django-mailer`_ 0.1.0
 * `django-registration`_ 0.8.0
 * `django-extensions`_ 0.9
@@ -35,7 +36,7 @@ Requirements
 All Systems
 ===========
 
-When emails and SMS messages are sent, it will take too much server resource and not have enough feedback to send as soon as the user requests. All mails and SMSs are therefore placed in a queue and that queue sends mail in bulk. Celery and RabbitMQ are used for this. Therefore install both.
+When emails and SMS messages are sent, it will take too much server resource and not have enough feedback to send as soon as the user requests. All mails and SMSs are therefore placed in a queue and that queue sends mail in bulk. Celery and RabbitMQ are used for this. If Kombu is *not* version 2.4.3, when starting the Celery server, the error "No such transport: amqp" will occur.
 
 The installation script assumes you are working in a virtualenv. Therefore, create a virtualenv.
 
