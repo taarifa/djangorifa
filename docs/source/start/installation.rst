@@ -159,6 +159,18 @@ where myuser, mypassword and myvhost are your choice. Update these in the django
 
 If this returns no red error messages, you're sorted!
 
+To daemonize celery, you need to download the daemon from https://raw.github.com/celery/celery/master/extra/generic-init.d/celeryd and save to /etc/init.d/celeryd. A config file can be found in the examples section of the repo. Copy this to /etc/default/celeryd.
+
+.. code-block:: bash
+
+  $ sudo useradd celery
+  $ mkdir /var/log/celery
+  $ mkdir /var/run/celery
+  $ sudo chown celery:celery /var/log/celery
+  $ sudo chown celery:celery /var/run/celery
+  $ sudo chmod +x /etc/init.d/celeryd
+  $ sudo /etc/init.d/celeryd start
+
 ###########
 Known IssueS
 ############
