@@ -1,6 +1,7 @@
 import os, shutil, tempfile
 
 from django.conf import settings
+from django.contrib.auth.decorators import login_required
 from django.contrib.formtools.wizard.views import SessionWizardView
 from django.contrib.sites.models import Site
 from django.core.files.storage import FileSystemStorage
@@ -47,14 +48,13 @@ class SetupWizard(SessionWizardView):
             return current_form.template_name
         return self.template_name
 
+@login_required
 def setup(request):
     instances = {}
 
-    # If the current user already has a profile, grab it
-    try:
-        user_profile = UserProfile.objects.get(user=request.user)
-        instances.update({'0': user_profile})
-    except: pass
+    # If the current user already has a profile, grab it, or create
+    user_profile, created = UserProfile.objects.get_or_create(user=request.user)
+    instances.update({'0': user_profile})
 
     # Get the current site
     instances.update({'1': Site.objects.get_current()})

@@ -34,7 +34,6 @@ class UserEditProfileForm(forms.ModelForm):
             self.fields['last_name'].initial = self.instance.user.last_name
 
         # There should always be a user email
-        print "moo"
         self.fields['email'].initial = self.instance.user.email
 
         # Allow dob from 120 years ago - this may need changing when cryogenics takes off

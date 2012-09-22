@@ -40,7 +40,9 @@ def view_auction(request):
     # if not config.use_auction: raise Http404
 
     # Determine which module to import, according to the auction type
-    import_string = "auctions.%s.views" % config.auctionconfig.auction_type
+    try: auction_type = config.auctionconfig.auction_type
+    except: auction_type = "open"
+    import_string = "auctions.%s.views" % auction_type
 
     # If there is a post thingy happening, process with the correct auction type
     if request.method == "POST":
