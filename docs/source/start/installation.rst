@@ -40,7 +40,7 @@ When emails and SMS messages are sent, it will take too much server resource and
 
 The installation script assumes you are working in a virtualenv. Therefore, create a virtualenv.
 
-Please see below for specific installation instructions for your platform.
+Please see below for specific installation instructions for your platform, and then see the instructions for RabbitMQ.
 
 On Ubuntu
 =========
@@ -139,6 +139,25 @@ Yeah. Change OS.
 .. _django-generic-m2m: https://github.com/coleifer/django-generic-m2m
 .. _django-sendsms: https://github.com/stefanfoulis/django-sendsms
 
+########
+RabbitMQ
+########
+
+Once RabbitMQ and Celery are installed, issue the following commands:
+
+.. code-block:: bash
+
+  $ rabbitmqctl add_user myuser mypassword
+  $ rabbitmqctl add_vhost myvhost
+  $ rabbitmqctl set_permissions -p myvhost myuser ".*" ".*" ".*"
+
+where myuser, mypassword and myvhost are your choice. Update these in the django_config/settings file as BROKER_VHOST, BROKER_USER and BROKER_PASSWORD respectively. To test this works:
+
+.. code-block:: bash
+
+  $ python manage.py celeryd -l INFO
+
+If this returns no red error messages, you're sorted!
 
 ###########
 Known IssueS
