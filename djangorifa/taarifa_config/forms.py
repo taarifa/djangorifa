@@ -5,9 +5,11 @@ from django import forms
 from django.contrib.sites.models import Site
 from django.core.files.uploadedfile import UploadedFile
 from django.utils.translation import ugettext_lazy as _
+from djcelery.models import PeriodicTask
 from olwidget.widgets import EditableMap
 from taarifa_config.helpers import parse
 from taarifa_config.models import TaarifaConfig
+from taarifa_config.tasks import sync_osm
 from users.forms import UserEditProfileForm
 
 class SiteForm(forms.ModelForm):
@@ -23,10 +25,22 @@ class TaarifaConfigForm(forms.ModelForm):
     def __init__(self, *args, **kwargs):
         self.helper = FormHelper()
         self.helper.form_tag = False
-        # If a config already exists, populate it
-
         super(TaarifaConfigForm, self).__init__(*args, **kwargs)
         self.fields['site'].empty_label = None
+
+    # When the bounds change, need to redownload data from openstreetmap
+    def save(self, *args, **kwargs):
+        instance = super(TaarifaConfigForm, self).save(*args, **kwargs)
+
+        # Add the celery task thing if sync is true
+        if instance.sync_with_osm:
+            p = PeriodicTask.objects.filter(name="do-stuff").update(enabled=True)
+        # Otherwise don't
+        else:
+            p = PeriodicTask.objects.filter(name="do-stuff").update(enabled=False)
+
+        # Call the celery thing as an initial run
+        sync_osm()
 
     class Meta:
         model = TaarifaConfig

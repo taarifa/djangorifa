@@ -15,6 +15,7 @@ class TaarifaConfigManager(models.GeoManager):
 class TaarifaConfig(models.Model):
     site = models.OneToOneField(Site)
     bounds = models.PolygonField()
+    sync_with_osm = models.BooleanField()
 
     objects = TaarifaConfigManager()
 

@@ -1,4 +1,3 @@
-
 import os, sys
 import djcelery
 djcelery.setup_loader()
@@ -213,7 +212,6 @@ GEOIP_PATH = os.path.join(SITE_ROOT, 'geo/')
 # For testing
 TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
 if 'test' in sys.argv:
-    print "moo"
     # Setup the test database with a user with permissions
     DATABASES['default'] = {
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
@@ -229,10 +227,20 @@ SOUTH_TESTS_MIGRATE = False
 
 # Send the report mails every 5 minutes
 from datetime import timedelta
+# CELERYBEAT_SCHEDULE = {
+#     "send-mail": {
+#         "task": "reports.tasks.mail",
+#         "schedule": timedelta(minutes=5),
+#     },
+# }
+
+# Create a schedule - this can be enabled / disabled, but is
+# for map syncing.
+from celery.schedules import crontab
 CELERYBEAT_SCHEDULE = {
-    "send-mail": {
-        "task": "reports.tasks.mail",
-        "schedule": timedelta(minutes=5),
+    "do-stuff": {
+        "task": "taarifa_config.tasks.sync_osm",
+        'schedule': crontab(),
     },
 }
 
@@ -250,6 +258,7 @@ EMAIL_PORT = 587
 BROKER_HOST = "localhost"
 BROKER_PORT = 5672
 BROKER_VHOST = "vhost"
-BROKER_USER = ""
-BROKER_PASSWORD = ""
+BROKER_USER = "caz"
+BROKER_PASSWORD = "caz"
 CELERYBEAT_SCHEDULER = "djcelery.schedulers.DatabaseScheduler"
+CELERY_ALWAYS_EAGER = True

@@ -1,5 +1,6 @@
 import os, shutil, tempfile
 
+from djcelery.models import IntervalSchedule, PeriodicTask
 from django.conf import settings
 from django.contrib.auth.decorators import login_required
 from django.contrib.formtools.wizard.views import SessionWizardView
@@ -65,5 +66,15 @@ def setup(request):
         instances.update({'2': taarifa_config})
     except: pass
 
-    sw = SetupWizard.as_view([UserCreateProfileForm, SiteForm, TaarifaConfigForm, MapDataForm], instance_dict=instances)
+    # Because there's a possibility we're going to be using Celery,
+    # need to create some intervals and schedule - these will be editable by an admin
+    interval, created = IntervalSchedule.objects.get_or_create(every=5, period="minutes")
+    task, created = PeriodicTask.objects.get_or_create(task="taarifa_config.tasks.sync_osm")
+    if created:
+        task.name = "Sync OSM"
+        task.interval = interval
+        task.save()
+
+    sw = SetupWizard.as_view([TaarifaConfigForm,], instance_dict={'0': TaarifaConfig.objects.get(pk=1)})
+    # sw = SetupWizard.as_view([UserCreateProfileForm, SiteForm, TaarifaConfigForm, MapDataForm], instance_dict=instances)
     return sw(request)

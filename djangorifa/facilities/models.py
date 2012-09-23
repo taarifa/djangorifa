@@ -19,6 +19,7 @@ class Facility(models.Model):
     name = models.CharField(max_length=255, help_text='If the facility has a specific name', blank=True, null=True)
     description = models.TextField(blank=True)
     location = models.PointField(unique=True)
+    is_synced = models.BooleanField()
 
     # Important - it deals with the location stuff
     objects = GeoManager()
