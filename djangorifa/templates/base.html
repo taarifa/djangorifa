@@ -35,9 +35,6 @@
           <div class="nav-collapse">
             <ul class="nav">
               <li{% ifequal request.get_full_path "/" %} class="active"{% endifequal %}><a href="/">Home</a></li>
-              {% if perms.auctions.add_bid %}
-              <li{% ifequal request.get_full_path "/jobs/" %} class="active"{% endifequal %}><a href="/jobs/">Jobs</a></li>
-              {% endif %}
               <li{% ifequal request.get_full_path "/about/" %} class="active"{% endifequal %}><a href="/about/">About</a></li>
               <li{% ifequal request.get_full_path "/contact/" %} class="active"{% endifequal %}><a href="/contact/">Contact</a></li>
               {% if request.user.pk %}

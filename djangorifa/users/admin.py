@@ -13,14 +13,10 @@ class TaarifaUserAdmin(UserAdmin):
 
     def __init__(self, *args, **kwargs):
         super(TaarifaUserAdmin, self).__init__(*args, **kwargs)
-        self.list_display = self.list_display + ('is_active', 'is_worker', 'activation_key_expired')
+        self.list_display = self.list_display + ('is_active', 'activation_key_expired')
         self.list_editable = self.list_editable + ('is_active',)
         self.raw_id_fields = ['user']
         search_fields = ('user__username', 'user__first_name', 'user__last_name')
-
-    def is_worker(self, obj):
-        return obj.get_profile().is_worker()
-    is_worker.boolean = True
 
     def activation_key_expired(self, obj):
         return RegistrationProfile.objects.get(user=obj).activation_key_expired()

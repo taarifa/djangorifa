@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from facilities.models import Facility
 from olwidget.widgets import Map, InfoLayer
+from reports.helpers import get_reported_issues
 from taarifa_config.models import TaarifaConfig
 from django.http import HttpResponse
 from django.utils.encoding import force_unicode
@@ -64,3 +65,20 @@ def coords(request):
         context = {'lat': request.POST.get('lat'), 'lon': request.POST.get('lon')}
         print context
     return render(request, "reports/mobile/report.html", context)
+
+
+def reported_issues(request):
+    config = TaarifaConfig.objects.get_current()
+    issues = []
+
+    # Get all subclasses of ReportedIssue and create a list
+    for issue in get_reported_issues():
+        issues.append(issue.objects.all())
+
+    num_per_page = request.GET.get('num', 25) # Default to 25 reports per page
+
+    # Need to write a custom filter / paginator which works across multiple models
+
+    # Need to create a map to display
+
+    return render(request, "reports/issues.html", {'issues': issues})

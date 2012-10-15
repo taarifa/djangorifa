@@ -5,6 +5,7 @@ urlpatterns = patterns('django.views.generic.simple',
 )
 
 urlpatterns += patterns('reports.views',
+    url(r'^$', 'reported_issues'),
     url(r'^coords/$', 'coords'),
     #url(r'^(?P<uid>\d+)/report/(?P<rid>\d+)$', 'user'),
     #url(r'^(?P<uid>\d+)/report/(?P<rid>\d+)$', 'user')

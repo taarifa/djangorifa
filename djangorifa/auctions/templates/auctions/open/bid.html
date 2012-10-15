@@ -1,1 +1,0 @@
-<form method="POST" action="{{ request.get_full_path }}">{% csrf_token %}{% if not f.locked %}<input name="name-bid-{{ f.pk }}" type="submit" value="Bid!" />{% endif %}</form>

@@ -39,9 +39,6 @@ class TaarifaConfigForm(forms.ModelForm):
         else:
             p = PeriodicTask.objects.filter(name="do-stuff").update(enabled=False)
 
-        # Call the celery thing as an initial run
-        sync_osm()
-
     class Meta:
         model = TaarifaConfig
         widgets = {

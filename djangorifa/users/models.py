@@ -1,4 +1,4 @@
-from django.contrib.auth.models import User
+from django.contrib.auth.models import Group, User
 from django.db import models
 from registration.signals import user_registered
 
@@ -9,18 +9,11 @@ class UserProfile(models.Model):
     dob = models.DateField('Date of Birth', blank=True, null=True)
     picture = models.ImageField('Profile Picture', upload_to='profile_picture', blank=True)
 
-    def is_worker(self):
-        return hasattr(self, 'workerprofile')
-
-class WorkerProfile(UserProfile):
-    deposit = models.DecimalField(decimal_places=2, max_digits=9, default=0)
-
+# When creating a user, add them to citizen group
 def create_user_profile(sender, user, request, **kwargs):
-    # If they are applying to be a worker, create the correct profile
-    worker = request.POST.get('worker')
-    if worker:
-        WorkerProfile.objects.create(user=user)
-    else:
-        UserProfile.objects.create(user=user)
+    UserProfile.objects.create(user=user)
+    group = Group.objects.get(name="Citizen")
+    user.groups.add(group)
+    user.save()
 
 user_registered.connect(create_user_profile)

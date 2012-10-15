@@ -27,7 +27,7 @@ class ReportedIssue(models.Model):
     status = models.PositiveIntegerField(max_length=1, choices=STATUS_CHOICES, default=1)
 
     # Holds a generic link to a reportable object
-    content_type = models.ForeignKey(ContentType, verbose_name="Type of Job")
+    content_type = models.ForeignKey(ContentType)
     object_id = models.PositiveIntegerField()
     content_object = generic.GenericForeignKey()
 

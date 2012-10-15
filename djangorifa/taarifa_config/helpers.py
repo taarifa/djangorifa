@@ -92,10 +92,14 @@ def diff_osm(path, osm_new):
     try: osm_old = open(path, 'r')
     except: return update_osm(path, osm_new, None)
 
+    old_set = set(osm_old.read().splitlines())
+
     # Compare the OSM files and update the information if it's changed
-    osm_diff = set(osm_new.split("\n")) - set(osm_old.read().splitlines())
+    osm_diff = set(osm_new.split("\n")) - old_set
     print osm_diff
+
     if len(osm_diff) > 1:
+        print osm_diff
         # Add tags around the nodes
         osm_data = "<osm>%s</osm>" % "\n".join(list(osm_diff))
         return update_osm(path, osm_new, osm_data)

@@ -19,7 +19,9 @@ class SetupWizard(SessionWizardView):
 
     def done(self, form_list, **kwargs):
         # Delete the temporary file storage
-        shutil.rmtree(self.temp_storage_location)
+        try:
+            shutil.rmtree(self.temp_storage_location)
+        except: pass
         for f in form_list:
             tipo = type(f)
             if tipo == TaarifaConfigForm:

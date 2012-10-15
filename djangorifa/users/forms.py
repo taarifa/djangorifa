@@ -71,9 +71,6 @@ class UserRegistrationForm(forms.Form):
 
     """
     attrs_dict = {'class': 'required'}
-    worker = forms.BooleanField(label=_('Apply for worker status'),
-                                widget=forms.CheckboxInput(attrs=attrs_dict),
-                                required=False)
     username = forms.RegexField(regex=r'^[\d]+$',
                                 max_length=20,
                                 widget=forms.TextInput(attrs=attrs_dict),
