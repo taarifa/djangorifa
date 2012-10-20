@@ -1,0 +1,16 @@
+psycopg2
+pillow
+django-celery
+kombu==2.4.3
+pytz
+django-admin-tools
+South
+django-mailer
+django-registration
+django_extensions
+django_nose
+django_mobile
+django-crispy-forms
+django-generic-m2m
+django-sendsms
+django-sekizai
