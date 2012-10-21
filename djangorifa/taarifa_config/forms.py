@@ -2,6 +2,7 @@ import os
 
 from crispy_forms.helper import FormHelper
 from django import forms
+from django.contrib.gis.measure import Area
 from django.contrib.sites.models import Site
 from django.core.files.uploadedfile import UploadedFile
 from django.utils.translation import ugettext_lazy as _
@@ -40,6 +41,18 @@ class TaarifaConfigForm(forms.ModelForm):
         # Otherwise don't
         else:
             p = PeriodicTask.objects.filter(name="do-stuff").update(enabled=False)
+
+    # Need to ensure the user doesn't try to download too much data
+    def clean_bounds(self, *args, **kwargs):
+        bounds = self.cleaned_data['bounds']
+        limit = 50.0
+
+        # Transform the bounds to spherical mercator
+        bounds.transform(900913)
+        a = Area(sq_m=bounds.area)
+        if a.sq_mi > limit:
+            raise forms.ValidationError("Bounds cannot be more than %d square miles" % limit)
+        return bounds
 
     class Meta:
         model = TaarifaConfig

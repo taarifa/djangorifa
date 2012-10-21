@@ -55,12 +55,9 @@ class SetupWizard(SessionWizardView):
 
 @login_required
 def setup(request):
-    instances = {}
-
     # If the current user already has a profile, grab it, or create
     user_profile, created = UserProfile.objects.get_or_create(user=request.user)
-    print user_profile
-    instances.update({'0': user_profile})
+    instances = {'0': user_profile}
 
     # Get the current site
     site = Site.objects.get_current()

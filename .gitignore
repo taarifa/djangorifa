@@ -7,3 +7,4 @@
 /djangorifa/static/*
 *.swo
 *.swp
+mapdata.osm
