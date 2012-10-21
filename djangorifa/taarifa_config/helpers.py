@@ -57,7 +57,7 @@ def update_osm(path, file_data, diff):
     osm_delete_synced_nodes()
 
     # Write the osm file
-    osm_write_nodes(path, osm_new)
+    osm_write_nodes(path, osm)
 
 def diff_osm(path, osm_new):
     try: osm_old = open(path, 'r')

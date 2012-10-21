@@ -23,4 +23,4 @@ def sync_osm(filename="mapdata.osm"):
     osm_new = buf.getvalue().replace("\n    ", "").replace("\n  </node>", "</node>")
 
     # See if the on-file OSM file exists - if not, straight create
-    return diff_osm(os.path.join(settings.STATIC_ROOT, filename), osm_new)
+    return diff_osm(os.path.join(settings.SITE_ROOT, filename), osm_new)
