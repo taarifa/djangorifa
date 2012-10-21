@@ -77,6 +77,10 @@ def setup(request):
         task.interval = interval
         task.save()
 
-    sw = SetupWizard.as_view([TaarifaConfigForm,], instance_dict={'0': TaarifaConfig.objects.get(pk=1)})
+    try:
+        tc = TaarifaConfig.objects.get(pk=1)
+    except:
+        tc = None
+    sw = SetupWizard.as_view([TaarifaConfigForm,], instance_dict={'0': tc})
     # sw = SetupWizard.as_view([UserCreateProfileForm, SiteForm, TaarifaConfigForm, MapDataForm], instance_dict=instances)
     return sw(request)
