@@ -1,8 +1,9 @@
 psycopg2
 pillow
 django-celery
-kombu==2.4.3
+kombu
 pytz
+pycurl
 django-admin-tools
 South
 django-mailer
