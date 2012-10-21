@@ -1,4 +1,3 @@
-import difflib
 from celery.schedules import schedule
 from django.contrib.gis.geos import Point
 from django.contrib.gis.measure import D
@@ -52,10 +51,50 @@ def parse_osm(file, clear_db=True):
 def update_osm(path, file_data, diff):
     # If there is a diff read from that
     osm = diff if diff else file_data
-    doc = minidom.parseString(osm)
+    osm_add_xml_nodes(osm)
 
+    # Remove all facilities which are synced not within bounds
+    osm_delete_synced_nodes()
+
+    # Write the osm file
+    osm_write_nodes(path, osm_new)
+
+def diff_osm(path, osm_new):
+    try: osm_old = open(path, 'r')
+    except: return update_osm(path, osm_new, None)
+
+    # Convert the file into a set of nodes
+    old_set = set(osm_old.read().splitlines())
+
+    # Convert the new download into a set
+    new_set = set(osm_new.split("\n"))
+
+    # Find the intersection of the sets
+    intersect = old_set & new_set
+
+    # The intersection of the two sets need not be changed
+    add_nodes = new_set - intersect
+
+    # Delete the nodes which should no longer exist
+    osm_delete_synced_nodes()
+
+    # Add the nodes in add nodes
+    osm_add_xml_nodes(osm_xml_tag("\n".join(add_nodes)))
+
+    # Update the nodes in intersect
+    osm_update_xml_nodes(osm_xml_tag("\n".join(intersect)))
+
+    # Write the new nodes to file
+    osm_write_nodes(path, osm_new)
+
+def osm_delete_synced_nodes():
+    bounds = TaarifaConfig.objects.get_current().bounds
+    Facility.objects.filter(is_synced=True, location__disjoint=bounds).delete()
+
+def osm_add_xml_nodes(add_nodes):
+    xml = minidom.parseString(add_nodes)
     with transaction.commit_on_success():
-        for node in doc.getElementsByTagName('node'):
+        for node in xml.getElementsByTagName('node'):
             category = name = None
             latitude = float(node.getAttribute('lat'))
             longitude = float(node.getAttribute('lon'))
@@ -79,27 +118,13 @@ def update_osm(path, file_data, diff):
                 f.name = name
                 f.save()
 
-    # Remove all facilities which are synced not within bounds
-    bounds = TaarifaConfig.objects.get_current().bounds
-    Facility.objects.filter(is_synced=True, location__disjoint=bounds).delete()
+def osm_update_xml_nodes(update_nodes):
+    pass
 
-    # Write the osm file
+def osm_write_nodes(path, data):
     f = open(path, 'w')
-    f.write(file_data)
+    f.write(data)
     f.close()
 
-def diff_osm(path, osm_new):
-    try: osm_old = open(path, 'r')
-    except: return update_osm(path, osm_new, None)
-
-    old_set = set(osm_old.read().splitlines())
-
-    # Compare the OSM files and update the information if it's changed
-    osm_diff = set(osm_new.split("\n")) - old_set
-    print osm_diff
-
-    if len(osm_diff) > 1:
-        print osm_diff
-        # Add tags around the nodes
-        osm_data = "<osm>%s</osm>" % "\n".join(list(osm_diff))
-        return update_osm(path, osm_new, osm_data)
+def osm_xml_tag(data):
+    return '<?xml version="1.0" encoding="UTF-8"?><osm>%s</osm>' % data
