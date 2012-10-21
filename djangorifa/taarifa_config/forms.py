@@ -35,8 +35,6 @@ class TaarifaConfigForm(forms.ModelForm):
         # Add the celery task thing if sync is true
         if instance.sync_with_osm:
             p = PeriodicTask.objects.filter(name="do-stuff").update(enabled=True)
-
-            # Perform a new sync
             sync_osm()
 
         # Otherwise don't
