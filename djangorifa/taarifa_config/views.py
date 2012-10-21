@@ -60,11 +60,12 @@ def setup(request):
     instances.update({'0': user_profile})
 
     # Get the current site
-    instances.update({'1': Site.objects.get_current()})
+    site = Site.objects.get_current()
+    instances.update({'1': site})
 
     # If there is already a TaarifaConfig
     try:
-        taarifa_config = TaarifaConfig.objects.get(pk=1)
+        taarifa_config = TaarifaConfig.objects.get(site=site)
         instances.update({'2': taarifa_config})
     except: pass
 
@@ -77,10 +78,5 @@ def setup(request):
         task.interval = interval
         task.save()
 
-    try:
-        tc = TaarifaConfig.objects.get(pk=1)
-    except:
-        tc = None
-    sw = SetupWizard.as_view([TaarifaConfigForm,], instance_dict={'0': tc})
-    # sw = SetupWizard.as_view([UserCreateProfileForm, SiteForm, TaarifaConfigForm, MapDataForm], instance_dict=instances)
+    sw = SetupWizard.as_view([UserCreateProfileForm, SiteForm, TaarifaConfigForm], instance_dict=instances)
     return sw(request)
