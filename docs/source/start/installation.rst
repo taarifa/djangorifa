@@ -15,29 +15,30 @@ Requirements
 * `Python`_ 2.6+
 * `python-dev`
 * `libjpeg`
-* `postgresql`_ 9.1.4
-* `postgis`_ 1.5.3
+* `postgresql`_ 9.1+
+* `postgis`_ 1.5+
 * `pytz`_
-* `RabbitMQ`_ 2.5.0
-* `psycopg2`_ 2.4.5
-* `Django`_ 1.4
-* `South`_ 0.76
+* `RabbitMQ`_
+* `psycopg2`_
+* `Django`_ 1.4+
+* `South`_
 * `PIL`_
-* `django-admin-tools`_ 0.4.1
-* `django-sekizai`_ 0.6.1
-* `Celery`_ 3.0.5
-* `django-celery`_ 3.0.4
-* `kombu`_ 2.4.3
-* `django-mailer`_ 0.1.0
-* `django-registration`_ 0.8.0
-* `django-extensions`_ 0.9
-* `django_nose`_ 1.1.0
-* `django_mobile`_ 0.2.3
-* `django-crispy-forms`_ 1.2.0
-* `django-generic-m2m`_ (version unknown)
-* `django-sendsms`_ 0.2.2
-* `django-sekizai`_ 0.6.1
+* `django-admin-tools`_
+* `django-sekizai`_
+* `Celery`_
+* `django-celery`_
+* `kombu`_
+* `django-mailer`_
+* `django-registration`_
+* `django-extensions`_
+* `django_nose`_
+* `django_mobile`_
+* `django-crispy-forms`_
+* `django-generic-m2m`_
+* `django-sendsms`_
+* `django-sekizai`_
 * `pillow`_
+* `pycurl`_
 
 All Systems
 ===========
@@ -45,8 +46,7 @@ All Systems
 When emails and SMS messages are sent, it will take too much server resource
 and not have enough feedback to send as soon as the user requests. All mails
 and SMSs are therefore placed in a queue and that queue sends mail in bulk.
-Celery and RabbitMQ are used for this. If Kombu is *not* version 2.4.3, when
-starting the Celery server, the error ``No such transport: amqp`` will occur.
+Celery and RabbitMQ are used for this.
 
 The installation script assumes you are working in a virtualenv. Therefore,
 create a virtualenv.
@@ -68,7 +68,7 @@ Installation code: (read stuff below as well)
 .. code-block:: bash
 
   $ sudo apt-get install python-dev python-setuptools python-pip
-  $ sudo apt-get install libjpeg62 libjpeg62-dev zlib1g-dev libfreetype6 libfreetype6-dev
+  $ sudo apt-get install libjpeg62 libjpeg62-dev zlib1g-dev libfreetype6 libfreetype6-dev libcurl4-gnutls-dev
   $ sudo pip install virtualenv
   $ sudo apt-get install virtualenvwrapper
 
@@ -122,6 +122,19 @@ correct (>= 1.5), so run incorrectly at your peril.
   # go back the respository directory
   $ cd /my/git/projects/djangorifa
 
+To verify PostGIS is working, run the following as the *postgres* user:
+
+.. code-block:: bash
+
+  $ psql djangorifa
+  djangorifa=# SELECT PostGIS_full_version();
+
+You should see output like
+
+.. code-block:: bash
+
+  POSTGIS="1.5.3" GEOS="3.2.2-CAPI-1.6.2" PROJ="Rel. 4.7.1, 23 September 2009" LIBXML="2.7.8" USE_STATS
+
 There is also an ``install_django_stuff.sh`` script (TODO: this should be
 replaced by the standard setup.py script eventually). The script will use pip
 to pull in all the necessary python package dependencies and this will take a
@@ -141,8 +154,9 @@ website. Pick whatever you like.
   $ python djangorifa/manage.py runserver
 
 Then open a browser at ``localhost:8000`` and run through the setup. In the
-second step select a polygon around Tanzania and in the 3rd step upload the
-tandale.osm file from the taarifa_config directory.
+second step select a polygon around Tandale (zoom in to Dar es Salaam on the
+east coast of Tanzania) and in the 3rd step upload the ``tandale.osm`` file
+from the ``taarifa_config`` directory.
 
 On Mac
 ======
@@ -185,18 +199,24 @@ Yeah. Change OS.
 .. _django-generic-m2m: https://github.com/coleifer/django-generic-m2m
 .. _django-sendsms: https://github.com/stefanfoulis/django-sendsms
 .. _pillow: https://github.com/python-imaging/Pillow
+.. _pycurl: http://pycurl.sourceforge.net/
 
 ########
 RabbitMQ
 ########
 
+Install the RabbitMQ server (on Ubuntu):
+
+.. code-block:: bash
+  $ sudo apt-get install rabbitmq-server
+
 Once RabbitMQ and Celery are installed, issue the following commands:
 
 .. code-block:: bash
 
-  $ rabbitmqctl add_user myuser mypassword
-  $ rabbitmqctl add_vhost myvhost
-  $ rabbitmqctl set_permissions -p myvhost myuser ".*" ".*" ".*"
+  $ sudo rabbitmqctl add_user myuser mypassword
+  $ sudo rabbitmqctl add_vhost myvhost
+  $ sudo rabbitmqctl set_permissions -p myvhost myuser ".*" ".*" ".*"
 
 where myuser, mypassword and myvhost are your choice. Update these in the
 ``django_config/settings`` file as ``BROKER_VHOST``, ``BROKER_USER`` and
@@ -227,6 +247,10 @@ the repo. Copy this to ``/etc/default/celeryd``.
 ############
 Known Issues
 ############
+
+Celery needs a matching version of Kombu. Celery 3.0.6 is known to work with
+Kombu 2.4.3, 3.0.11 with 2.4.7. If the versions don't match the error ``No
+such transport: amqp`` will occur when starting the Celery server.
 
 It might be that when running the second install script, there is a complaint
 when creating a superuser to do with decoding. When Django doesn't know what
