@@ -26,6 +26,8 @@ class SetupWizard(SessionWizardView):
             tipo = type(f)
             if tipo == TaarifaConfigForm:
                 f.save()
+            if tipo == UserCreateProfileForm:
+                f.save()
             #elif typo == MapDataForm:
             #    print f.cleaned_data['file']
         return HttpResponseRedirect(reverse('taarifa_config:setupdone'))
@@ -57,6 +59,7 @@ def setup(request):
 
     # If the current user already has a profile, grab it, or create
     user_profile, created = UserProfile.objects.get_or_create(user=request.user)
+    print user_profile
     instances.update({'0': user_profile})
 
     # Get the current site

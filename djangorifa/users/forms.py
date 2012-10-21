@@ -29,9 +29,10 @@ class UserEditProfileForm(forms.ModelForm):
         super(UserEditProfileForm, self).__init__(*args, **kwargs)
 
         # Add fields defined on user object
-        if not being_created:
+        try:
             self.fields['first_name'].initial = self.instance.user.first_name
             self.fields['last_name'].initial = self.instance.user.last_name
+        except: pass
 
         # There should always be a user email
         self.fields['email'].initial = self.instance.user.email
@@ -49,6 +50,7 @@ class UserEditProfileForm(forms.ModelForm):
     def save(self, *args, **kwargs):
         super(UserEditProfileForm, self).save(*args, **kwargs)
         self.instance.user.first_name = self.cleaned_data.get('first_name')
+        print self.cleaned_data.get('first_name')
         self.instance.user.last_name = self.cleaned_data.get('last_name')
         self.instance.user.email = self.cleaned_data.get('email')
         self.instance.user.save()
