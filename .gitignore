@@ -8,3 +8,4 @@
 *.swo
 *.swp
 mapdata.osm
+local_settings.py
