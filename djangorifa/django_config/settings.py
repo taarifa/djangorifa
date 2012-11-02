@@ -26,6 +26,9 @@ TIME_ZONE = 'Europe/London'
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
 LANGUAGE_CODE = 'en-gb'
+LANGUAGES = [
+    ('en', 'English'),
+]
 
 SITE_ID = 1
 
@@ -39,12 +42,12 @@ USE_L10N = True
 
 # Absolute filesystem path to the directory that will hold user-uploaded files.
 # Example: "/home/media/media.lawrence.com/media/"
-MEDIA_ROOT = ''
+MEDIA_ROOT = os.path.join(SITE_ROOT, '../media')
 
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a
 # trailing slash.
 # Examples: "http://media.lawrence.com/media/", "http://example.com/media/"
-MEDIA_URL = ''
+MEDIA_URL = '/media/'
 
 # Absolute path to the directory static files should be collected to.
 # Don't put anything in this directory yourself; store your static files
@@ -95,13 +98,29 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.messages.middleware.MessageMiddleware',
     'django_mobile.middleware.MobileDetectionMiddleware',
     'django_mobile.middleware.SetFlavourMiddleware',
+    'cms.middleware.multilingual.MultilingualURLMiddleware',
+    'cms.middleware.page.CurrentPageMiddleware',
+    'cms.middleware.user.CurrentUserMiddleware',
+    'cms.middleware.toolbar.ToolbarMiddleware',
     'taarifa_config.middleware.CheckConfigSet',
+)
+
+TEMPLATE_CONTEXT_PROCESSORS = (
+    'django.contrib.auth.context_processors.auth',
+    'django.core.context_processors.i18n',
+    'django.core.context_processors.request',
+    'django.core.context_processors.media',
+    'django.core.context_processors.static',
+    'django.contrib.messages.context_processors.messages',
+    'django_mobile.context_processors.flavour',
+    'cms.context_processors.media',
+    'sekizai.context_processors.sekizai',
 )
 
 ROOT_URLCONF = 'django_config.urls'
 
 TEMPLATE_DIRS = (
-    os.path.join(SITE_ROOT, '../templates'),
+    os.path.join(SITE_ROOT, '../theme/templates'),
 )
 
 INSTALLED_APPS = (
@@ -114,6 +133,19 @@ INSTALLED_APPS = (
     'django.contrib.gis',
     'django.contrib.humanize',
     'django.contrib.formtools',
+    
+    # Django CMS
+    'cms',
+    'mptt',
+    'menus',
+    'filer',
+    'cms.plugins.text',
+    'cmsplugin_filer_file',
+    'cmsplugin_filer_folder',
+    'cmsplugin_filer_image',
+    'cmsplugin_filer_video',
+    'form_designer.contrib.cms_plugins.form_designer_form',
+    'reversion',
 
     # Admin
     'admin_tools',
@@ -133,9 +165,11 @@ INSTALLED_APPS = (
     'django_filters',
     'django_nose',
     'django_mobile',
+    'form_designer',
     'crispy_forms',
     'genericm2m',
     'sendsms',
+    'tinymce',
 
     # Overwritten Apps
     'olwidget',
@@ -147,15 +181,6 @@ INSTALLED_APPS = (
     'users',
     'reports',
     'facilities',
-)
-
-TEMPLATE_CONTEXT_PROCESSORS = (
-    'django.core.context_processors.request',
-    'django.contrib.auth.context_processors.auth',
-    'django.core.context_processors.i18n',
-    'django.contrib.messages.context_processors.messages',
-    'django_mobile.context_processors.flavour',
-    'sekizai.context_processors.sekizai',
 )
 
 # A sample logging configuration. The only tangible logging
@@ -251,3 +276,12 @@ BROKER_USER = "caz"
 BROKER_PASSWORD = "caz"
 CELERYBEAT_SCHEDULER = "djcelery.schedulers.DatabaseScheduler"
 CELERY_ALWAYS_EAGER = True
+
+CMS_TEMPLATES = (
+    ('base.html', 'Base template'),
+)
+CMS_LANGUAGE_FALLBACK = False
+CMS_PLUGIN_CONTEXT_PROCESSORS = (
+    'theme.cms_context_processors.crispy_forms',
+)
+FORM_DESIGNER_DEFAULT_FORM_TEMPLATE = "form_designer/html/forms/plugin.html"

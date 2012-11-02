@@ -27,6 +27,18 @@ class CustomDashboard(Dashboard):
             ]
         ))
 
+        # CMS Admin
+        self.children.append(modules.ModelList(
+            _('CMS Administration'),
+            models = ('cms.models.*',)
+        ))
+
+        # Forms Admin
+        self.children.append(modules.ModelList(
+            _('Forms Administration'),
+            models = ('form_designer.models.*',)
+        ))
+
         # Facilities Admin
         self.children.append(modules.ModelList(
             _('Facility Administration'),

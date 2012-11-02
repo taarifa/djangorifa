@@ -49,6 +49,7 @@ def parse_osm(file, clear_db=True):
             f.save()
 
 def update_osm(path, file_data, diff):
+    print path
     # If there is a diff read from that
     osm = diff if diff else file_data
     osm_add_xml_nodes(osm)

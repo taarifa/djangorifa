@@ -1,0 +1,20 @@
+{% load crispy_forms_tags %}
+{% if form_definition.title %}<h2>{{ form_definition.title }}</h2>{% endif %}
+{% if form_definition.body %}<p>{{ form_definition.body|linebreaksbr }}</p>{% endif %}
+{% if messages %}
+<ul class="messages">
+{% for message in messages %}
+<li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+{% endfor %}
+</ul>
+{% endif %}
+{% if crispy_form_helper %}{% crispy form crispy_form_helper %}
+{% else %}{% include "html/formdefinition/forms/as_p.html" %}{% endif %}
+
+
+<script type="text/javascript">
+    var inputs = document.getElementsByTagName('input');
+    if (inputs.length) {
+        inputs[0].focus();
+    }
+</script>

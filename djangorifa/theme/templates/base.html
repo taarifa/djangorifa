@@ -1,9 +1,9 @@
-{% load sekizai_tags staticfiles %}
+{% load cms_tags sekizai_tags staticfiles %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Taarifa | {% block title %}{% endblock %}</title>
+    <title>Taarifa | {% block title %}{% page_attribute "page_title" %}{% endblock %}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="Caroline Glassberg-Powell">
@@ -26,24 +26,13 @@
     <![endif]-->
   </head>
 
-  <body>
-
+  <body>{% cms_toolbar %}
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
           <a class="brand" href="#">Taarifa</a>
           <div class="nav-collapse">
-            <ul class="nav">
-              <li{% ifequal request.get_full_path "/" %} class="active"{% endifequal %}><a href="/">Home</a></li>
-              <li{% ifequal request.get_full_path "/about/" %} class="active"{% endifequal %}><a href="/about/">About</a></li>
-              <li{% ifequal request.get_full_path "/contact/" %} class="active"{% endifequal %}><a href="/contact/">Contact</a></li>
-              {% if request.user.pk %}
-              <li {% ifequal request.get_full_path "/users/" %} class="active"{% endifequal %}><a href="/users/">Profile</a></li>
-              <li {% ifequal request.get_full_path "/users/" %} class="active"{% endifequal %}><a href="/accounts/logout/">Logout</a></li>
-              {% else %}
-              <li {% ifequal request.get_full_path "/accounts/login/" %} class="active"{% endifequal %}><a href="/accounts/login/">Log in</a></li>
-              {% endif %}
-            </ul>
+	    <ul class="nav">{% load menu_tags %}{% show_menu 0 1 0 100 "menu/top-nav.html" %}</ul>
           </div><!--/.nav-collapse -->
         </div>
       </div>
@@ -58,7 +47,7 @@
         </ul>
     {% endif %}
 
-    {% block content %}{% endblock %}<footer></footer></div> <!-- /container -->
+    {% block content %}{% placeholder "content" %}{% endblock %}<footer></footer></div> <!-- /container -->
 
     <!-- Le javascript
     ================================================== -->

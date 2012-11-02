@@ -15,3 +15,9 @@ django-crispy-forms
 django-generic-m2m
 django-sendsms
 django-sekizai
+django-form-designer
+django-filer
+django-cms
+django-reversion
+django-tinymce
+cmsplugin-filer
