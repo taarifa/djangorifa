@@ -1,0 +1,314 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Installation &mdash; djangorifa 0.1 documentation</title>
+    
+    <link rel="stylesheet" href="../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="top" title="djangorifa 0.1 documentation" href="../index.html" />
+    <link rel="next" title="Settings" href="settings.html" />
+    <link rel="prev" title="Welcome to djangorifa’s documentation!" href="../index.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="settings.html" title="Settings"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="../index.html" title="Welcome to djangorifa’s documentation!"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../index.html">djangorifa 0.1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="installation">
+<h1>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h1>
+<p>This installation assumes you are slightly familiar with Django and Python.
+There is an install script in the root directory of the download. This will
+automatically install the requirements listed below (although version numbers
+may be wrong if this is installed after a version upgrade). In order to run
+this script, please read the information provided below specific for your
+operating system.</p>
+<div class="section" id="requirements">
+<h2>Requirements<a class="headerlink" href="#requirements" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="http://www.python.org">Python</a> 2.6+</li>
+<li><cite>python-dev</cite></li>
+<li><cite>libjpeg</cite></li>
+<li><a class="reference external" href="http://www.postgresql.org/">postgresql</a> 9.1+</li>
+<li><a class="reference external" href="http://postgis.refractions.net/">postgis</a> 1.5+</li>
+<li><a class="reference external" href="https://launchpad.net/pytz">pytz</a></li>
+<li><a class="reference external" href="http://www.rabbitmq.com/">RabbitMQ</a></li>
+<li><a class="reference external" href="http://initd.org/psycopg/">psycopg2</a></li>
+<li><a class="reference external" href="http://www.djangoproject.com">Django</a> 1.4+</li>
+<li><a class="reference external" href="http://south.aeracode.org/">South</a></li>
+<li><a class="reference external" href="http://www.pythonware.com/products/pil">PIL</a></li>
+<li><a class="reference external" href="https://bitbucket.org/izi/django-admin-tools/">django-admin-tools</a></li>
+<li><a class="reference external" href="https://github.com/ojii/django-sekizai/">django-sekizai</a></li>
+<li><a class="reference external" href="http://celeryproject.org/">Celery</a></li>
+<li><a class="reference external" href="https://github.com/celery/django-celery">django-celery</a></li>
+<li><a class="reference external" href="http://github.com/celery/kombu">kombu</a></li>
+<li><a class="reference external" href="http://code.google.com/p/django-mailer/">django-mailer</a></li>
+<li><a class="reference external" href="https://bitbucket.org/ubernostrum/django-registration/">django-registration</a></li>
+<li><a class="reference external" href="https://github.com/django-extensions/django-extensions">django-extensions</a></li>
+<li><a class="reference external" href="https://github.com/jbalogh/django-nose/">django_nose</a></li>
+<li><a class="reference external" href="https://github.com/gregmuellegger/django-mobile">django_mobile</a></li>
+<li><a class="reference external" href="https://github.com/maraujop/django-crispy-forms/">django-crispy-forms</a></li>
+<li><a class="reference external" href="https://github.com/coleifer/django-generic-m2m">django-generic-m2m</a></li>
+<li><a class="reference external" href="https://github.com/stefanfoulis/django-sendsms">django-sendsms</a></li>
+<li><a class="reference external" href="https://github.com/ojii/django-sekizai/">django-sekizai</a></li>
+<li><a class="reference external" href="https://github.com/python-imaging/Pillow">pillow</a></li>
+<li><a class="reference external" href="http://pycurl.sourceforge.net/">pycurl</a></li>
+</ul>
+<div class="section" id="all-systems">
+<h3>All Systems<a class="headerlink" href="#all-systems" title="Permalink to this headline">¶</a></h3>
+<p>When emails and SMS messages are sent, it will take too much server resource
+and not have enough feedback to send as soon as the user requests. All mails
+and SMSs are therefore placed in a queue and that queue sends mail in bulk.
+Celery and RabbitMQ are used for this.</p>
+<p>The installation script assumes you are working in a virtualenv. Therefore,
+create a virtualenv.</p>
+<p>Please see below for specific installation instructions for your platform, and
+then see the instructions for RabbitMQ.</p>
+</div>
+<div class="section" id="on-ubuntu">
+<h3>On Ubuntu<a class="headerlink" href="#on-ubuntu" title="Permalink to this headline">¶</a></h3>
+<p>This installation assumes you have already installed postgresql and postgis.
+For detailed instructions on how to do this, look at the <a class="reference external" href="https://docs.djangoproject.com/en/dev/ref/contrib/gis/install/#ubuntu">Django Ubuntu postgis
+installation guide</a>.</p>
+<p>Installation code: (read stuff below as well)</p>
+<div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>sudo apt-get install python-dev python-setuptools python-pip
+<span class="nv">$ </span>sudo apt-get install libjpeg62 libjpeg62-dev zlib1g-dev libfreetype6 libfreetype6-dev libcurl4-gnutls-dev
+<span class="nv">$ </span>sudo pip install virtualenv
+<span class="nv">$ </span>sudo apt-get install virtualenvwrapper
+</pre></div>
+</div>
+<p>If you install virtualenvwrapper via pip you need to export some variables
+(see the <a class="reference external" href="http://virtualenvwrapper.readthedocs.org/">virtualenvwrapper docs</a>). However, if you used apt (as above) this
+is not necessary. Once virtualenvwrapper is installed, starting a new bash
+shell (or logging in and logging out again) should create the necessary
+wrapper scripts. So note this will not be triggered if you use a different
+shell like zsh.</p>
+<div class="highlight-bash"><div class="highlight"><pre><span class="c"># Change Envs to whatever you like, the default is ~/.virtualenvs</span>
+<span class="c"># This is only necessary if you pip installed virtualenvwrapper</span>
+<span class="nv">$ </span><span class="nb">export </span><span class="nv">WORKON_HOME</span><span class="o">=</span>~/Envs
+<span class="nv">$ </span><span class="nb">source</span> /usr/local/bin/virtualenvwrapper.sh
+
+<span class="c"># navigate to the directory where you&#39;ll checkout djangorifa</span>
+<span class="nv">$ </span><span class="nb">cd</span> /my/git/projects
+<span class="c"># create the virtualenv and clone the repo</span>
+<span class="nv">$ </span>mkvirtualenv --no-site-packages djangorifa
+<span class="nv">$ </span>git clone https://github.com/taarifa/djangorifa.git
+<span class="nv">$ </span><span class="nb">cd </span>djangorifa
+
+<span class="c"># now edit the django settings file</span>
+<span class="nv">$ </span>vim djangorifa/django_config/settings.py
+
+<span class="c"># Change the database password from facebook to whatever you want to use</span>
+<span class="c"># also change the SECRET_KEY. Exit vim.</span>
+</pre></div>
+</div>
+<p>The source comes with a database installation script. This script will create
+the template_postgis template if it doesn&#8217;t already exist and a postgresql
+user (or role) called djangorifa.</p>
+<p>Once the user is created, a database will be created also named djangorifa.</p>
+<p>The script does no checking for whether or not the version of PostGIS is
+correct (&gt;= 1.5), so run incorrectly at your peril.</p>
+<div class="highlight-bash"><div class="highlight"><pre><span class="c"># To run it first change to the postgres user. Make sure you have installed postgis before doing this!</span>
+<span class="c"># The script will prompt you for a password, use whatever you put in the settings.py file.</span>
+<span class="nv">$ </span>sudo su - postgres
+<span class="nv">$ </span><span class="nb">cd</span> /my/git/projects/djangorifa
+<span class="nv">$ </span>./install_database.sh
+<span class="nv">$ </span><span class="nb">exit</span>
+
+<span class="c"># go back the respository directory</span>
+<span class="nv">$ </span><span class="nb">cd</span> /my/git/projects/djangorifa
+</pre></div>
+</div>
+<p>To verify PostGIS is working, run the following as the <em>postgres</em> user:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>psql djangorifa
+<span class="nv">djangorifa</span><span class="o">=</span><span class="c"># SELECT PostGIS_full_version();</span>
+</pre></div>
+</div>
+<p>You should see output like</p>
+<div class="highlight-bash"><div class="highlight"><pre><span class="nv">POSTGIS</span><span class="o">=</span><span class="s2">&quot;1.5.3&quot;</span> <span class="nv">GEOS</span><span class="o">=</span><span class="s2">&quot;3.2.2-CAPI-1.6.2&quot;</span> <span class="nv">PROJ</span><span class="o">=</span><span class="s2">&quot;Rel. 4.7.1, 23 September 2009&quot;</span> <span class="nv">LIBXML</span><span class="o">=</span><span class="s2">&quot;2.7.8&quot;</span> USE_STATS
+</pre></div>
+</div>
+<p>There is also an <tt class="docutils literal"><span class="pre">install_django_stuff.sh</span></tt> script (TODO: this should be
+replaced by the standard setup.py script eventually). The script will use pip
+to pull in all the necessary python package dependencies and this will take a
+while.  If you installed all the required dependencies via apt (see above)
+this should finish without error.</p>
+<p>The script then initializes the django database and any migrations. This will
+prompt for an admin username and password for administrative control of the
+website. Pick whatever you like.</p>
+<div class="highlight-bash"><div class="highlight"><pre><span class="c"># run the install_django_stuff script</span>
+<span class="nv">$ </span>./install_django_stuff.sh
+
+<span class="c"># if that finishes without error, start the django server</span>
+<span class="nv">$ </span>python djangorifa/manage.py runserver
+</pre></div>
+</div>
+<p>Then open a browser at <tt class="docutils literal"><span class="pre">localhost:8000</span></tt> and run through the setup. In the
+second step select a polygon around Tandale (zoom in to Dar es Salaam on the
+east coast of Tanzania) and in the 3rd step upload the <tt class="docutils literal"><span class="pre">tandale.osm</span></tt> file
+from the <tt class="docutils literal"><span class="pre">taarifa_config</span></tt> directory.</p>
+</div>
+<div class="section" id="on-mac">
+<h3>On Mac<a class="headerlink" href="#on-mac" title="Permalink to this headline">¶</a></h3>
+<p>This installation assumes you have already installed postgresql and postgis.
+For detailed instructions on how to do this, look at the <a class="reference external" href="https://docs.djangoproject.com/en/dev/ref/contrib/gis/install/#macosx">Django Mac postgis
+installation guide</a>.</p>
+<p>I assume that the script runs virtually the same for a Mac user as a Linux
+user, but not having a Mac I cannot test this.</p>
+</div>
+<div class="section" id="on-windows">
+<h3>On Windows<a class="headerlink" href="#on-windows" title="Permalink to this headline">¶</a></h3>
+<p>Yeah. Change OS.</p>
+</div>
+</div>
+</div>
+<div class="section" id="id1">
+<h1>RabbitMQ<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<p>Install the RabbitMQ server (on Ubuntu):</p>
+<p>Once RabbitMQ and Celery are installed, issue the following commands:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>sudo rabbitmqctl add_user myuser mypassword
+<span class="nv">$ </span>sudo rabbitmqctl add_vhost myvhost
+<span class="nv">$ </span>sudo rabbitmqctl set_permissions -p myvhost myuser <span class="s2">&quot;.*&quot;</span> <span class="s2">&quot;.*&quot;</span> <span class="s2">&quot;.*&quot;</span>
+</pre></div>
+</div>
+<p>where myuser, mypassword and myvhost are your choice. Update these in the
+<tt class="docutils literal"><span class="pre">django_config/settings</span></tt> file as <tt class="docutils literal"><span class="pre">BROKER_VHOST</span></tt>, <tt class="docutils literal"><span class="pre">BROKER_USER</span></tt> and
+<tt class="docutils literal"><span class="pre">BROKER_PASSWORD</span></tt> respectively. To test this works:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>python manage.py celeryd -l INFO
+</pre></div>
+</div>
+<p>If this returns no red error messages, you&#8217;re sorted!</p>
+<p>To daemonize celery, you need to download the <a class="reference external" href="https://raw.github.com/celery/celery/master/extra/generic-init.d/celeryd">celery daemon</a> and save to
+<tt class="docutils literal"><span class="pre">/etc/init.d/celeryd</span></tt>. A config file can be found in the examples section of
+the repo. Copy this to <tt class="docutils literal"><span class="pre">/etc/default/celeryd</span></tt>.</p>
+<div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>sudo useradd celery
+<span class="nv">$ </span>mkdir /var/log/celery
+<span class="nv">$ </span>mkdir /var/run/celery
+<span class="nv">$ </span>sudo chown celery:celery /var/log/celery
+<span class="nv">$ </span>sudo chown celery:celery /var/run/celery
+<span class="nv">$ </span>sudo chmod +x /etc/init.d/celeryd
+<span class="nv">$ </span>sudo /etc/init.d/celeryd start
+</pre></div>
+</div>
+</div>
+<div class="section" id="known-issues">
+<h1>Known Issues<a class="headerlink" href="#known-issues" title="Permalink to this headline">¶</a></h1>
+<p>Celery needs a matching version of Kombu. Celery 3.0.6 is known to work with
+Kombu 2.4.3, 3.0.11 with 2.4.7. If the versions don&#8217;t match the error <tt class="docutils literal"><span class="pre">No</span>
+<span class="pre">such</span> <span class="pre">transport:</span> <span class="pre">amqp</span></tt> will occur when starting the Celery server.</p>
+<p>It might be that when running the second install script, there is a complaint
+when creating a superuser to do with decoding. When Django doesn&#8217;t know what
+the locale is, it throws a hissy. This is a <a class="reference external" href="https://code.djangoproject.com/ticket/16017">known bug</a>.  Simply export the
+locale and run the second script again: <tt class="docutils literal"><span class="pre">export</span> <span class="pre">LC_ALL=&quot;en_US.UTF-8&quot;</span></tt>.</p>
+<p>If you have problems with PostGIS not being available or something similar,
+see <a class="reference external" href="http://stackoverflow.com/questions/8459361/postgis-install">http://stackoverflow.com/questions/8459361/postgis-install</a></p>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Installation</a><ul>
+<li><a class="reference internal" href="#requirements">Requirements</a><ul>
+<li><a class="reference internal" href="#all-systems">All Systems</a></li>
+<li><a class="reference internal" href="#on-ubuntu">On Ubuntu</a></li>
+<li><a class="reference internal" href="#on-mac">On Mac</a></li>
+<li><a class="reference internal" href="#on-windows">On Windows</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id1">RabbitMQ</a></li>
+<li><a class="reference internal" href="#known-issues">Known Issues</a></li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="../index.html"
+                        title="previous chapter">Welcome to djangorifa&#8217;s documentation!</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="settings.html"
+                        title="next chapter">Settings</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../_sources/start/installation.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="settings.html" title="Settings"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="../index.html" title="Welcome to djangorifa’s documentation!"
+             >previous</a> |</li>
+        <li><a href="../index.html">djangorifa 0.1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2012, Caroline Glassberg-Powell.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

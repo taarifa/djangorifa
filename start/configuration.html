@@ -1,0 +1,115 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Configuration &mdash; djangorifa 0.1 documentation</title>
+    
+    <link rel="stylesheet" href="../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="top" title="djangorifa 0.1 documentation" href="../index.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li><a href="../index.html">djangorifa 0.1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="configuration">
+<h1>Configuration<a class="headerlink" href="#configuration" title="Permalink to this headline">¶</a></h1>
+<p>There are two methods of configuring the system. The first method is forced upon you when starting a new installation. The second method is by virtue of Djangorifa&#8217;s admin site.</p>
+<div class="section" id="method-1">
+<h2>Method 1<a class="headerlink" href="#method-1" title="Permalink to this headline">¶</a></h2>
+<p>When install_djangorifa.sh has successfully been run, start the test server and navigate to the URL indicated (most likely <a class="reference external" href="http://127.0.0.1:8000">http://127.0.0.1:8000</a>). Alternatively, point your Apache or Nginx or whatever server to the wsgi.py script and head to the IP address / domain name specified by that setup.</p>
+<p>As you will not be logged in, the forced installation will not work. Therefore, go to <tt class="docutils literal"><span class="pre">/accounts/login/</span></tt> and login with the information you provided when creating a Django superuser.</p>
+<p>This should automatically redirect you to the URL <tt class="docutils literal"><span class="pre">/taarifa_config/setupforthefirstime/</span></tt>. The first page will ask for a <tt class="docutils literal"><span class="pre">Domain</span> <span class="pre">name</span></tt> and <tt class="docutils literal"><span class="pre">Display</span> <span class="pre">name</span></tt>. Djangorifa relies on Django&#8217;s inbuilt sites framework to store configuration settings. This first form is configuring that. Set the domain name to whatever your site happens to be. If only running locally, set to your test server URL. This is important. The default setting is <tt class="docutils literal"><span class="pre">example.com</span></tt> and some parts of the site will therefore try to render URLs as pointing to <tt class="docutils literal"><span class="pre">example.com</span></tt> and this will cause errors. Set the display name to whatever you want.</p>
+<p>Submit will bring you to a page with a drop-down list <tt class="docutils literal"><span class="pre">Site</span></tt> and a map <tt class="docutils literal"><span class="pre">Bounds</span></tt>. The <tt class="docutils literal"><span class="pre">Site</span></tt> drop-down is populated with whatever you filled in on the previous form&#8217;s display name. The <tt class="docutils literal"><span class="pre">Bounds</span></tt> map is to constrain where reports can be made. This is an editable map with polygons. Click the blue Edit button in the top right corner of the map. The default setting is edit mode. Click on the map and add points to bound. Double click to finish setting. If not happy, click anywhere to start again, or click the far-left button on that top-right menu to edit the polygon already drawn. Once happy with the regions of the map, click submit.</p>
+<p>The site is now configured.</p>
+</div>
+<div class="section" id="method-2">
+<h2>Method 2<a class="headerlink" href="#method-2" title="Permalink to this headline">¶</a></h2>
+<p>Go to <tt class="docutils literal"><span class="pre">/admin/</span></tt> and on the right hand side there is a pane entitled <tt class="docutils literal"><span class="pre">Configuration</span></tt>. Under the tab <tt class="docutils literal"><span class="pre">wizard</span></tt> there is a link to run the wizard again. Under <tt class="docutils literal"><span class="pre">Individual</span></tt>, there is <tt class="docutils literal"><span class="pre">Configuration</span></tt> and <tt class="docutils literal"><span class="pre">Sites</span></tt>. <tt class="docutils literal"><span class="pre">Configuration</span></tt> will show the map page and sites will enable you to edit the domain name.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Configuration</a><ul>
+<li><a class="reference internal" href="#method-1">Method 1</a></li>
+<li><a class="reference internal" href="#method-2">Method 2</a></li>
+</ul>
+</li>
+</ul>
+
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../_sources/start/configuration.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li><a href="../index.html">djangorifa 0.1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2012, Caroline Glassberg-Powell.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>
