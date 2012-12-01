@@ -132,11 +132,8 @@ shell like zsh.</p>
 <span class="nv">$ </span>git clone https://github.com/taarifa/djangorifa.git
 <span class="nv">$ </span><span class="nb">cd </span>djangorifa
 
-<span class="c"># now edit the django settings file</span>
+<span class="c"># now edit the django settings file and change the SECRET_KEY. Exit vim.</span>
 <span class="nv">$ </span>vim djangorifa/django_config/settings.py
-
-<span class="c"># Change the database password from facebook to whatever you want to use</span>
-<span class="c"># also change the SECRET_KEY. Exit vim.</span>
 </pre></div>
 </div>
 <p>The source comes with a database installation script. This script will create
@@ -145,8 +142,10 @@ user (or role) called djangorifa.</p>
 <p>Once the user is created, a database will be created also named djangorifa.</p>
 <p>The script does no checking for whether or not the version of PostGIS is
 correct (&gt;= 1.5), so run incorrectly at your peril.</p>
-<div class="highlight-bash"><div class="highlight"><pre><span class="c"># To run it first change to the postgres user. Make sure you have installed postgis before doing this!</span>
-<span class="c"># The script will prompt you for a password, use whatever you put in the settings.py file.</span>
+<div class="highlight-bash"><div class="highlight"><pre><span class="c"># To run it first change to the postgres user. Make sure you have installed</span>
+<span class="c"># postgis before doing this!</span>
+<span class="c"># The script will prompt you for a password, which you will later need to</span>
+<span class="c"># update in local_settings.py</span>
 <span class="nv">$ </span>sudo su - postgres
 <span class="nv">$ </span><span class="nb">cd</span> /my/git/projects/djangorifa
 <span class="nv">$ </span>./install_database.sh
@@ -154,6 +153,9 @@ correct (&gt;= 1.5), so run incorrectly at your peril.</p>
 
 <span class="c"># go back the respository directory</span>
 <span class="nv">$ </span><span class="nb">cd</span> /my/git/projects/djangorifa
+
+<span class="c"># Change the database password from facebook to whatever you entered before</span>
+<span class="nv">$ </span>vim djangorifa/django_config/local_settings.py
 </pre></div>
 </div>
 <p>To verify PostGIS is working, run the following as the <em>postgres</em> user:</p>
