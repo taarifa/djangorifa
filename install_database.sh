@@ -9,6 +9,21 @@ else
   PGIS_VERSION="$1"
 fi
 
+if ![ -f "djangorifa/django_config/local_settings.py" ]; then
+  cat << EOF > "djangorifa/django_config/local_settings.py"
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.contrib.gis.db.backends.postgis',
+        'NAME': 'djangorifa',
+        'USER': 'djangorifa',
+        'PASSWORD': 'facebook',
+        'HOST': 'localhost',
+        'PORT': '',
+    }
+}
+EOF
+fi
+
 # Create the spatial database
 POSTGIS_SQL_PATH=`pg_config --sharedir`/contrib/postgis-$PGIS_VERSION
 exists=`psql --list | egrep '\btemplate_postgis\b'`

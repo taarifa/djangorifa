@@ -95,11 +95,8 @@ shell like zsh.
   $ git clone https://github.com/taarifa/djangorifa.git
   $ cd djangorifa
 
-  # now edit the django settings file
+  # now edit the django settings file and change the SECRET_KEY. Exit vim.
   $ vim djangorifa/django_config/settings.py
-
-  # Change the database password from facebook to whatever you want to use
-  # also change the SECRET_KEY. Exit vim.
 
 The source comes with a database installation script. This script will create
 the template_postgis template if it doesn't already exist and a postgresql
@@ -112,8 +109,10 @@ correct (>= 1.5), so run incorrectly at your peril.
 
 .. code-block:: bash
 
-  # To run it first change to the postgres user. Make sure you have installed postgis before doing this!
-  # The script will prompt you for a password, use whatever you put in the settings.py file.
+  # To run it first change to the postgres user. Make sure you have installed
+  # postgis before doing this!
+  # The script will prompt you for a password, which you will later need to
+  # update in local_settings.py
   $ sudo su - postgres
   $ cd /my/git/projects/djangorifa
   $ ./install_database.sh
@@ -121,6 +120,9 @@ correct (>= 1.5), so run incorrectly at your peril.
 
   # go back the respository directory
   $ cd /my/git/projects/djangorifa
+
+  # Change the database password from facebook to whatever you entered before
+  $ vim djangorifa/django_config/local_settings.py
 
 To verify PostGIS is working, run the following as the *postgres* user:
 
