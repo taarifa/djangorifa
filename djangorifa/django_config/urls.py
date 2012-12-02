@@ -22,4 +22,7 @@ urlpatterns = patterns('',
     url(r'^$', 'reports.views.add'),
     url(r'^reports/', include('reports.urls')),
     url(r'^facilities/', include('facilities.urls')),
+
+    # Form designer
+    url(r'^forms/', include('form_designer.urls')),
 )

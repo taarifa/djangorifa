@@ -136,6 +136,7 @@ INSTALLED_APPS = (
     'crispy_forms',
     'genericm2m',
     'sendsms',
+    'form_designer',
 
     # Overwritten Apps
     'olwidget',
