@@ -45,6 +45,12 @@ class CustomDashboard(Dashboard):
             models = ('django.contrib.auth.*',),
         ))
 
+        # Form designer
+        self.children.append(modules.ModelList(
+            _('Form Designer'),
+            models = ('form_designer.models.*',)
+        ))
+
         self.children.append(modules.Group(
             _('Configuration'),
             display='tabs',
